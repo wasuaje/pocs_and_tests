@@ -1,0 +1,79 @@
+#! /usr/bin/env python
+# -*- coding: utf-8 -*-
+
+# plugin de Nagios para monitorear cambios en el dns de openx
+# por ejemplos la cantidad de archivos grandes, o viejos,
+# la existencia de archivos prohibidos jpg,mov,wav,mp3 etc
+# recibe como parametro1: HOST, con solo un nslookup malo da critical
+# Elaborado por W.A. - 06/08/2013
+# Para python <2.7 requiere instalar python-setuptools y luego easy-install argparse
+
+#Los imports necesarios
+import os
+import time
+import sys
+import subprocess
+import commands
+
+#Los posibles valores de salida
+EXITOK=0
+EXITWA=1
+EXITCR=2
+EXITUK=-1
+
+#Diccionario para almacenar el servidor y sus datos
+servers={'ip':'', 'data':'', 'exit':0,'msg':''}
+
+def run_cmd(comando):
+	out = commands.getoutput(comando)
+	return out  # This is the stdout from the shell command
+
+						
+def main (host, crit=1):
+	cmd = 'nslookup %s' % host
+	cmd2 = 'nslookup %s 8.8.8.8' % host
+	try:
+			#ejecuto el comando para el servidor respectivo
+		rrst=run_cmd(cmd)
+		rrst2=run_cmd(cmd)
+	except:
+			#si da un excpecion aqui es que el comando no es valido para ese host
+		rst="N/A"
+	else:
+		rst=rrst 
+		rst2=rrst2
+			#dentro de dir de servidores en el key data guardo el diccionario de resultados con keys:valo
+			#print rst
+	servers['ip']=host	
+	
+	#Procesamiento del resultado obtenido por el ssh, guardar sys.exit y mensaje de salido para NAgios	
+	
+	for i in rst.split('\n'):
+		if 'Address' in i and "#53" not in i:
+			ip1=i.split(' ')[1]
+			exit
+	for i in rst2.split('\n'):
+		if 'Address' in i and "#53" not in i:
+			ip2=i.split(' ')[1]
+			exit
+	#print ip1,ip2
+	#ip2='190.15.515.5' #para probar que sale con Critical con diferente ip
+	if ip1 == ip2:
+		servers["msg"]="OK - 0 DNS Openx Correcto para %s " % host
+		servers["exit"]=EXITOK
+	else:
+		servers["msg"]="CRITICAL - El DNS del host %s ha cambiado la nueva ip es %s " % (host,ip2)
+		servers["exit"]=EXITCR	
+		
+	return servers
+#
+import argparse
+if __name__ == '__main__':
+	parser = argparse.ArgumentParser()
+	parser.add_argument('-H', '--host',  required=True)	
+	args = parser.parse_args()	
+	#Ejecuto el main de este archivo con los parametros recogidos	
+	main(args.host)
+	#imprimo el mensaje devuelto por main y salgo con el sys.exit guadado tambien
+	print servers["msg"]
+	sys.exit(servers["exit"])

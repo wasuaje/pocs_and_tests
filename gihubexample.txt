@@ -1,0 +1,9 @@
+git init # inside a folder
+#copy all the files you want include README and LICENSE
+git add .
+git commit -a -m "First Commit"
+#create the repo in github
+git remote add origin https://github.com/wasuaje/pyBright.git
+git push -u origin master
+#you github credentials 
+

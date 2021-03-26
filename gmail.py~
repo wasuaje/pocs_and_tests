@@ -1,0 +1,11 @@
+import libgmail
+
+ga = libgmail.GmailAccount("wasuaje@gmail.com", "www4214")
+ga.login()
+folder = ga.getMessagesByFolder('inbox')
+
+for thread in folder:
+  print thread.id, len(thread), thread.subject
+  for msg in thread:
+    print "  ", msg.id, msg.number, msg.subject
+    print msg.source

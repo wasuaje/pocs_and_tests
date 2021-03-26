@@ -1,0 +1,299 @@
+
+mar mar 19 11:13:16 VET 2013
+sockets: used 2243
+TCP: inuse 2409 orphan 392 tw 5802 alloc 2412 mem 1940
+UDP: inuse 15 mem 0
+RAW: inuse 0
+FRAG: inuse 0 memory 0
+mar mar 19 11:14:14 VET 2013
+sockets: used 2266
+TCP: inuse 2438 orphan 398 tw 6076 alloc 2441 mem 1949
+UDP: inuse 15 mem 0
+RAW: inuse 0
+FRAG: inuse 0 memory 0
+mar mar 19 11:15:12 VET 2013
+sockets: used 2275
+TCP: inuse 2450 orphan 401 tw 5662 alloc 2453 mem 1931
+UDP: inuse 15 mem 0
+RAW: inuse 0
+FRAG: inuse 0 memory 0
+mar mar 19 11:16:10 VET 2013
+sockets: used 2222
+TCP: inuse 2348 orphan 352 tw 6417 alloc 2351 mem 1938
+UDP: inuse 15 mem 0
+RAW: inuse 0
+FRAG: inuse 0 memory 0
+mar mar 19 11:17:08 VET 2013
+sockets: used 2095
+TCP: inuse 2199 orphan 330 tw 5588 alloc 2202 mem 1924
+UDP: inuse 15 mem 0
+RAW: inuse 0
+FRAG: inuse 0 memory 0
+mar mar 19 11:18:07 VET 2013
+sockets: used 2342
+TCP: inuse 2463 orphan 348 tw 5369 alloc 2466 mem 2102
+UDP: inuse 16 mem 0
+RAW: inuse 0
+FRAG: inuse 0 memory 0
+mar mar 19 11:19:05 VET 2013
+sockets: used 2402
+TCP: inuse 2499 orphan 324 tw 6269 alloc 2503 mem 1697
+UDP: inuse 15 mem 0
+RAW: inuse 0
+FRAG: inuse 0 memory 0
+mar mar 19 11:20:03 VET 2013
+sockets: used 2305
+TCP: inuse 2436 orphan 354 tw 6290 alloc 2439 mem 2069
+UDP: inuse 15 mem 0
+RAW: inuse 0
+FRAG: inuse 0 memory 0
+mar mar 19 11:21:00 VET 2013
+sockets: used 2202
+TCP: inuse 2354 orphan 378 tw 6032 alloc 2357 mem 1959
+UDP: inuse 15 mem 0
+RAW: inuse 0
+FRAG: inuse 0 memory 0
+mar mar 19 11:21:59 VET 2013
+sockets: used 2274
+TCP: inuse 2419 orphan 372 tw 5197 alloc 2423 mem 2032
+UDP: inuse 15 mem 0
+RAW: inuse 0
+FRAG: inuse 0 memory 0
+mar mar 19 11:22:57 VET 2013
+sockets: used 2412
+TCP: inuse 2579 orphan 391 tw 6374 alloc 2582 mem 1955
+UDP: inuse 16 mem 0
+RAW: inuse 0
+FRAG: inuse 0 memory 0
+mar mar 19 11:23:55 VET 2013
+sockets: used 2335
+TCP: inuse 2535 orphan 426 tw 6089 alloc 2538 mem 2040
+UDP: inuse 15 mem 0
+RAW: inuse 0
+FRAG: inuse 0 memory 0
+mar mar 19 11:24:53 VET 2013
+sockets: used 2240
+TCP: inuse 2391 orphan 377 tw 6245 alloc 2394 mem 1900
+UDP: inuse 15 mem 0
+RAW: inuse 0
+FRAG: inuse 0 memory 0
+mar mar 19 11:25:51 VET 2013
+sockets: used 2205
+TCP: inuse 2349 orphan 370 tw 6489 alloc 2352 mem 1764
+UDP: inuse 15 mem 0
+RAW: inuse 0
+FRAG: inuse 0 memory 0
+mar mar 19 11:26:50 VET 2013
+sockets: used 2212
+TCP: inuse 2375 orphan 392 tw 6104 alloc 2378 mem 1739
+UDP: inuse 15 mem 0
+RAW: inuse 0
+FRAG: inuse 0 memory 0
+mar mar 19 11:27:49 VET 2013
+sockets: used 2236
+TCP: inuse 2402 orphan 395 tw 6283 alloc 2405 mem 1567
+UDP: inuse 15 mem 0
+RAW: inuse 0
+FRAG: inuse 0 memory 0
+mar mar 19 11:28:47 VET 2013
+sockets: used 2137
+TCP: inuse 2266 orphan 358 tw 5965 alloc 2269 mem 1586
+UDP: inuse 15 mem 0
+RAW: inuse 0
+FRAG: inuse 0 memory 0
+mar mar 19 11:29:45 VET 2013
+sockets: used 2296
+TCP: inuse 2416 orphan 349 tw 5743 alloc 2419 mem 1612
+UDP: inuse 15 mem 0
+RAW: inuse 0
+FRAG: inuse 0 memory 0
+mar mar 19 11:30:44 VET 2013
+sockets: used 2201
+TCP: inuse 2316 orphan 344 tw 5529 alloc 2319 mem 1622
+UDP: inuse 15 mem 0
+RAW: inuse 0
+FRAG: inuse 0 memory 0
+mar mar 19 11:31:41 VET 2013
+sockets: used 2296
+TCP: inuse 2442 orphan 375 tw 5830 alloc 2445 mem 1856
+UDP: inuse 15 mem 0
+RAW: inuse 0
+FRAG: inuse 0 memory 0
+mar mar 19 11:32:39 VET 2013
+sockets: used 2289
+TCP: inuse 2428 orphan 368 tw 5894 alloc 2431 mem 1773
+UDP: inuse 15 mem 0
+RAW: inuse 0
+FRAG: inuse 0 memory 0
+mar mar 19 11:33:37 VET 2013
+sockets: used 2235
+TCP: inuse 2356 orphan 350 tw 5407 alloc 2359 mem 1875
+UDP: inuse 15 mem 0
+RAW: inuse 0
+FRAG: inuse 0 memory 0
+mar mar 19 11:34:35 VET 2013
+mar mar 19 11:35:33 VET 2013
+mar mar 19 11:36:31 VET 2013
+mar mar 19 11:37:29 VET 2013
+mar mar 19 11:38:27 VET 2013
+mar mar 19 11:39:25 VET 2013
+mar mar 19 11:40:23 VET 2013
+mar mar 19 11:41:21 VET 2013
+mar mar 19 11:42:20 VET 2013
+mar mar 19 11:43:20 VET 2013
+mar mar 19 11:44:19 VET 2013
+mar mar 19 11:45:17 VET 2013
+mar mar 19 11:46:16 VET 2013
+mar mar 19 11:47:14 VET 2013
+mar mar 19 11:48:12 VET 2013
+mar mar 19 11:49:10 VET 2013
+mar mar 19 11:50:08 VET 2013
+sockets: used 2253
+TCP: inuse 2361 orphan 337 tw 5653 alloc 2364 mem 1981
+UDP: inuse 15 mem 0
+RAW: inuse 0
+FRAG: inuse 0 memory 0
+mar mar 19 11:51:06 VET 2013
+sockets: used 2257
+TCP: inuse 2333 orphan 305 tw 5588 alloc 2336 mem 1675
+UDP: inuse 15 mem 0
+RAW: inuse 0
+FRAG: inuse 0 memory 0
+mar mar 19 11:52:04 VET 2013
+sockets: used 2240
+TCP: inuse 2322 orphan 311 tw 5896 alloc 2325 mem 1802
+UDP: inuse 15 mem 0
+RAW: inuse 0
+FRAG: inuse 0 memory 0
+mar mar 19 11:53:02 VET 2013
+sockets: used 2077
+TCP: inuse 2185 orphan 337 tw 5410 alloc 2188 mem 1878
+UDP: inuse 15 mem 0
+RAW: inuse 0
+FRAG: inuse 0 memory 0
+mar mar 19 11:54:00 VET 2013
+sockets: used 2379
+TCP: inuse 2468 orphan 318 tw 5273 alloc 2471 mem 1941
+UDP: inuse 15 mem 0
+RAW: inuse 0
+FRAG: inuse 0 memory 0
+mar mar 19 11:54:58 VET 2013
+sockets: used 2217
+TCP: inuse 2310 orphan 322 tw 5095 alloc 2313 mem 1945
+UDP: inuse 15 mem 0
+RAW: inuse 0
+FRAG: inuse 0 memory 0
+mar mar 19 11:55:56 VET 2013
+sockets: used 2164
+TCP: inuse 2285 orphan 350 tw 5832 alloc 2288 mem 1829
+UDP: inuse 15 mem 0
+RAW: inuse 0
+FRAG: inuse 0 memory 0
+mar mar 19 11:56:54 VET 2013
+sockets: used 2253
+TCP: inuse 2386 orphan 362 tw 5363 alloc 2389 mem 1823
+UDP: inuse 15 mem 0
+RAW: inuse 0
+FRAG: inuse 0 memory 0
+mar mar 19 11:57:52 VET 2013
+sockets: used 2175
+TCP: inuse 2291 orphan 345 tw 5343 alloc 2294 mem 1810
+UDP: inuse 15 mem 0
+RAW: inuse 0
+FRAG: inuse 0 memory 0
+mar mar 19 11:58:50 VET 2013
+sockets: used 2140
+TCP: inuse 2266 orphan 355 tw 5580 alloc 2269 mem 1797
+UDP: inuse 15 mem 0
+RAW: inuse 0
+FRAG: inuse 0 memory 0
+mar mar 19 11:59:48 VET 2013
+sockets: used 2157
+TCP: inuse 2290 orphan 362 tw 5172 alloc 2293 mem 1813
+UDP: inuse 15 mem 0
+RAW: inuse 0
+FRAG: inuse 0 memory 0
+mar mar 19 12:00:46 VET 2013
+sockets: used 2293
+TCP: inuse 2431 orphan 368 tw 5598 alloc 2435 mem 2025
+UDP: inuse 15 mem 0
+RAW: inuse 0
+FRAG: inuse 0 memory 0
+mar mar 19 12:01:43 VET 2013
+sockets: used 2225
+TCP: inuse 2380 orphan 381 tw 5463 alloc 2384 mem 1888
+UDP: inuse 15 mem 0
+RAW: inuse 0
+FRAG: inuse 0 memory 0
+mar mar 19 12:02:41 VET 2013
+sockets: used 2189
+TCP: inuse 2399 orphan 440 tw 5634 alloc 2403 mem 2303
+UDP: inuse 15 mem 0
+RAW: inuse 0
+FRAG: inuse 0 memory 0
+mar mar 19 12:03:39 VET 2013
+sockets: used 2170
+TCP: inuse 2384 orphan 444 tw 5595 alloc 2388 mem 1608
+UDP: inuse 15 mem 0
+RAW: inuse 0
+FRAG: inuse 0 memory 0
+mar mar 19 12:04:37 VET 2013
+sockets: used 2171
+TCP: inuse 2345 orphan 403 tw 5065 alloc 2348 mem 1875
+UDP: inuse 15 mem 0
+RAW: inuse 0
+FRAG: inuse 0 memory 0
+mar mar 19 12:05:35 VET 2013
+sockets: used 2126
+TCP: inuse 2291 orphan 395 tw 5054 alloc 2295 mem 1862
+UDP: inuse 15 mem 0
+RAW: inuse 0
+FRAG: inuse 0 memory 0
+mar mar 19 12:06:33 VET 2013
+sockets: used 2152
+TCP: inuse 2321 orphan 398 tw 5359 alloc 2324 mem 1783
+UDP: inuse 15 mem 0
+RAW: inuse 0
+FRAG: inuse 0 memory 0
+mar mar 19 12:07:31 VET 2013
+sockets: used 2140
+TCP: inuse 2281 orphan 370 tw 5396 alloc 2284 mem 1869
+UDP: inuse 15 mem 0
+RAW: inuse 0
+FRAG: inuse 0 memory 0
+mar mar 19 12:08:29 VET 2013
+sockets: used 2019
+TCP: inuse 2142 orphan 352 tw 4852 alloc 2145 mem 1846
+UDP: inuse 15 mem 0
+RAW: inuse 0
+FRAG: inuse 0 memory 0
+mar mar 19 12:09:26 VET 2013
+sockets: used 2143
+TCP: inuse 2278 orphan 364 tw 5270 alloc 2281 mem 1970
+UDP: inuse 15 mem 0
+RAW: inuse 0
+FRAG: inuse 0 memory 0
+mar mar 19 12:10:24 VET 2013
+sockets: used 2126
+TCP: inuse 2283 orphan 386 tw 5155 alloc 2286 mem 1900
+UDP: inuse 15 mem 0
+RAW: inuse 0
+FRAG: inuse 0 memory 0
+mar mar 19 12:11:22 VET 2013
+sockets: used 2159
+TCP: inuse 2328 orphan 397 tw 5022 alloc 2331 mem 1666
+UDP: inuse 15 mem 0
+RAW: inuse 0
+FRAG: inuse 0 memory 0
+mar mar 19 12:12:20 VET 2013
+sockets: used 2220
+TCP: inuse 2395 orphan 404 tw 4773 alloc 2398 mem 1927
+UDP: inuse 15 mem 0
+RAW: inuse 0
+FRAG: inuse 0 memory 0
+mar mar 19 12:13:18 VET 2013
+sockets: used 2092
+TCP: inuse 2283 orphan 420 tw 5353 alloc 2286 mem 1756
+UDP: inuse 15 mem 0
+RAW: inuse 0
+FRAG: inuse 0 memory 0

@@ -1,0 +1,950 @@
+2011-07-21T12:18:06-04:00 0:00.000 0.000u 6.7.1 Configure convert[12934]: utility.c/ExpandFilenames/906/Configure
+  Command line: /usr/local/ImageMagick-671/bin/convert {-debug} {All} {-colorspace} {RGB} {-resize} {200X200} {evil1.jpg} {evil2.jpg}
+2011-07-21T12:18:06-04:00 0:00.000 0.000u 6.7.1 Policy convert[12934]: policy.c/IsRightsAuthorized/485/Policy
+  Domain: Path; rights=Read; pattern="evil1.jpg" ...
+2011-07-21T12:18:06-04:00 0:00.000 0.000u 6.7.1 Blob convert[12934]: blob.c/OpenBlob/2481/Blob
+    read 3 magic header bytes
+2011-07-21T12:18:06-04:00 0:00.000 0.000u 6.7.1 Cache convert[12934]: cache.c/DestroyPixelCache/1504/Cache
+  destroy 
+2011-07-21T12:18:06-04:00 0:00.000 0.000u 6.7.1 Configure convert[12934]: configure.c/GetConfigureOptions/564/Configure
+  Searching for configure file: "/usr/local/ImageMagick-671/share/ImageMagick-6.7.1/magic.xml"
+2011-07-21T12:18:06-04:00 0:00.000 0.000u 6.7.1 Configure convert[12934]: configure.c/GetConfigureOptions/564/Configure
+  Searching for configure file: "/usr/local/ImageMagick-671/etc/ImageMagick/magic.xml"
+2011-07-21T12:18:06-04:00 0:00.000 0.000u 6.7.1 Configure convert[12934]: configure.c/GetConfigureOptions/564/Configure
+  Searching for configure file: "/usr/local/ImageMagick-671/share/doc/ImageMagick-6.7.1//magic.xml"
+2011-07-21T12:18:06-04:00 0:00.000 0.000u 6.7.1 Configure convert[12934]: configure.c/GetConfigureOptions/564/Configure
+  Searching for configure file: "/root/.magick/magic.xml"
+2011-07-21T12:18:06-04:00 0:00.000 0.000u 6.7.1 Configure convert[12934]: magic.c/LoadMagicList/679/Configure
+  Loading magic configure file "/usr/local/ImageMagick-671/etc/ImageMagick/magic.xml" ...
+2011-07-21T12:18:06-04:00 0:00.000 0.000u 6.7.1 Policy convert[12934]: policy.c/IsRightsAuthorized/485/Policy
+  Domain: Coder; rights=Read; pattern="JPEG" ...
+2011-07-21T12:18:06-04:00 0:00.000 0.000u 6.7.1 Policy convert[12934]: policy.c/IsRightsAuthorized/485/Policy
+  Domain: Path; rights=Read; pattern="evil1.jpg" ...
+2011-07-21T12:18:06-04:00 0:00.000 0.000u 6.7.1 Blob convert[12934]: blob.c/OpenBlob/2481/Blob
+    read 3 magic header bytes
+2011-07-21T12:18:06-04:00 0:00.000 0.000u 6.7.1 Coder convert[12934]: jpeg.c/JPEGWarningHandler/336/Coder
+  [evil1.jpg] JPEG Trace: "Start of Image"
+2011-07-21T12:18:06-04:00 0:00.000 0.000u 6.7.1 Coder convert[12934]: jpeg.c/JPEGWarningHandler/336/Coder
+  [evil1.jpg] JPEG Trace: "JFIF APP0 marker: version 1.01, density 180x180  1"
+2011-07-21T12:18:06-04:00 0:00.000 0.000u 6.7.1 Coder convert[12934]: jpeg.c/ReadProfile/648/Coder
+  Profile: exif, 7361 bytes
+2011-07-21T12:18:06-04:00 0:00.000 0.000u 6.7.1 Coder convert[12934]: jpeg.c/JPEGWarningHandler/336/Coder
+  [evil1.jpg] JPEG Trace: "Define Quantization Table 0  precision 0"
+2011-07-21T12:18:06-04:00 0:00.000 0.000u 6.7.1 Coder convert[12934]: jpeg.c/JPEGWarningHandler/336/Coder
+  [evil1.jpg] JPEG Trace: "Define Quantization Table 1  precision 0"
+2011-07-21T12:18:06-04:00 0:00.000 0.000u 6.7.1 Coder convert[12934]: jpeg.c/JPEGWarningHandler/336/Coder
+  [evil1.jpg] JPEG Trace: "Start Of Frame 0xc0: width=640, height=480, components=3"
+2011-07-21T12:18:06-04:00 0:00.000 0.000u 6.7.1 Coder convert[12934]: jpeg.c/JPEGWarningHandler/336/Coder
+  [evil1.jpg] JPEG Trace: "    Component 1: 2hx2v q=0"
+2011-07-21T12:18:06-04:00 0:00.000 0.000u 6.7.1 Coder convert[12934]: jpeg.c/JPEGWarningHandler/336/Coder
+  [evil1.jpg] JPEG Trace: "    Component 2: 1hx1v q=1"
+2011-07-21T12:18:06-04:00 0:00.000 0.000u 6.7.1 Coder convert[12934]: jpeg.c/JPEGWarningHandler/336/Coder
+  [evil1.jpg] JPEG Trace: "    Component 3: 1hx1v q=1"
+2011-07-21T12:18:06-04:00 0:00.000 0.000u 6.7.1 Coder convert[12934]: jpeg.c/JPEGWarningHandler/336/Coder
+  [evil1.jpg] JPEG Trace: "Define Huffman Table 0x00"
+2011-07-21T12:18:06-04:00 0:00.000 0.000u 6.7.1 Coder convert[12934]: jpeg.c/JPEGWarningHandler/336/Coder
+  [evil1.jpg] JPEG Trace: "          0   1   5   1   1   1   0   0"
+2011-07-21T12:18:06-04:00 0:00.000 0.000u 6.7.1 Coder convert[12934]: jpeg.c/JPEGWarningHandler/336/Coder
+  [evil1.jpg] JPEG Trace: "          0   0   0   0   0   0   0   0"
+2011-07-21T12:18:06-04:00 0:00.000 0.000u 6.7.1 Coder convert[12934]: jpeg.c/JPEGWarningHandler/336/Coder
+  [evil1.jpg] JPEG Trace: "Define Huffman Table 0x10"
+2011-07-21T12:18:06-04:00 0:00.000 0.000u 6.7.1 Coder convert[12934]: jpeg.c/JPEGWarningHandler/336/Coder
+  [evil1.jpg] JPEG Trace: "          0   1   3   2   3   5   4   7"
+2011-07-21T12:18:06-04:00 0:00.000 0.000u 6.7.1 Coder convert[12934]: jpeg.c/JPEGWarningHandler/336/Coder
+  [evil1.jpg] JPEG Trace: "          5   4   8   4   5   3   3   5"
+2011-07-21T12:18:06-04:00 0:00.000 0.000u 6.7.1 Coder convert[12934]: jpeg.c/JPEGWarningHandler/336/Coder
+  [evil1.jpg] JPEG Trace: "Define Huffman Table 0x01"
+2011-07-21T12:18:06-04:00 0:00.000 0.000u 6.7.1 Coder convert[12934]: jpeg.c/JPEGWarningHandler/336/Coder
+  [evil1.jpg] JPEG Trace: "          0   3   1   1   1   1   0   0"
+2011-07-21T12:18:06-04:00 0:00.000 0.000u 6.7.1 Coder convert[12934]: jpeg.c/JPEGWarningHandler/336/Coder
+  [evil1.jpg] JPEG Trace: "          0   0   0   0   0   0   0   0"
+2011-07-21T12:18:06-04:00 0:00.000 0.000u 6.7.1 Coder convert[12934]: jpeg.c/JPEGWarningHandler/336/Coder
+  [evil1.jpg] JPEG Trace: "Define Huffman Table 0x11"
+2011-07-21T12:18:06-04:00 0:00.000 0.000u 6.7.1 Coder convert[12934]: jpeg.c/JPEGWarningHandler/336/Coder
+  [evil1.jpg] JPEG Trace: "          0   1   2   3   6   4   3   6"
+2011-07-21T12:18:06-04:00 0:00.000 0.000u 6.7.1 Coder convert[12934]: jpeg.c/JPEGWarningHandler/336/Coder
+  [evil1.jpg] JPEG Trace: "          5   3   4   3   1   0   0   0"
+2011-07-21T12:18:06-04:00 0:00.000 0.000u 6.7.1 Coder convert[12934]: jpeg.c/JPEGWarningHandler/336/Coder
+  [evil1.jpg] JPEG Trace: "Start Of Scan: 3 components"
+2011-07-21T12:18:06-04:00 0:00.000 0.000u 6.7.1 Coder convert[12934]: jpeg.c/JPEGWarningHandler/336/Coder
+  [evil1.jpg] JPEG Trace: "    Component 1: dc=0 ac=0"
+2011-07-21T12:18:06-04:00 0:00.000 0.000u 6.7.1 Coder convert[12934]: jpeg.c/JPEGWarningHandler/336/Coder
+  [evil1.jpg] JPEG Trace: "    Component 2: dc=1 ac=1"
+2011-07-21T12:18:06-04:00 0:00.000 0.000u 6.7.1 Coder convert[12934]: jpeg.c/JPEGWarningHandler/336/Coder
+  [evil1.jpg] JPEG Trace: "    Component 3: dc=1 ac=1"
+2011-07-21T12:18:06-04:00 0:00.000 0.000u 6.7.1 Coder convert[12934]: jpeg.c/JPEGWarningHandler/336/Coder
+  [evil1.jpg] JPEG Trace: "  Ss=0, Se=63, Ah=0, Al=0"
+2011-07-21T12:18:06-04:00 0:00.000 0.000u 6.7.1 Coder convert[12934]: jpeg.c/ReadJPEGImage/1157/Coder
+  Interlace: nonprogressive
+2011-07-21T12:18:06-04:00 0:00.000 0.000u 6.7.1 Coder convert[12934]: jpeg.c/ReadJPEGImage/1159/Coder
+  Data precision: 8
+2011-07-21T12:18:06-04:00 0:00.000 0.000u 6.7.1 Coder convert[12934]: jpeg.c/ReadJPEGImage/1161/Coder
+  Geometry: 640x480
+2011-07-21T12:18:06-04:00 0:00.000 0.000u 6.7.1 Coder convert[12934]: jpeg.c/JPEGSetImageQuality/773/Coder
+  Quality: 85 (exact)
+2011-07-21T12:18:06-04:00 0:00.000 0.000u 6.7.1 Coder convert[12934]: jpeg.c/JPEGSetImageSamplingFactor/863/Coder
+  Colorspace: RGB
+2011-07-21T12:18:06-04:00 0:00.000 0.000u 6.7.1 Coder convert[12934]: jpeg.c/JPEGSetImageSamplingFactor/890/Coder
+  Sampling Factors: 2x2,1x1,1x1
+2011-07-21T12:18:06-04:00 0:00.000 0.000u 6.7.1 Resource convert[12934]: resource.c/AcquireMagickResource/262/Resource
+  Area: 2.458MB/2.458MB/4.2066GB
+2011-07-21T12:18:06-04:00 0:00.000 0.000u 6.7.1 Resource convert[12934]: resource.c/AcquireMagickResource/262/Resource
+  Memory: 2.458MB/2.344MiB/15.671GiB
+2011-07-21T12:18:06-04:00 0:00.000 0.000u 6.7.1 Cache convert[12934]: cache.c/OpenPixelCache/4096/Cache
+  open evil1.jpg[0] (heap memory, 640x480 2.344MiB)
+2011-07-21T12:18:06-04:00 0:00.010 0.010u 6.7.1 Coder convert[12934]: jpeg.c/JPEGWarningHandler/336/Coder
+  [evil1.jpg] JPEG Trace: "End Of Image"
+2011-07-21T12:18:06-04:00 0:00.020 0.030u 6.7.1 Resource convert[12934]: resource.c/AcquireMagickResource/262/Resource
+  Area: 768KB/768KB/4.2066GB
+2011-07-21T12:18:06-04:00 0:00.020 0.030u 6.7.1 Resource convert[12934]: resource.c/AcquireMagickResource/262/Resource
+  Memory: 768KB/3.076MiB/15.671GiB
+2011-07-21T12:18:06-04:00 0:00.020 0.030u 6.7.1 Cache convert[12934]: cache.c/OpenPixelCache/4096/Cache
+  open evil1.jpg[0] (heap memory, 640x150 750KiB)
+2011-07-21T12:18:06-04:00 0:00.040 0.160u 6.7.1 Cache convert[12934]: cache.c/ReadPixelCachePixels/4822/Cache
+  evil1.jpg[0][19x150+72+0]
+2011-07-21T12:18:06-04:00 0:00.040 0.160u 6.7.1 Cache convert[12934]: cache.c/ReadPixelCachePixels/4822/Cache
+  evil1.jpg[0][19x150+312+0]
+2011-07-21T12:18:06-04:00 0:00.040 0.160u 6.7.1 Cache convert[12934]: cache.c/ReadPixelCachePixels/4822/Cache
+  evil1.jpg[0][11x150+0+0]
+2011-07-21T12:18:06-04:00 0:00.040 0.160u 6.7.1 Cache convert[12934]: cache.c/ReadPixelCachePixels/4822/Cache
+  evil1.jpg[0][19x150+152+0]
+2011-07-21T12:18:06-04:00 0:00.040 0.160u 6.7.1 Cache convert[12934]: cache.c/ReadPixelCachePixels/4822/Cache
+  evil1.jpg[0][19x150+392+0]
+2011-07-21T12:18:06-04:00 0:00.040 0.160u 6.7.1 Cache convert[12934]: cache.c/ReadPixelCachePixels/4822/Cache
+  evil1.jpg[0][19x150+552+0]
+2011-07-21T12:18:06-04:00 0:00.040 0.160u 6.7.1 Cache convert[12934]: cache.c/ReadPixelCachePixels/4822/Cache
+  evil1.jpg[0][19x150+472+0]
+2011-07-21T12:18:06-04:00 0:00.040 0.160u 6.7.1 Cache convert[12934]: cache.c/ReadPixelCachePixels/4822/Cache
+  evil1.jpg[0][19x150+232+0]
+2011-07-21T12:18:06-04:00 0:00.040 0.160u 6.7.1 Resource convert[12934]: resource.c/AcquireMagickResource/262/Resource
+  Area: 240KB/240KB/4.2066GB
+2011-07-21T12:18:06-04:00 0:00.040 0.160u 6.7.1 Resource convert[12934]: resource.c/AcquireMagickResource/262/Resource
+  Memory: 240KB/3.305MiB/15.671GiB
+2011-07-21T12:18:06-04:00 0:00.040 0.160u 6.7.1 Cache convert[12934]: cache.c/OpenPixelCache/4096/Cache
+  open evil1.jpg[0] (heap memory, 200x150 234KiB)
+2011-07-21T12:18:06-04:00 0:00.040 0.160u 6.7.1 Cache convert[12934]: cache.c/WritePixelCachePixels/5558/Cache
+  evil1.jpg[0][1x150+25+0]
+2011-07-21T12:18:06-04:00 0:00.040 0.160u 6.7.1 Cache convert[12934]: cache.c/WritePixelCachePixels/5558/Cache
+  evil1.jpg[0][1x150+100+0]
+2011-07-21T12:18:06-04:00 0:00.040 0.160u 6.7.1 Cache convert[12934]: cache.c/WritePixelCachePixels/5558/Cache
+  evil1.jpg[0][1x150+50+0]
+2011-07-21T12:18:06-04:00 0:00.040 0.160u 6.7.1 Cache convert[12934]: cache.c/WritePixelCachePixels/5558/Cache
+  evil1.jpg[0][1x150+150+0]
+2011-07-21T12:18:06-04:00 0:00.040 0.160u 6.7.1 Cache convert[12934]: cache.c/ReadPixelCachePixels/4822/Cache
+  evil1.jpg[0][19x150+315+0]
+2011-07-21T12:18:06-04:00 0:00.040 0.160u 6.7.1 Cache convert[12934]: cache.c/WritePixelCachePixels/5558/Cache
+  evil1.jpg[0][1x150+175+0]
+2011-07-21T12:18:06-04:00 0:00.040 0.160u 6.7.1 Cache convert[12934]: cache.c/WritePixelCachePixels/5558/Cache
+  evil1.jpg[0][1x150+75+0]
+2011-07-21T12:18:06-04:00 0:00.040 0.160u 6.7.1 Cache convert[12934]: cache.c/ReadPixelCachePixels/4822/Cache
+  evil1.jpg[0][19x150+75+0]
+2011-07-21T12:18:06-04:00 0:00.040 0.160u 6.7.1 Cache convert[12934]: cache.c/ReadPixelCachePixels/4822/Cache
+  evil1.jpg[0][19x150+155+0]
+2011-07-21T12:18:06-04:00 0:00.040 0.160u 6.7.1 Cache convert[12934]: cache.c/WritePixelCachePixels/5558/Cache
+  evil1.jpg[0][1x150+26+0]
+2011-07-21T12:18:06-04:00 0:00.040 0.160u 6.7.1 Cache convert[12934]: cache.c/WritePixelCachePixels/5558/Cache
+  evil1.jpg[0][1x150+51+0]
+2011-07-21T12:18:06-04:00 0:00.040 0.160u 6.7.1 Cache convert[12934]: cache.c/ReadPixelCachePixels/4822/Cache
+  evil1.jpg[0][19x150+475+0]
+2011-07-21T12:18:06-04:00 0:00.040 0.160u 6.7.1 Cache convert[12934]: cache.c/ReadPixelCachePixels/4822/Cache
+  evil1.jpg[0][19x150+555+0]
+2011-07-21T12:18:06-04:00 0:00.040 0.160u 6.7.1 Cache convert[12934]: cache.c/WritePixelCachePixels/5558/Cache
+  evil1.jpg[0][1x150+101+0]
+2011-07-21T12:18:06-04:00 0:00.040 0.160u 6.7.1 Cache convert[12934]: cache.c/ReadPixelCachePixels/4822/Cache
+  evil1.jpg[0][19x150+235+0]
+2011-07-21T12:18:06-04:00 0:00.040 0.160u 6.7.1 Cache convert[12934]: cache.c/ReadPixelCachePixels/4822/Cache
+  evil1.jpg[0][20x150+318+0]
+2011-07-21T12:18:06-04:00 0:00.040 0.160u 6.7.1 Cache convert[12934]: cache.c/ReadPixelCachePixels/4822/Cache
+  evil1.jpg[0][20x150+78+0]
+2011-07-21T12:18:06-04:00 0:00.040 0.160u 6.7.1 Cache convert[12934]: cache.c/ReadPixelCachePixels/4822/Cache
+  evil1.jpg[0][20x150+158+0]
+2011-07-21T12:18:06-04:00 0:00.040 0.160u 6.7.1 Cache convert[12934]: cache.c/WritePixelCachePixels/5558/Cache
+  evil1.jpg[0][1x150+27+0]
+2011-07-21T12:18:06-04:00 0:00.040 0.160u 6.7.1 Cache convert[12934]: cache.c/ReadPixelCachePixels/4822/Cache
+  evil1.jpg[0][19x150+82+0]
+2011-07-21T12:18:06-04:00 0:00.040 0.160u 6.7.1 Cache convert[12934]: cache.c/WritePixelCachePixels/5558/Cache
+  evil1.jpg[0][1x150+151+0]
+2011-07-21T12:18:06-04:00 0:00.040 0.160u 6.7.1 Cache convert[12934]: cache.c/WritePixelCachePixels/5558/Cache
+  evil1.jpg[0][1x150+176+0]
+2011-07-21T12:18:06-04:00 0:00.040 0.160u 6.7.1 Cache convert[12934]: cache.c/ReadPixelCachePixels/4822/Cache
+  evil1.jpg[0][20x150+478+0]
+2011-07-21T12:18:06-04:00 0:00.040 0.160u 6.7.1 Cache convert[12934]: cache.c/ReadPixelCachePixels/4822/Cache
+  evil1.jpg[0][20x150+558+0]
+2011-07-21T12:18:06-04:00 0:00.040 0.160u 6.7.1 Cache convert[12934]: cache.c/WritePixelCachePixels/5558/Cache
+  evil1.jpg[0][1x150+102+0]
+2011-07-21T12:18:06-04:00 0:00.040 0.160u 6.7.1 Cache convert[12934]: cache.c/WritePixelCachePixels/5558/Cache
+  evil1.jpg[0][1x150+52+0]
+2011-07-21T12:18:06-04:00 0:00.040 0.160u 6.7.1 Cache convert[12934]: cache.c/ReadPixelCachePixels/4822/Cache
+  evil1.jpg[0][19x150+162+0]
+2011-07-21T12:18:06-04:00 0:00.040 0.160u 6.7.1 Cache convert[12934]: cache.c/WritePixelCachePixels/5558/Cache
+  evil1.jpg[0][1x150+53+0]
+2011-07-21T12:18:06-04:00 0:00.040 0.160u 6.7.1 Cache convert[12934]: cache.c/ReadPixelCachePixels/4822/Cache
+  evil1.jpg[0][19x150+165+0]
+2011-07-21T12:18:06-04:00 0:00.040 0.160u 6.7.1 Cache convert[12934]: cache.c/WritePixelCachePixels/5558/Cache
+  evil1.jpg[0][1x150+54+0]
+2011-07-21T12:18:06-04:00 0:00.040 0.160u 6.7.1 Cache convert[12934]: cache.c/ReadPixelCachePixels/4822/Cache
+  evil1.jpg[0][19x150+168+0]
+2011-07-21T12:18:06-04:00 0:00.040 0.160u 6.7.1 Cache convert[12934]: cache.c/WritePixelCachePixels/5558/Cache
+  evil1.jpg[0][1x150+55+0]
+2011-07-21T12:18:06-04:00 0:00.040 0.160u 6.7.1 Cache convert[12934]: cache.c/ReadPixelCachePixels/4822/Cache
+  evil1.jpg[0][19x150+171+0]
+2011-07-21T12:18:06-04:00 0:00.040 0.160u 6.7.1 Cache convert[12934]: cache.c/WritePixelCachePixels/5558/Cache
+  evil1.jpg[0][1x150+56+0]
+2011-07-21T12:18:06-04:00 0:00.040 0.160u 6.7.1 Cache convert[12934]: cache.c/ReadPixelCachePixels/4822/Cache
+  evil1.jpg[0][20x150+174+0]
+2011-07-21T12:18:06-04:00 0:00.040 0.160u 6.7.1 Cache convert[12934]: cache.c/WritePixelCachePixels/5558/Cache
+  evil1.jpg[0][1x150+57+0]
+2011-07-21T12:18:06-04:00 0:00.040 0.160u 6.7.1 Cache convert[12934]: cache.c/ReadPixelCachePixels/4822/Cache
+  evil1.jpg[0][19x150+178+0]
+2011-07-21T12:18:06-04:00 0:00.040 0.160u 6.7.1 Cache convert[12934]: cache.c/WritePixelCachePixels/5558/Cache
+  evil1.jpg[0][1x150+58+0]
+2011-07-21T12:18:06-04:00 0:00.040 0.160u 6.7.1 Cache convert[12934]: cache.c/ReadPixelCachePixels/4822/Cache
+  evil1.jpg[0][19x150+181+0]
+2011-07-21T12:18:06-04:00 0:00.040 0.160u 6.7.1 Cache convert[12934]: cache.c/WritePixelCachePixels/5558/Cache
+  evil1.jpg[0][1x150+59+0]
+2011-07-21T12:18:06-04:00 0:00.040 0.160u 6.7.1 Cache convert[12934]: cache.c/ReadPixelCachePixels/4822/Cache
+  evil1.jpg[0][19x150+184+0]
+2011-07-21T12:18:06-04:00 0:00.040 0.160u 6.7.1 Cache convert[12934]: cache.c/WritePixelCachePixels/5558/Cache
+  evil1.jpg[0][1x150+60+0]
+2011-07-21T12:18:06-04:00 0:00.040 0.160u 6.7.1 Cache convert[12934]: cache.c/ReadPixelCachePixels/4822/Cache
+  evil1.jpg[0][19x150+187+0]
+2011-07-21T12:18:06-04:00 0:00.040 0.160u 6.7.1 Cache convert[12934]: cache.c/WritePixelCachePixels/5558/Cache
+  evil1.jpg[0][1x150+61+0]
+2011-07-21T12:18:06-04:00 0:00.040 0.160u 6.7.1 Cache convert[12934]: cache.c/ReadPixelCachePixels/4822/Cache
+  evil1.jpg[0][20x150+190+0]
+2011-07-21T12:18:06-04:00 0:00.040 0.160u 6.7.1 Cache convert[12934]: cache.c/WritePixelCachePixels/5558/Cache
+  evil1.jpg[0][1x150+62+0]
+2011-07-21T12:18:06-04:00 0:00.050 0.160u 6.7.1 Cache convert[12934]: cache.c/ReadPixelCachePixels/4822/Cache
+  evil1.jpg[0][19x150+194+0]
+2011-07-21T12:18:06-04:00 0:00.050 0.160u 6.7.1 Cache convert[12934]: cache.c/WritePixelCachePixels/5558/Cache
+  evil1.jpg[0][1x150+63+0]
+2011-07-21T12:18:06-04:00 0:00.050 0.160u 6.7.1 Cache convert[12934]: cache.c/ReadPixelCachePixels/4822/Cache
+  evil1.jpg[0][19x150+197+0]
+2011-07-21T12:18:06-04:00 0:00.050 0.160u 6.7.1 Cache convert[12934]: cache.c/WritePixelCachePixels/5558/Cache
+  evil1.jpg[0][1x150+64+0]
+2011-07-21T12:18:06-04:00 0:00.050 0.160u 6.7.1 Cache convert[12934]: cache.c/ReadPixelCachePixels/4822/Cache
+  evil1.jpg[0][19x150+200+0]
+2011-07-21T12:18:06-04:00 0:00.050 0.160u 6.7.1 Cache convert[12934]: cache.c/WritePixelCachePixels/5558/Cache
+  evil1.jpg[0][1x150+65+0]
+2011-07-21T12:18:06-04:00 0:00.050 0.160u 6.7.1 Cache convert[12934]: cache.c/ReadPixelCachePixels/4822/Cache
+  evil1.jpg[0][19x150+203+0]
+2011-07-21T12:18:06-04:00 0:00.050 0.160u 6.7.1 Cache convert[12934]: cache.c/WritePixelCachePixels/5558/Cache
+  evil1.jpg[0][1x150+66+0]
+2011-07-21T12:18:06-04:00 0:00.050 0.160u 6.7.1 Cache convert[12934]: cache.c/ReadPixelCachePixels/4822/Cache
+  evil1.jpg[0][20x150+206+0]
+2011-07-21T12:18:06-04:00 0:00.050 0.160u 6.7.1 Cache convert[12934]: cache.c/WritePixelCachePixels/5558/Cache
+  evil1.jpg[0][1x150+67+0]
+2011-07-21T12:18:06-04:00 0:00.050 0.160u 6.7.1 Cache convert[12934]: cache.c/ReadPixelCachePixels/4822/Cache
+  evil1.jpg[0][19x150+210+0]
+2011-07-21T12:18:06-04:00 0:00.050 0.160u 6.7.1 Cache convert[12934]: cache.c/WritePixelCachePixels/5558/Cache
+  evil1.jpg[0][1x150+68+0]
+2011-07-21T12:18:06-04:00 0:00.050 0.160u 6.7.1 Cache convert[12934]: cache.c/ReadPixelCachePixels/4822/Cache
+  evil1.jpg[0][19x150+213+0]
+2011-07-21T12:18:06-04:00 0:00.050 0.160u 6.7.1 Cache convert[12934]: cache.c/WritePixelCachePixels/5558/Cache
+  evil1.jpg[0][1x150+69+0]
+2011-07-21T12:18:06-04:00 0:00.050 0.160u 6.7.1 Cache convert[12934]: cache.c/ReadPixelCachePixels/4822/Cache
+  evil1.jpg[0][19x150+216+0]
+2011-07-21T12:18:06-04:00 0:00.050 0.170u 6.7.1 Cache convert[12934]: cache.c/WritePixelCachePixels/5558/Cache
+  evil1.jpg[0][1x150+70+0]
+2011-07-21T12:18:06-04:00 0:00.050 0.170u 6.7.1 Cache convert[12934]: cache.c/ReadPixelCachePixels/4822/Cache
+  evil1.jpg[0][19x150+219+0]
+2011-07-21T12:18:06-04:00 0:00.050 0.170u 6.7.1 Cache convert[12934]: cache.c/WritePixelCachePixels/5558/Cache
+  evil1.jpg[0][1x150+71+0]
+2011-07-21T12:18:06-04:00 0:00.050 0.170u 6.7.1 Cache convert[12934]: cache.c/ReadPixelCachePixels/4822/Cache
+  evil1.jpg[0][20x150+222+0]
+2011-07-21T12:18:06-04:00 0:00.050 0.170u 6.7.1 Cache convert[12934]: cache.c/WritePixelCachePixels/5558/Cache
+  evil1.jpg[0][1x150+72+0]
+2011-07-21T12:18:06-04:00 0:00.050 0.170u 6.7.1 Cache convert[12934]: cache.c/ReadPixelCachePixels/4822/Cache
+  evil1.jpg[0][19x150+226+0]
+2011-07-21T12:18:06-04:00 0:00.050 0.170u 6.7.1 Cache convert[12934]: cache.c/WritePixelCachePixels/5558/Cache
+  evil1.jpg[0][1x150+73+0]
+2011-07-21T12:18:06-04:00 0:00.050 0.170u 6.7.1 Cache convert[12934]: cache.c/ReadPixelCachePixels/4822/Cache
+  evil1.jpg[0][19x150+229+0]
+2011-07-21T12:18:06-04:00 0:00.050 0.170u 6.7.1 Cache convert[12934]: cache.c/WritePixelCachePixels/5558/Cache
+  evil1.jpg[0][1x150+74+0]
+2011-07-21T12:18:06-04:00 0:00.050 0.170u 6.7.1 Cache convert[12934]: cache.c/WritePixelCachePixels/5558/Cache
+  evil1.jpg[0][1x150+0+0]
+2011-07-21T12:18:06-04:00 0:00.050 0.170u 6.7.1 Cache convert[12934]: cache.c/ReadPixelCachePixels/4822/Cache
+  evil1.jpg[0][14x150+0+0]
+2011-07-21T12:18:06-04:00 0:00.050 0.170u 6.7.1 Cache convert[12934]: cache.c/WritePixelCachePixels/5558/Cache
+  evil1.jpg[0][1x150+1+0]
+2011-07-21T12:18:06-04:00 0:00.050 0.170u 6.7.1 Cache convert[12934]: cache.c/ReadPixelCachePixels/4822/Cache
+  evil1.jpg[0][18x150+0+0]
+2011-07-21T12:18:06-04:00 0:00.050 0.170u 6.7.1 Cache convert[12934]: cache.c/WritePixelCachePixels/5558/Cache
+  evil1.jpg[0][1x150+2+0]
+2011-07-21T12:18:06-04:00 0:00.050 0.170u 6.7.1 Cache convert[12934]: cache.c/ReadPixelCachePixels/4822/Cache
+  evil1.jpg[0][19x150+2+0]
+2011-07-21T12:18:06-04:00 0:00.050 0.170u 6.7.1 Cache convert[12934]: cache.c/WritePixelCachePixels/5558/Cache
+  evil1.jpg[0][1x150+3+0]
+2011-07-21T12:18:06-04:00 0:00.050 0.170u 6.7.1 Cache convert[12934]: cache.c/ReadPixelCachePixels/4822/Cache
+  evil1.jpg[0][19x150+5+0]
+2011-07-21T12:18:06-04:00 0:00.050 0.170u 6.7.1 Cache convert[12934]: cache.c/WritePixelCachePixels/5558/Cache
+  evil1.jpg[0][1x150+4+0]
+2011-07-21T12:18:06-04:00 0:00.050 0.170u 6.7.1 Cache convert[12934]: cache.c/ReadPixelCachePixels/4822/Cache
+  evil1.jpg[0][19x150+8+0]
+2011-07-21T12:18:06-04:00 0:00.050 0.170u 6.7.1 Cache convert[12934]: cache.c/WritePixelCachePixels/5558/Cache
+  evil1.jpg[0][1x150+5+0]
+2011-07-21T12:18:06-04:00 0:00.050 0.170u 6.7.1 Cache convert[12934]: cache.c/ReadPixelCachePixels/4822/Cache
+  evil1.jpg[0][19x150+11+0]
+2011-07-21T12:18:06-04:00 0:00.050 0.170u 6.7.1 Cache convert[12934]: cache.c/WritePixelCachePixels/5558/Cache
+  evil1.jpg[0][1x150+6+0]
+2011-07-21T12:18:06-04:00 0:00.050 0.170u 6.7.1 Cache convert[12934]: cache.c/ReadPixelCachePixels/4822/Cache
+  evil1.jpg[0][20x150+14+0]
+2011-07-21T12:18:06-04:00 0:00.050 0.170u 6.7.1 Cache convert[12934]: cache.c/WritePixelCachePixels/5558/Cache
+  evil1.jpg[0][1x150+7+0]
+2011-07-21T12:18:06-04:00 0:00.050 0.170u 6.7.1 Cache convert[12934]: cache.c/ReadPixelCachePixels/4822/Cache
+  evil1.jpg[0][19x150+18+0]
+2011-07-21T12:18:06-04:00 0:00.050 0.170u 6.7.1 Cache convert[12934]: cache.c/WritePixelCachePixels/5558/Cache
+  evil1.jpg[0][1x150+8+0]
+2011-07-21T12:18:06-04:00 0:00.050 0.170u 6.7.1 Cache convert[12934]: cache.c/ReadPixelCachePixels/4822/Cache
+  evil1.jpg[0][19x150+21+0]
+2011-07-21T12:18:06-04:00 0:00.050 0.170u 6.7.1 Cache convert[12934]: cache.c/WritePixelCachePixels/5558/Cache
+  evil1.jpg[0][1x150+9+0]
+2011-07-21T12:18:06-04:00 0:00.050 0.170u 6.7.1 Cache convert[12934]: cache.c/ReadPixelCachePixels/4822/Cache
+  evil1.jpg[0][19x150+24+0]
+2011-07-21T12:18:06-04:00 0:00.050 0.170u 6.7.1 Cache convert[12934]: cache.c/WritePixelCachePixels/5558/Cache
+  evil1.jpg[0][1x150+76+0]
+2011-07-21T12:18:06-04:00 0:00.050 0.170u 6.7.1 Cache convert[12934]: cache.c/WritePixelCachePixels/5558/Cache
+  evil1.jpg[0][1x150+152+0]
+2011-07-21T12:18:06-04:00 0:00.050 0.170u 6.7.1 Cache convert[12934]: cache.c/ReadPixelCachePixels/4822/Cache
+  evil1.jpg[0][19x150+322+0]
+2011-07-21T12:18:06-04:00 0:00.050 0.170u 6.7.1 Cache convert[12934]: cache.c/WritePixelCachePixels/5558/Cache
+  evil1.jpg[0][1x150+177+0]
+2011-07-21T12:18:06-04:00 0:00.050 0.170u 6.7.1 Cache convert[12934]: cache.c/ReadPixelCachePixels/4822/Cache
+  evil1.jpg[0][19x150+562+0]
+2011-07-21T12:18:06-04:00 0:00.050 0.170u 6.7.1 Cache convert[12934]: cache.c/WritePixelCachePixels/5558/Cache
+  evil1.jpg[0][1x150+125+0]
+2011-07-21T12:18:06-04:00 0:00.050 0.170u 6.7.1 Cache convert[12934]: cache.c/WritePixelCachePixels/5558/Cache
+  evil1.jpg[0][1x150+10+0]
+2011-07-21T12:18:06-04:00 0:00.050 0.170u 6.7.1 Cache convert[12934]: cache.c/ReadPixelCachePixels/4822/Cache
+  evil1.jpg[0][20x150+238+0]
+2011-07-21T12:18:06-04:00 0:00.050 0.170u 6.7.1 Cache convert[12934]: cache.c/ReadPixelCachePixels/4822/Cache
+  evil1.jpg[0][19x150+482+0]
+2011-07-21T12:18:06-04:00 0:00.050 0.170u 6.7.1 Cache convert[12934]: cache.c/WritePixelCachePixels/5558/Cache
+  evil1.jpg[0][1x150+103+0]
+2011-07-21T12:18:06-04:00 0:00.050 0.170u 6.7.1 Cache convert[12934]: cache.c/WritePixelCachePixels/5558/Cache
+  evil1.jpg[0][1x150+178+0]
+2011-07-21T12:18:06-04:00 0:00.050 0.170u 6.7.1 Cache convert[12934]: cache.c/ReadPixelCachePixels/4822/Cache
+  evil1.jpg[0][19x150+565+0]
+2011-07-21T12:18:06-04:00 0:00.050 0.170u 6.7.1 Cache convert[12934]: cache.c/WritePixelCachePixels/5558/Cache
+  evil1.jpg[0][1x150+179+0]
+2011-07-21T12:18:06-04:00 0:00.050 0.170u 6.7.1 Cache convert[12934]: cache.c/ReadPixelCachePixels/4822/Cache
+  evil1.jpg[0][19x150+568+0]
+2011-07-21T12:18:06-04:00 0:00.050 0.170u 6.7.1 Cache convert[12934]: cache.c/WritePixelCachePixels/5558/Cache
+  evil1.jpg[0][1x150+180+0]
+2011-07-21T12:18:06-04:00 0:00.050 0.170u 6.7.1 Cache convert[12934]: cache.c/ReadPixelCachePixels/4822/Cache
+  evil1.jpg[0][19x150+571+0]
+2011-07-21T12:18:06-04:00 0:00.050 0.170u 6.7.1 Cache convert[12934]: cache.c/WritePixelCachePixels/5558/Cache
+  evil1.jpg[0][1x150+181+0]
+2011-07-21T12:18:06-04:00 0:00.050 0.170u 6.7.1 Cache convert[12934]: cache.c/ReadPixelCachePixels/4822/Cache
+  evil1.jpg[0][20x150+574+0]
+2011-07-21T12:18:06-04:00 0:00.050 0.170u 6.7.1 Cache convert[12934]: cache.c/WritePixelCachePixels/5558/Cache
+  evil1.jpg[0][1x150+182+0]
+2011-07-21T12:18:06-04:00 0:00.050 0.170u 6.7.1 Cache convert[12934]: cache.c/ReadPixelCachePixels/4822/Cache
+  evil1.jpg[0][19x150+578+0]
+2011-07-21T12:18:06-04:00 0:00.050 0.170u 6.7.1 Cache convert[12934]: cache.c/WritePixelCachePixels/5558/Cache
+  evil1.jpg[0][1x150+183+0]
+2011-07-21T12:18:06-04:00 0:00.050 0.170u 6.7.1 Cache convert[12934]: cache.c/ReadPixelCachePixels/4822/Cache
+  evil1.jpg[0][19x150+581+0]
+2011-07-21T12:18:06-04:00 0:00.050 0.170u 6.7.1 Cache convert[12934]: cache.c/ReadPixelCachePixels/4822/Cache
+  evil1.jpg[0][19x150+395+0]
+2011-07-21T12:18:06-04:00 0:00.050 0.170u 6.7.1 Cache convert[12934]: cache.c/ReadPixelCachePixels/4822/Cache
+  evil1.jpg[0][19x150+27+0]
+2011-07-21T12:18:06-04:00 0:00.050 0.170u 6.7.1 Cache convert[12934]: cache.c/WritePixelCachePixels/5558/Cache
+  evil1.jpg[0][1x150+77+0]
+2011-07-21T12:18:06-04:00 0:00.050 0.170u 6.7.1 Cache convert[12934]: cache.c/ReadPixelCachePixels/4822/Cache
+  evil1.jpg[0][19x150+325+0]
+2011-07-21T12:18:06-04:00 0:00.050 0.170u 6.7.1 Cache convert[12934]: cache.c/WritePixelCachePixels/5558/Cache
+  evil1.jpg[0][1x150+153+0]
+2011-07-21T12:18:06-04:00 0:00.050 0.170u 6.7.1 Cache convert[12934]: cache.c/ReadPixelCachePixels/4822/Cache
+  evil1.jpg[0][19x150+485+0]
+2011-07-21T12:18:06-04:00 0:00.050 0.170u 6.7.1 Cache convert[12934]: cache.c/WritePixelCachePixels/5558/Cache
+  evil1.jpg[0][1x150+184+0]
+2011-07-21T12:18:06-04:00 0:00.050 0.170u 6.7.1 Cache convert[12934]: cache.c/WritePixelCachePixels/5558/Cache
+  evil1.jpg[0][1x150+11+0]
+2011-07-21T12:18:06-04:00 0:00.050 0.170u 6.7.1 Cache convert[12934]: cache.c/ReadPixelCachePixels/4822/Cache
+  evil1.jpg[0][19x150+242+0]
+2011-07-21T12:18:06-04:00 0:00.050 0.170u 6.7.1 Cache convert[12934]: cache.c/WritePixelCachePixels/5558/Cache
+  evil1.jpg[0][1x150+104+0]
+2011-07-21T12:18:06-04:00 0:00.050 0.170u 6.7.1 Cache convert[12934]: cache.c/ReadPixelCachePixels/4822/Cache
+  evil1.jpg[0][19x150+584+0]
+2011-07-21T12:18:06-04:00 0:00.050 0.170u 6.7.1 Cache convert[12934]: cache.c/WritePixelCachePixels/5558/Cache
+  evil1.jpg[0][1x150+154+0]
+2011-07-21T12:18:06-04:00 0:00.050 0.170u 6.7.1 Cache convert[12934]: cache.c/ReadPixelCachePixels/4822/Cache
+  evil1.jpg[0][19x150+488+0]
+2011-07-21T12:18:06-04:00 0:00.050 0.170u 6.7.1 Cache convert[12934]: cache.c/WritePixelCachePixels/5558/Cache
+  evil1.jpg[0][1x150+126+0]
+2011-07-21T12:18:06-04:00 0:00.050 0.170u 6.7.1 Cache convert[12934]: cache.c/ReadPixelCachePixels/4822/Cache
+  evil1.jpg[0][20x150+30+0]
+2011-07-21T12:18:06-04:00 0:00.050 0.170u 6.7.1 Cache convert[12934]: cache.c/ReadPixelCachePixels/4822/Cache
+  evil1.jpg[0][19x150+328+0]
+2011-07-21T12:18:06-04:00 0:00.050 0.170u 6.7.1 Cache convert[12934]: cache.c/WritePixelCachePixels/5558/Cache
+  evil1.jpg[0][1x150+78+0]
+2011-07-21T12:18:06-04:00 0:00.050 0.170u 6.7.1 Cache convert[12934]: cache.c/WritePixelCachePixels/5558/Cache
+  evil1.jpg[0][1x150+185+0]
+2011-07-21T12:18:06-04:00 0:00.050 0.170u 6.7.1 Cache convert[12934]: cache.c/WritePixelCachePixels/5558/Cache
+  evil1.jpg[0][1x150+155+0]
+2011-07-21T12:18:06-04:00 0:00.050 0.170u 6.7.1 Cache convert[12934]: cache.c/ReadPixelCachePixels/4822/Cache
+  evil1.jpg[0][19x150+491+0]
+2011-07-21T12:18:06-04:00 0:00.050 0.170u 6.7.1 Cache convert[12934]: cache.c/WritePixelCachePixels/5558/Cache
+  evil1.jpg[0][1x150+156+0]
+2011-07-21T12:18:06-04:00 0:00.050 0.170u 6.7.1 Cache convert[12934]: cache.c/ReadPixelCachePixels/4822/Cache
+  evil1.jpg[0][20x150+494+0]
+2011-07-21T12:18:06-04:00 0:00.050 0.170u 6.7.1 Cache convert[12934]: cache.c/WritePixelCachePixels/5558/Cache
+  evil1.jpg[0][1x150+157+0]
+2011-07-21T12:18:06-04:00 0:00.050 0.170u 6.7.1 Cache convert[12934]: cache.c/ReadPixelCachePixels/4822/Cache
+  evil1.jpg[0][19x150+498+0]
+2011-07-21T12:18:06-04:00 0:00.050 0.170u 6.7.1 Cache convert[12934]: cache.c/WritePixelCachePixels/5558/Cache
+  evil1.jpg[0][1x150+28+0]
+2011-07-21T12:18:06-04:00 0:00.050 0.170u 6.7.1 Cache convert[12934]: cache.c/ReadPixelCachePixels/4822/Cache
+  evil1.jpg[0][20x150+398+0]
+2011-07-21T12:18:06-04:00 0:00.050 0.170u 6.7.1 Cache convert[12934]: cache.c/WritePixelCachePixels/5558/Cache
+  evil1.jpg[0][1x150+12+0]
+2011-07-21T12:18:06-04:00 0:00.050 0.170u 6.7.1 Cache convert[12934]: cache.c/ReadPixelCachePixels/4822/Cache
+  evil1.jpg[0][19x150+245+0]
+2011-07-21T12:18:06-04:00 0:00.050 0.170u 6.7.1 Cache convert[12934]: cache.c/WritePixelCachePixels/5558/Cache
+  evil1.jpg[0][1x150+105+0]
+2011-07-21T12:18:06-04:00 0:00.050 0.170u 6.7.1 Cache convert[12934]: cache.c/ReadPixelCachePixels/4822/Cache
+  evil1.jpg[0][19x150+587+0]
+2011-07-21T12:18:06-04:00 0:00.050 0.170u 6.7.1 Cache convert[12934]: cache.c/WritePixelCachePixels/5558/Cache
+  evil1.jpg[0][1x150+158+0]
+2011-07-21T12:18:06-04:00 0:00.050 0.170u 6.7.1 Cache convert[12934]: cache.c/ReadPixelCachePixels/4822/Cache
+  evil1.jpg[0][19x150+501+0]
+2011-07-21T12:18:06-04:00 0:00.050 0.170u 6.7.1 Cache convert[12934]: cache.c/ReadPixelCachePixels/4822/Cache
+  evil1.jpg[0][19x150+85+0]
+2011-07-21T12:18:06-04:00 0:00.050 0.170u 6.7.1 Cache convert[12934]: cache.c/ReadPixelCachePixels/4822/Cache
+  evil1.jpg[0][19x150+331+0]
+2011-07-21T12:18:06-04:00 0:00.050 0.170u 6.7.1 Cache convert[12934]: cache.c/WritePixelCachePixels/5558/Cache
+  evil1.jpg[0][1x150+79+0]
+2011-07-21T12:18:06-04:00 0:00.050 0.170u 6.7.1 Cache convert[12934]: cache.c/WritePixelCachePixels/5558/Cache
+  evil1.jpg[0][1x150+29+0]
+2011-07-21T12:18:06-04:00 0:00.050 0.170u 6.7.1 Cache convert[12934]: cache.c/ReadPixelCachePixels/4822/Cache
+  evil1.jpg[0][19x150+34+0]
+2011-07-21T12:18:06-04:00 0:00.050 0.170u 6.7.1 Cache convert[12934]: cache.c/WritePixelCachePixels/5558/Cache
+  evil1.jpg[0][1x150+127+0]
+2011-07-21T12:18:06-04:00 0:00.050 0.170u 6.7.1 Cache convert[12934]: cache.c/WritePixelCachePixels/5558/Cache
+  evil1.jpg[0][1x150+159+0]
+2011-07-21T12:18:06-04:00 0:00.050 0.170u 6.7.1 Cache convert[12934]: cache.c/ReadPixelCachePixels/4822/Cache
+  evil1.jpg[0][19x150+248+0]
+2011-07-21T12:18:06-04:00 0:00.050 0.170u 6.7.1 Cache convert[12934]: cache.c/WritePixelCachePixels/5558/Cache
+  evil1.jpg[0][1x150+106+0]
+2011-07-21T12:18:06-04:00 0:00.050 0.170u 6.7.1 Cache convert[12934]: cache.c/ReadPixelCachePixels/4822/Cache
+  evil1.jpg[0][19x150+88+0]
+2011-07-21T12:18:06-04:00 0:00.050 0.170u 6.7.1 Cache convert[12934]: cache.c/ReadPixelCachePixels/4822/Cache
+  evil1.jpg[0][20x150+334+0]
+2011-07-21T12:18:06-04:00 0:00.050 0.170u 6.7.1 Cache convert[12934]: cache.c/WritePixelCachePixels/5558/Cache
+  evil1.jpg[0][1x150+30+0]
+2011-07-21T12:18:06-04:00 0:00.050 0.170u 6.7.1 Cache convert[12934]: cache.c/WritePixelCachePixels/5558/Cache
+  evil1.jpg[0][1x150+107+0]
+2011-07-21T12:18:06-04:00 0:00.050 0.170u 6.7.1 Cache convert[12934]: cache.c/ReadPixelCachePixels/4822/Cache
+  evil1.jpg[0][19x150+402+0]
+2011-07-21T12:18:06-04:00 0:00.050 0.170u 6.7.1 Cache convert[12934]: cache.c/ReadPixelCachePixels/4822/Cache
+  evil1.jpg[0][19x150+504+0]
+2011-07-21T12:18:06-04:00 0:00.050 0.170u 6.7.1 Cache convert[12934]: cache.c/WritePixelCachePixels/5558/Cache
+  evil1.jpg[0][1x150+80+0]
+2011-07-21T12:18:06-04:00 0:00.050 0.170u 6.7.1 Cache convert[12934]: cache.c/WritePixelCachePixels/5558/Cache
+  evil1.jpg[0][1x150+186+0]
+2011-07-21T12:18:06-04:00 0:00.050 0.170u 6.7.1 Cache convert[12934]: cache.c/WritePixelCachePixels/5558/Cache
+  evil1.jpg[0][1x150+13+0]
+2011-07-21T12:18:06-04:00 0:00.050 0.170u 6.7.1 Cache convert[12934]: cache.c/ReadPixelCachePixels/4822/Cache
+  evil1.jpg[0][20x150+590+0]
+2011-07-21T12:18:06-04:00 0:00.050 0.170u 6.7.1 Cache convert[12934]: cache.c/ReadPixelCachePixels/4822/Cache
+  evil1.jpg[0][19x150+338+0]
+2011-07-21T12:18:06-04:00 0:00.050 0.170u 6.7.1 Cache convert[12934]: cache.c/ReadPixelCachePixels/4822/Cache
+  evil1.jpg[0][19x150+251+0]
+2011-07-21T12:18:06-04:00 0:00.050 0.170u 6.7.1 Cache convert[12934]: cache.c/WritePixelCachePixels/5558/Cache
+  evil1.jpg[0][1x150+160+0]
+2011-07-21T12:18:06-04:00 0:00.050 0.170u 6.7.1 Cache convert[12934]: cache.c/ReadPixelCachePixels/4822/Cache
+  evil1.jpg[0][19x150+37+0]
+2011-07-21T12:18:06-04:00 0:00.050 0.170u 6.7.1 Cache convert[12934]: cache.c/WritePixelCachePixels/5558/Cache
+  evil1.jpg[0][1x150+187+0]
+2011-07-21T12:18:06-04:00 0:00.050 0.170u 6.7.1 Cache convert[12934]: cache.c/ReadPixelCachePixels/4822/Cache
+  evil1.jpg[0][19x150+594+0]
+2011-07-21T12:18:06-04:00 0:00.050 0.170u 6.7.1 Cache convert[12934]: cache.c/WritePixelCachePixels/5558/Cache
+  evil1.jpg[0][1x150+14+0]
+2011-07-21T12:18:06-04:00 0:00.050 0.170u 6.7.1 Cache convert[12934]: cache.c/ReadPixelCachePixels/4822/Cache
+  evil1.jpg[0][19x150+40+0]
+2011-07-21T12:18:06-04:00 0:00.050 0.170u 6.7.1 Cache convert[12934]: cache.c/WritePixelCachePixels/5558/Cache
+  evil1.jpg[0][1x150+128+0]
+2011-07-21T12:18:06-04:00 0:00.050 0.170u 6.7.1 Cache convert[12934]: cache.c/WritePixelCachePixels/5558/Cache
+  evil1.jpg[0][1x150+108+0]
+2011-07-21T12:18:06-04:00 0:00.050 0.170u 6.7.1 Cache convert[12934]: cache.c/ReadPixelCachePixels/4822/Cache
+  evil1.jpg[0][19x150+507+0]
+2011-07-21T12:18:06-04:00 0:00.050 0.170u 6.7.1 Cache convert[12934]: cache.c/WritePixelCachePixels/5558/Cache
+  evil1.jpg[0][1x150+81+0]
+2011-07-21T12:18:06-04:00 0:00.050 0.170u 6.7.1 Cache convert[12934]: cache.c/WritePixelCachePixels/5558/Cache
+  evil1.jpg[0][1x150+188+0]
+2011-07-21T12:18:06-04:00 0:00.050 0.170u 6.7.1 Cache convert[12934]: cache.c/ReadPixelCachePixels/4822/Cache
+  evil1.jpg[0][20x150+254+0]
+2011-07-21T12:18:06-04:00 0:00.050 0.170u 6.7.1 Cache convert[12934]: cache.c/WritePixelCachePixels/5558/Cache
+  evil1.jpg[0][1x150+15+0]
+2011-07-21T12:18:06-04:00 0:00.050 0.170u 6.7.1 Cache convert[12934]: cache.c/ReadPixelCachePixels/4822/Cache
+  evil1.jpg[0][19x150+43+0]
+2011-07-21T12:18:06-04:00 0:00.050 0.170u 6.7.1 Cache convert[12934]: cache.c/ReadPixelCachePixels/4822/Cache
+  evil1.jpg[0][19x150+341+0]
+2011-07-21T12:18:06-04:00 0:00.050 0.170u 6.7.1 Cache convert[12934]: cache.c/WritePixelCachePixels/5558/Cache
+  evil1.jpg[0][1x150+161+0]
+2011-07-21T12:18:06-04:00 0:00.050 0.170u 6.7.1 Cache convert[12934]: cache.c/ReadPixelCachePixels/4822/Cache
+  evil1.jpg[0][19x150+597+0]
+2011-07-21T12:18:06-04:00 0:00.050 0.170u 6.7.1 Cache convert[12934]: cache.c/WritePixelCachePixels/5558/Cache
+  evil1.jpg[0][1x150+109+0]
+2011-07-21T12:18:06-04:00 0:00.050 0.170u 6.7.1 Cache convert[12934]: cache.c/ReadPixelCachePixels/4822/Cache
+  evil1.jpg[0][19x150+344+0]
+2011-07-21T12:18:06-04:00 0:00.050 0.170u 6.7.1 Cache convert[12934]: cache.c/ReadPixelCachePixels/4822/Cache
+  evil1.jpg[0][19x150+405+0]
+2011-07-21T12:18:06-04:00 0:00.050 0.170u 6.7.1 Cache convert[12934]: cache.c/WritePixelCachePixels/5558/Cache
+  evil1.jpg[0][1x150+82+0]
+2011-07-21T12:18:06-04:00 0:00.050 0.170u 6.7.1 Cache convert[12934]: cache.c/WritePixelCachePixels/5558/Cache
+  evil1.jpg[0][1x150+16+0]
+2011-07-21T12:18:06-04:00 0:00.050 0.170u 6.7.1 Cache convert[12934]: cache.c/ReadPixelCachePixels/4822/Cache
+  evil1.jpg[0][19x150+258+0]
+2011-07-21T12:18:06-04:00 0:00.050 0.170u 6.7.1 Cache convert[12934]: cache.c/WritePixelCachePixels/5558/Cache
+  evil1.jpg[0][1x150+189+0]
+2011-07-21T12:18:06-04:00 0:00.050 0.170u 6.7.1 Cache convert[12934]: cache.c/ReadPixelCachePixels/4822/Cache
+  evil1.jpg[0][19x150+600+0]
+2011-07-21T12:18:06-04:00 0:00.050 0.170u 6.7.1 Cache convert[12934]: cache.c/WritePixelCachePixels/5558/Cache
+  evil1.jpg[0][1x150+110+0]
+2011-07-21T12:18:06-04:00 0:00.050 0.180u 6.7.1 Cache convert[12934]: cache.c/ReadPixelCachePixels/4822/Cache
+  evil1.jpg[0][20x150+510+0]
+2011-07-21T12:18:06-04:00 0:00.050 0.180u 6.7.1 Cache convert[12934]: cache.c/WritePixelCachePixels/5558/Cache
+  evil1.jpg[0][1x150+190+0]
+2011-07-21T12:18:06-04:00 0:00.050 0.180u 6.7.1 Cache convert[12934]: cache.c/WritePixelCachePixels/5558/Cache
+  evil1.jpg[0][1x150+83+0]
+2011-07-21T12:18:06-04:00 0:00.050 0.180u 6.7.1 Cache convert[12934]: cache.c/WritePixelCachePixels/5558/Cache
+  evil1.jpg[0][1x150+162+0]
+2011-07-21T12:18:06-04:00 0:00.050 0.180u 6.7.1 Cache convert[12934]: cache.c/WritePixelCachePixels/5558/Cache
+  evil1.jpg[0][1x150+129+0]
+2011-07-21T12:18:06-04:00 0:00.050 0.180u 6.7.1 Cache convert[12934]: cache.c/ReadPixelCachePixels/4822/Cache
+  evil1.jpg[0][19x150+91+0]
+2011-07-21T12:18:06-04:00 0:00.050 0.180u 6.7.1 Cache convert[12934]: cache.c/ReadPixelCachePixels/4822/Cache
+  evil1.jpg[0][20x150+46+0]
+2011-07-21T12:18:06-04:00 0:00.050 0.180u 6.7.1 Cache convert[12934]: cache.c/ReadPixelCachePixels/4822/Cache
+  evil1.jpg[0][19x150+603+0]
+2011-07-21T12:18:06-04:00 0:00.050 0.180u 6.7.1 Cache convert[12934]: cache.c/ReadPixelCachePixels/4822/Cache
+  evil1.jpg[0][19x150+261+0]
+2011-07-21T12:18:06-04:00 0:00.050 0.180u 6.7.1 Cache convert[12934]: cache.c/WritePixelCachePixels/5558/Cache
+  evil1.jpg[0][1x150+17+0]
+2011-07-21T12:18:06-04:00 0:00.050 0.180u 6.7.1 Cache convert[12934]: cache.c/WritePixelCachePixels/5558/Cache
+  evil1.jpg[0][1x150+191+0]
+2011-07-21T12:18:06-04:00 0:00.050 0.180u 6.7.1 Cache convert[12934]: cache.c/WritePixelCachePixels/5558/Cache
+  evil1.jpg[0][1x150+84+0]
+2011-07-21T12:18:06-04:00 0:00.050 0.180u 6.7.1 Cache convert[12934]: cache.c/WritePixelCachePixels/5558/Cache
+  evil1.jpg[0][1x150+31+0]
+2011-07-21T12:18:06-04:00 0:00.050 0.180u 6.7.1 Cache convert[12934]: cache.c/ReadPixelCachePixels/4822/Cache
+  evil1.jpg[0][20x150+94+0]
+2011-07-21T12:18:06-04:00 0:00.050 0.180u 6.7.1 Cache convert[12934]: cache.c/WritePixelCachePixels/5558/Cache
+  evil1.jpg[0][1x150+32+0]
+2011-07-21T12:18:06-04:00 0:00.050 0.180u 6.7.1 Cache convert[12934]: cache.c/ReadPixelCachePixels/4822/Cache
+  evil1.jpg[0][19x150+98+0]
+2011-07-21T12:18:06-04:00 0:00.050 0.180u 6.7.1 Cache convert[12934]: cache.c/WritePixelCachePixels/5558/Cache
+  evil1.jpg[0][1x150+33+0]
+2011-07-21T12:18:06-04:00 0:00.050 0.180u 6.7.1 Cache convert[12934]: cache.c/ReadPixelCachePixels/4822/Cache
+  evil1.jpg[0][19x150+101+0]
+2011-07-21T12:18:06-04:00 0:00.050 0.180u 6.7.1 Cache convert[12934]: cache.c/WritePixelCachePixels/5558/Cache
+  evil1.jpg[0][1x150+34+0]
+2011-07-21T12:18:06-04:00 0:00.050 0.180u 6.7.1 Cache convert[12934]: cache.c/ReadPixelCachePixels/4822/Cache
+  evil1.jpg[0][19x150+104+0]
+2011-07-21T12:18:06-04:00 0:00.050 0.180u 6.7.1 Cache convert[12934]: cache.c/WritePixelCachePixels/5558/Cache
+  evil1.jpg[0][1x150+35+0]
+2011-07-21T12:18:06-04:00 0:00.050 0.180u 6.7.1 Cache convert[12934]: cache.c/ReadPixelCachePixels/4822/Cache
+  evil1.jpg[0][19x150+107+0]
+2011-07-21T12:18:06-04:00 0:00.050 0.180u 6.7.1 Cache convert[12934]: cache.c/WritePixelCachePixels/5558/Cache
+  evil1.jpg[0][1x150+36+0]
+2011-07-21T12:18:06-04:00 0:00.050 0.180u 6.7.1 Cache convert[12934]: cache.c/ReadPixelCachePixels/4822/Cache
+  evil1.jpg[0][20x150+110+0]
+2011-07-21T12:18:06-04:00 0:00.050 0.180u 6.7.1 Cache convert[12934]: cache.c/WritePixelCachePixels/5558/Cache
+  evil1.jpg[0][1x150+37+0]
+2011-07-21T12:18:06-04:00 0:00.050 0.180u 6.7.1 Cache convert[12934]: cache.c/ReadPixelCachePixels/4822/Cache
+  evil1.jpg[0][19x150+347+0]
+2011-07-21T12:18:06-04:00 0:00.050 0.180u 6.7.1 Cache convert[12934]: cache.c/ReadPixelCachePixels/4822/Cache
+  evil1.jpg[0][19x150+50+0]
+2011-07-21T12:18:06-04:00 0:00.050 0.180u 6.7.1 Cache convert[12934]: cache.c/ReadPixelCachePixels/4822/Cache
+  evil1.jpg[0][20x150+606+0]
+2011-07-21T12:18:06-04:00 0:00.050 0.180u 6.7.1 Cache convert[12934]: cache.c/ReadPixelCachePixels/4822/Cache
+  evil1.jpg[0][19x150+264+0]
+2011-07-21T12:18:06-04:00 0:00.050 0.180u 6.7.1 Cache convert[12934]: cache.c/WritePixelCachePixels/5558/Cache
+  evil1.jpg[0][1x150+192+0]
+2011-07-21T12:18:06-04:00 0:00.050 0.180u 6.7.1 Cache convert[12934]: cache.c/WritePixelCachePixels/5558/Cache
+  evil1.jpg[0][1x150+85+0]
+2011-07-21T12:18:06-04:00 0:00.050 0.180u 6.7.1 Cache convert[12934]: cache.c/ReadPixelCachePixels/4822/Cache
+  evil1.jpg[0][19x150+514+0]
+2011-07-21T12:18:06-04:00 0:00.050 0.180u 6.7.1 Cache convert[12934]: cache.c/ReadPixelCachePixels/4822/Cache
+  evil1.jpg[0][19x150+114+0]
+2011-07-21T12:18:06-04:00 0:00.050 0.180u 6.7.1 Cache convert[12934]: cache.c/WritePixelCachePixels/5558/Cache
+  evil1.jpg[0][1x150+111+0]
+2011-07-21T12:18:06-04:00 0:00.050 0.180u 6.7.1 Cache convert[12934]: cache.c/WritePixelCachePixels/5558/Cache
+  evil1.jpg[0][1x150+18+0]
+2011-07-21T12:18:06-04:00 0:00.050 0.180u 6.7.1 Cache convert[12934]: cache.c/WritePixelCachePixels/5558/Cache
+  evil1.jpg[0][1x150+38+0]
+2011-07-21T12:18:06-04:00 0:00.050 0.180u 6.7.1 Cache convert[12934]: cache.c/ReadPixelCachePixels/4822/Cache
+  evil1.jpg[0][19x150+267+0]
+2011-07-21T12:18:06-04:00 0:00.050 0.180u 6.7.1 Cache convert[12934]: cache.c/WritePixelCachePixels/5558/Cache
+  evil1.jpg[0][1x150+86+0]
+2011-07-21T12:18:06-04:00 0:00.050 0.180u 6.7.1 Cache convert[12934]: cache.c/ReadPixelCachePixels/4822/Cache
+  evil1.jpg[0][20x150+270+0]
+2011-07-21T12:18:06-04:00 0:00.050 0.180u 6.7.1 Cache convert[12934]: cache.c/WritePixelCachePixels/5558/Cache
+  evil1.jpg[0][1x150+87+0]
+2011-07-21T12:18:06-04:00 0:00.050 0.180u 6.7.1 Cache convert[12934]: cache.c/ReadPixelCachePixels/4822/Cache
+  evil1.jpg[0][19x150+274+0]
+2011-07-21T12:18:06-04:00 0:00.050 0.180u 6.7.1 Cache convert[12934]: cache.c/WritePixelCachePixels/5558/Cache
+  evil1.jpg[0][1x150+88+0]
+2011-07-21T12:18:06-04:00 0:00.050 0.180u 6.7.1 Cache convert[12934]: cache.c/ReadPixelCachePixels/4822/Cache
+  evil1.jpg[0][19x150+277+0]
+2011-07-21T12:18:06-04:00 0:00.050 0.180u 6.7.1 Cache convert[12934]: cache.c/WritePixelCachePixels/5558/Cache
+  evil1.jpg[0][1x150+89+0]
+2011-07-21T12:18:06-04:00 0:00.050 0.180u 6.7.1 Cache convert[12934]: cache.c/ReadPixelCachePixels/4822/Cache
+  evil1.jpg[0][19x150+280+0]
+2011-07-21T12:18:06-04:00 0:00.050 0.180u 6.7.1 Cache convert[12934]: cache.c/WritePixelCachePixels/5558/Cache
+  evil1.jpg[0][1x150+90+0]
+2011-07-21T12:18:06-04:00 0:00.050 0.180u 6.7.1 Cache convert[12934]: cache.c/ReadPixelCachePixels/4822/Cache
+  evil1.jpg[0][19x150+283+0]
+2011-07-21T12:18:06-04:00 0:00.050 0.180u 6.7.1 Cache convert[12934]: cache.c/WritePixelCachePixels/5558/Cache
+  evil1.jpg[0][1x150+91+0]
+2011-07-21T12:18:06-04:00 0:00.050 0.180u 6.7.1 Cache convert[12934]: cache.c/ReadPixelCachePixels/4822/Cache
+  evil1.jpg[0][20x150+286+0]
+2011-07-21T12:18:06-04:00 0:00.050 0.180u 6.7.1 Cache convert[12934]: cache.c/WritePixelCachePixels/5558/Cache
+  evil1.jpg[0][1x150+92+0]
+2011-07-21T12:18:06-04:00 0:00.050 0.180u 6.7.1 Cache convert[12934]: cache.c/ReadPixelCachePixels/4822/Cache
+  evil1.jpg[0][19x150+290+0]
+2011-07-21T12:18:06-04:00 0:00.050 0.180u 6.7.1 Cache convert[12934]: cache.c/WritePixelCachePixels/5558/Cache
+  evil1.jpg[0][1x150+93+0]
+2011-07-21T12:18:06-04:00 0:00.050 0.180u 6.7.1 Cache convert[12934]: cache.c/ReadPixelCachePixels/4822/Cache
+  evil1.jpg[0][19x150+293+0]
+2011-07-21T12:18:06-04:00 0:00.050 0.180u 6.7.1 Cache convert[12934]: cache.c/WritePixelCachePixels/5558/Cache
+  evil1.jpg[0][1x150+94+0]
+2011-07-21T12:18:06-04:00 0:00.050 0.180u 6.7.1 Cache convert[12934]: cache.c/ReadPixelCachePixels/4822/Cache
+  evil1.jpg[0][19x150+296+0]
+2011-07-21T12:18:06-04:00 0:00.050 0.180u 6.7.1 Cache convert[12934]: cache.c/WritePixelCachePixels/5558/Cache
+  evil1.jpg[0][1x150+95+0]
+2011-07-21T12:18:06-04:00 0:00.050 0.180u 6.7.1 Cache convert[12934]: cache.c/ReadPixelCachePixels/4822/Cache
+  evil1.jpg[0][19x150+299+0]
+2011-07-21T12:18:06-04:00 0:00.050 0.180u 6.7.1 Cache convert[12934]: cache.c/WritePixelCachePixels/5558/Cache
+  evil1.jpg[0][1x150+96+0]
+2011-07-21T12:18:06-04:00 0:00.050 0.180u 6.7.1 Cache convert[12934]: cache.c/ReadPixelCachePixels/4822/Cache
+  evil1.jpg[0][20x150+302+0]
+2011-07-21T12:18:06-04:00 0:00.050 0.180u 6.7.1 Cache convert[12934]: cache.c/WritePixelCachePixels/5558/Cache
+  evil1.jpg[0][1x150+97+0]
+2011-07-21T12:18:06-04:00 0:00.050 0.180u 6.7.1 Cache convert[12934]: cache.c/ReadPixelCachePixels/4822/Cache
+  evil1.jpg[0][19x150+306+0]
+2011-07-21T12:18:06-04:00 0:00.050 0.180u 6.7.1 Cache convert[12934]: cache.c/WritePixelCachePixels/5558/Cache
+  evil1.jpg[0][1x150+98+0]
+2011-07-21T12:18:06-04:00 0:00.050 0.180u 6.7.1 Cache convert[12934]: cache.c/ReadPixelCachePixels/4822/Cache
+  evil1.jpg[0][19x150+309+0]
+2011-07-21T12:18:06-04:00 0:00.050 0.180u 6.7.1 Cache convert[12934]: cache.c/WritePixelCachePixels/5558/Cache
+  evil1.jpg[0][1x150+99+0]
+2011-07-21T12:18:06-04:00 0:00.050 0.180u 6.7.1 Cache convert[12934]: cache.c/ReadPixelCachePixels/4822/Cache
+  evil1.jpg[0][19x150+408+0]
+2011-07-21T12:18:06-04:00 0:00.050 0.180u 6.7.1 Cache convert[12934]: cache.c/WritePixelCachePixels/5558/Cache
+  evil1.jpg[0][1x150+163+0]
+2011-07-21T12:18:06-04:00 0:00.050 0.180u 6.7.1 Cache convert[12934]: cache.c/ReadPixelCachePixels/4822/Cache
+  evil1.jpg[0][20x150+350+0]
+2011-07-21T12:18:06-04:00 0:00.050 0.180u 6.7.1 Cache convert[12934]: cache.c/ReadPixelCachePixels/4822/Cache
+  evil1.jpg[0][19x150+610+0]
+2011-07-21T12:18:06-04:00 0:00.050 0.180u 6.7.1 Cache convert[12934]: cache.c/ReadPixelCachePixels/4822/Cache
+  evil1.jpg[0][19x150+53+0]
+2011-07-21T12:18:06-04:00 0:00.050 0.180u 6.7.1 Cache convert[12934]: cache.c/ReadPixelCachePixels/4822/Cache
+  evil1.jpg[0][19x150+117+0]
+2011-07-21T12:18:06-04:00 0:00.050 0.180u 6.7.1 Cache convert[12934]: cache.c/ReadPixelCachePixels/4822/Cache
+  evil1.jpg[0][19x150+517+0]
+2011-07-21T12:18:06-04:00 0:00.060 0.180u 6.7.1 Cache convert[12934]: cache.c/WritePixelCachePixels/5558/Cache
+  evil1.jpg[0][1x150+19+0]
+2011-07-21T12:18:06-04:00 0:00.060 0.180u 6.7.1 Cache convert[12934]: cache.c/ReadPixelCachePixels/4822/Cache
+  evil1.jpg[0][19x150+56+0]
+2011-07-21T12:18:06-04:00 0:00.060 0.180u 6.7.1 Cache convert[12934]: cache.c/WritePixelCachePixels/5558/Cache
+  evil1.jpg[0][1x150+112+0]
+2011-07-21T12:18:06-04:00 0:00.060 0.180u 6.7.1 Cache convert[12934]: cache.c/WritePixelCachePixels/5558/Cache
+  evil1.jpg[0][1x150+39+0]
+2011-07-21T12:18:06-04:00 0:00.060 0.180u 6.7.1 Cache convert[12934]: cache.c/WritePixelCachePixels/5558/Cache
+  evil1.jpg[0][1x150+164+0]
+2011-07-21T12:18:06-04:00 0:00.060 0.180u 6.7.1 Cache convert[12934]: cache.c/ReadPixelCachePixels/4822/Cache
+  evil1.jpg[0][19x150+520+0]
+2011-07-21T12:18:06-04:00 0:00.060 0.180u 6.7.1 Cache convert[12934]: cache.c/WritePixelCachePixels/5558/Cache
+  evil1.jpg[0][1x150+165+0]
+2011-07-21T12:18:06-04:00 0:00.060 0.180u 6.7.1 Cache convert[12934]: cache.c/ReadPixelCachePixels/4822/Cache
+  evil1.jpg[0][19x150+523+0]
+2011-07-21T12:18:06-04:00 0:00.060 0.180u 6.7.1 Cache convert[12934]: cache.c/WritePixelCachePixels/5558/Cache
+  evil1.jpg[0][1x150+166+0]
+2011-07-21T12:18:06-04:00 0:00.060 0.180u 6.7.1 Cache convert[12934]: cache.c/ReadPixelCachePixels/4822/Cache
+  evil1.jpg[0][20x150+526+0]
+2011-07-21T12:18:06-04:00 0:00.060 0.180u 6.7.1 Cache convert[12934]: cache.c/WritePixelCachePixels/5558/Cache
+  evil1.jpg[0][1x150+167+0]
+2011-07-21T12:18:06-04:00 0:00.060 0.180u 6.7.1 Cache convert[12934]: cache.c/ReadPixelCachePixels/4822/Cache
+  evil1.jpg[0][19x150+530+0]
+2011-07-21T12:18:06-04:00 0:00.060 0.180u 6.7.1 Cache convert[12934]: cache.c/WritePixelCachePixels/5558/Cache
+  evil1.jpg[0][1x150+168+0]
+2011-07-21T12:18:06-04:00 0:00.060 0.180u 6.7.1 Cache convert[12934]: cache.c/ReadPixelCachePixels/4822/Cache
+  evil1.jpg[0][19x150+533+0]
+2011-07-21T12:18:06-04:00 0:00.060 0.180u 6.7.1 Cache convert[12934]: cache.c/WritePixelCachePixels/5558/Cache
+  evil1.jpg[0][1x150+169+0]
+2011-07-21T12:18:06-04:00 0:00.060 0.180u 6.7.1 Cache convert[12934]: cache.c/ReadPixelCachePixels/4822/Cache
+  evil1.jpg[0][19x150+536+0]
+2011-07-21T12:18:06-04:00 0:00.060 0.190u 6.7.1 Cache convert[12934]: cache.c/WritePixelCachePixels/5558/Cache
+  evil1.jpg[0][1x150+170+0]
+2011-07-21T12:18:06-04:00 0:00.060 0.190u 6.7.1 Cache convert[12934]: cache.c/ReadPixelCachePixels/4822/Cache
+  evil1.jpg[0][19x150+539+0]
+2011-07-21T12:18:06-04:00 0:00.060 0.190u 6.7.1 Cache convert[12934]: cache.c/WritePixelCachePixels/5558/Cache
+  evil1.jpg[0][1x150+171+0]
+2011-07-21T12:18:06-04:00 0:00.060 0.190u 6.7.1 Cache convert[12934]: cache.c/ReadPixelCachePixels/4822/Cache
+  evil1.jpg[0][20x150+542+0]
+2011-07-21T12:18:06-04:00 0:00.060 0.190u 6.7.1 Cache convert[12934]: cache.c/WritePixelCachePixels/5558/Cache
+  evil1.jpg[0][1x150+172+0]
+2011-07-21T12:18:06-04:00 0:00.060 0.190u 6.7.1 Cache convert[12934]: cache.c/ReadPixelCachePixels/4822/Cache
+  evil1.jpg[0][19x150+546+0]
+2011-07-21T12:18:06-04:00 0:00.060 0.190u 6.7.1 Cache convert[12934]: cache.c/WritePixelCachePixels/5558/Cache
+  evil1.jpg[0][1x150+173+0]
+2011-07-21T12:18:06-04:00 0:00.060 0.190u 6.7.1 Cache convert[12934]: cache.c/ReadPixelCachePixels/4822/Cache
+  evil1.jpg[0][19x150+549+0]
+2011-07-21T12:18:06-04:00 0:00.060 0.190u 6.7.1 Cache convert[12934]: cache.c/WritePixelCachePixels/5558/Cache
+  evil1.jpg[0][1x150+174+0]
+2011-07-21T12:18:06-04:00 0:00.060 0.190u 6.7.1 Cache convert[12934]: cache.c/WritePixelCachePixels/5558/Cache
+  evil1.jpg[0][1x150+193+0]
+2011-07-21T12:18:06-04:00 0:00.060 0.190u 6.7.1 Cache convert[12934]: cache.c/ReadPixelCachePixels/4822/Cache
+  evil1.jpg[0][19x150+354+0]
+2011-07-21T12:18:06-04:00 0:00.060 0.190u 6.7.1 Cache convert[12934]: cache.c/WritePixelCachePixels/5558/Cache
+  evil1.jpg[0][1x150+113+0]
+2011-07-21T12:18:06-04:00 0:00.060 0.190u 6.7.1 Cache convert[12934]: cache.c/ReadPixelCachePixels/4822/Cache
+  evil1.jpg[0][19x150+357+0]
+2011-07-21T12:18:06-04:00 0:00.060 0.190u 6.7.1 Cache convert[12934]: cache.c/WritePixelCachePixels/5558/Cache
+  evil1.jpg[0][1x150+114+0]
+2011-07-21T12:18:06-04:00 0:00.060 0.190u 6.7.1 Cache convert[12934]: cache.c/ReadPixelCachePixels/4822/Cache
+  evil1.jpg[0][19x150+360+0]
+2011-07-21T12:18:06-04:00 0:00.060 0.190u 6.7.1 Cache convert[12934]: cache.c/WritePixelCachePixels/5558/Cache
+  evil1.jpg[0][1x150+115+0]
+2011-07-21T12:18:06-04:00 0:00.060 0.190u 6.7.1 Cache convert[12934]: cache.c/ReadPixelCachePixels/4822/Cache
+  evil1.jpg[0][19x150+363+0]
+2011-07-21T12:18:06-04:00 0:00.060 0.190u 6.7.1 Cache convert[12934]: cache.c/WritePixelCachePixels/5558/Cache
+  evil1.jpg[0][1x150+116+0]
+2011-07-21T12:18:06-04:00 0:00.060 0.190u 6.7.1 Cache convert[12934]: cache.c/ReadPixelCachePixels/4822/Cache
+  evil1.jpg[0][20x150+366+0]
+2011-07-21T12:18:06-04:00 0:00.060 0.190u 6.7.1 Cache convert[12934]: cache.c/WritePixelCachePixels/5558/Cache
+  evil1.jpg[0][1x150+117+0]
+2011-07-21T12:18:06-04:00 0:00.060 0.190u 6.7.1 Cache convert[12934]: cache.c/ReadPixelCachePixels/4822/Cache
+  evil1.jpg[0][19x150+370+0]
+2011-07-21T12:18:06-04:00 0:00.060 0.190u 6.7.1 Cache convert[12934]: cache.c/WritePixelCachePixels/5558/Cache
+  evil1.jpg[0][1x150+118+0]
+2011-07-21T12:18:06-04:00 0:00.060 0.190u 6.7.1 Cache convert[12934]: cache.c/ReadPixelCachePixels/4822/Cache
+  evil1.jpg[0][19x150+373+0]
+2011-07-21T12:18:06-04:00 0:00.060 0.190u 6.7.1 Cache convert[12934]: cache.c/WritePixelCachePixels/5558/Cache
+  evil1.jpg[0][1x150+119+0]
+2011-07-21T12:18:06-04:00 0:00.060 0.190u 6.7.1 Cache convert[12934]: cache.c/ReadPixelCachePixels/4822/Cache
+  evil1.jpg[0][19x150+376+0]
+2011-07-21T12:18:06-04:00 0:00.060 0.190u 6.7.1 Cache convert[12934]: cache.c/WritePixelCachePixels/5558/Cache
+  evil1.jpg[0][1x150+120+0]
+2011-07-21T12:18:06-04:00 0:00.060 0.190u 6.7.1 Cache convert[12934]: cache.c/ReadPixelCachePixels/4822/Cache
+  evil1.jpg[0][19x150+379+0]
+2011-07-21T12:18:06-04:00 0:00.060 0.190u 6.7.1 Cache convert[12934]: cache.c/WritePixelCachePixels/5558/Cache
+  evil1.jpg[0][1x150+121+0]
+2011-07-21T12:18:06-04:00 0:00.060 0.190u 6.7.1 Cache convert[12934]: cache.c/ReadPixelCachePixels/4822/Cache
+  evil1.jpg[0][20x150+382+0]
+2011-07-21T12:18:06-04:00 0:00.060 0.190u 6.7.1 Cache convert[12934]: cache.c/WritePixelCachePixels/5558/Cache
+  evil1.jpg[0][1x150+122+0]
+2011-07-21T12:18:06-04:00 0:00.060 0.190u 6.7.1 Cache convert[12934]: cache.c/ReadPixelCachePixels/4822/Cache
+  evil1.jpg[0][19x150+386+0]
+2011-07-21T12:18:06-04:00 0:00.060 0.190u 6.7.1 Cache convert[12934]: cache.c/WritePixelCachePixels/5558/Cache
+  evil1.jpg[0][1x150+123+0]
+2011-07-21T12:18:06-04:00 0:00.060 0.190u 6.7.1 Cache convert[12934]: cache.c/ReadPixelCachePixels/4822/Cache
+  evil1.jpg[0][19x150+389+0]
+2011-07-21T12:18:06-04:00 0:00.060 0.190u 6.7.1 Cache convert[12934]: cache.c/WritePixelCachePixels/5558/Cache
+  evil1.jpg[0][1x150+124+0]
+2011-07-21T12:18:06-04:00 0:00.060 0.200u 6.7.1 Cache convert[12934]: cache.c/WritePixelCachePixels/5558/Cache
+  evil1.jpg[0][1x150+20+0]
+2011-07-21T12:18:06-04:00 0:00.060 0.200u 6.7.1 Cache convert[12934]: cache.c/ReadPixelCachePixels/4822/Cache
+  evil1.jpg[0][19x150+120+0]
+2011-07-21T12:18:06-04:00 0:00.060 0.200u 6.7.1 Cache convert[12934]: cache.c/ReadPixelCachePixels/4822/Cache
+  evil1.jpg[0][19x150+59+0]
+2011-07-21T12:18:06-04:00 0:00.060 0.200u 6.7.1 Cache convert[12934]: cache.c/ReadPixelCachePixels/4822/Cache
+  evil1.jpg[0][19x150+613+0]
+2011-07-21T12:18:06-04:00 0:00.060 0.200u 6.7.1 Cache convert[12934]: cache.c/WritePixelCachePixels/5558/Cache
+  evil1.jpg[0][1x150+194+0]
+2011-07-21T12:18:06-04:00 0:00.060 0.200u 6.7.1 Cache convert[12934]: cache.c/WritePixelCachePixels/5558/Cache
+  evil1.jpg[0][1x150+40+0]
+2011-07-21T12:18:06-04:00 0:00.060 0.200u 6.7.1 Cache convert[12934]: cache.c/ReadPixelCachePixels/4822/Cache
+  evil1.jpg[0][19x150+123+0]
+2011-07-21T12:18:06-04:00 0:00.060 0.200u 6.7.1 Cache convert[12934]: cache.c/WritePixelCachePixels/5558/Cache
+  evil1.jpg[0][1x150+41+0]
+2011-07-21T12:18:06-04:00 0:00.060 0.200u 6.7.1 Cache convert[12934]: cache.c/ReadPixelCachePixels/4822/Cache
+  evil1.jpg[0][20x150+126+0]
+2011-07-21T12:18:06-04:00 0:00.060 0.200u 6.7.1 Cache convert[12934]: cache.c/WritePixelCachePixels/5558/Cache
+  evil1.jpg[0][1x150+42+0]
+2011-07-21T12:18:06-04:00 0:00.060 0.200u 6.7.1 Cache convert[12934]: cache.c/ReadPixelCachePixels/4822/Cache
+  evil1.jpg[0][19x150+130+0]
+2011-07-21T12:18:06-04:00 0:00.060 0.200u 6.7.1 Cache convert[12934]: cache.c/WritePixelCachePixels/5558/Cache
+  evil1.jpg[0][1x150+43+0]
+2011-07-21T12:18:06-04:00 0:00.060 0.200u 6.7.1 Cache convert[12934]: cache.c/ReadPixelCachePixels/4822/Cache
+  evil1.jpg[0][19x150+133+0]
+2011-07-21T12:18:06-04:00 0:00.060 0.200u 6.7.1 Cache convert[12934]: cache.c/WritePixelCachePixels/5558/Cache
+  evil1.jpg[0][1x150+44+0]
+2011-07-21T12:18:06-04:00 0:00.060 0.200u 6.7.1 Cache convert[12934]: cache.c/ReadPixelCachePixels/4822/Cache
+  evil1.jpg[0][19x150+136+0]
+2011-07-21T12:18:06-04:00 0:00.060 0.200u 6.7.1 Cache convert[12934]: cache.c/WritePixelCachePixels/5558/Cache
+  evil1.jpg[0][1x150+45+0]
+2011-07-21T12:18:06-04:00 0:00.060 0.200u 6.7.1 Cache convert[12934]: cache.c/ReadPixelCachePixels/4822/Cache
+  evil1.jpg[0][19x150+139+0]
+2011-07-21T12:18:06-04:00 0:00.060 0.200u 6.7.1 Cache convert[12934]: cache.c/WritePixelCachePixels/5558/Cache
+  evil1.jpg[0][1x150+46+0]
+2011-07-21T12:18:06-04:00 0:00.060 0.200u 6.7.1 Cache convert[12934]: cache.c/ReadPixelCachePixels/4822/Cache
+  evil1.jpg[0][20x150+142+0]
+2011-07-21T12:18:06-04:00 0:00.060 0.210u 6.7.1 Cache convert[12934]: cache.c/ReadPixelCachePixels/4822/Cache
+  evil1.jpg[0][19x150+616+0]
+2011-07-21T12:18:06-04:00 0:00.060 0.210u 6.7.1 Cache convert[12934]: cache.c/WritePixelCachePixels/5558/Cache
+  evil1.jpg[0][1x150+47+0]
+2011-07-21T12:18:06-04:00 0:00.060 0.210u 6.7.1 Cache convert[12934]: cache.c/ReadPixelCachePixels/4822/Cache
+  evil1.jpg[0][19x150+146+0]
+2011-07-21T12:18:06-04:00 0:00.060 0.210u 6.7.1 Cache convert[12934]: cache.c/WritePixelCachePixels/5558/Cache
+  evil1.jpg[0][1x150+130+0]
+2011-07-21T12:18:06-04:00 0:00.060 0.210u 6.7.1 Cache convert[12934]: cache.c/WritePixelCachePixels/5558/Cache
+  evil1.jpg[0][1x150+195+0]
+2011-07-21T12:18:06-04:00 0:00.060 0.210u 6.7.1 Cache convert[12934]: cache.c/WritePixelCachePixels/5558/Cache
+  evil1.jpg[0][1x150+21+0]
+2011-07-21T12:18:06-04:00 0:00.060 0.210u 6.7.1 Cache convert[12934]: cache.c/WritePixelCachePixels/5558/Cache
+  evil1.jpg[0][1x150+48+0]
+2011-07-21T12:18:06-04:00 0:00.060 0.210u 6.7.1 Cache convert[12934]: cache.c/ReadPixelCachePixels/4822/Cache
+  evil1.jpg[0][19x150+149+0]
+2011-07-21T12:18:06-04:00 0:00.060 0.210u 6.7.1 Cache convert[12934]: cache.c/ReadPixelCachePixels/4822/Cache
+  evil1.jpg[0][20x150+62+0]
+2011-07-21T12:18:06-04:00 0:00.060 0.210u 6.7.1 Cache convert[12934]: cache.c/ReadPixelCachePixels/4822/Cache
+  evil1.jpg[0][19x150+619+0]
+2011-07-21T12:18:06-04:00 0:00.060 0.210u 6.7.1 Cache convert[12934]: cache.c/WritePixelCachePixels/5558/Cache
+  evil1.jpg[0][1x150+49+0]
+2011-07-21T12:18:06-04:00 0:00.060 0.210u 6.7.1 Cache convert[12934]: cache.c/WritePixelCachePixels/5558/Cache
+  evil1.jpg[0][1x150+196+0]
+2011-07-21T12:18:06-04:00 0:00.060 0.210u 6.7.1 Cache convert[12934]: cache.c/ReadPixelCachePixels/4822/Cache
+  evil1.jpg[0][18x150+622+0]
+2011-07-21T12:18:06-04:00 0:00.060 0.210u 6.7.1 Cache convert[12934]: cache.c/WritePixelCachePixels/5558/Cache
+  evil1.jpg[0][1x150+22+0]
+2011-07-21T12:18:06-04:00 0:00.060 0.210u 6.7.1 Cache convert[12934]: cache.c/WritePixelCachePixels/5558/Cache
+  evil1.jpg[0][1x150+197+0]
+2011-07-21T12:18:06-04:00 0:00.060 0.210u 6.7.1 Cache convert[12934]: cache.c/ReadPixelCachePixels/4822/Cache
+  evil1.jpg[0][14x150+626+0]
+2011-07-21T12:18:06-04:00 0:00.060 0.210u 6.7.1 Cache convert[12934]: cache.c/ReadPixelCachePixels/4822/Cache
+  evil1.jpg[0][19x150+411+0]
+2011-07-21T12:18:06-04:00 0:00.060 0.210u 6.7.1 Cache convert[12934]: cache.c/WritePixelCachePixels/5558/Cache
+  evil1.jpg[0][1x150+131+0]
+2011-07-21T12:18:06-04:00 0:00.060 0.210u 6.7.1 Cache convert[12934]: cache.c/ReadPixelCachePixels/4822/Cache
+  evil1.jpg[0][20x150+414+0]
+2011-07-21T12:18:06-04:00 0:00.060 0.210u 6.7.1 Cache convert[12934]: cache.c/WritePixelCachePixels/5558/Cache
+  evil1.jpg[0][1x150+132+0]
+2011-07-21T12:18:06-04:00 0:00.060 0.220u 6.7.1 Cache convert[12934]: cache.c/WritePixelCachePixels/5558/Cache
+  evil1.jpg[0][1x150+198+0]
+2011-07-21T12:18:06-04:00 0:00.060 0.220u 6.7.1 Cache convert[12934]: cache.c/ReadPixelCachePixels/4822/Cache
+  evil1.jpg[0][11x150+629+0]
+2011-07-21T12:18:06-04:00 0:00.060 0.220u 6.7.1 Cache convert[12934]: cache.c/ReadPixelCachePixels/4822/Cache
+  evil1.jpg[0][19x150+418+0]
+2011-07-21T12:18:06-04:00 0:00.060 0.220u 6.7.1 Cache convert[12934]: cache.c/WritePixelCachePixels/5558/Cache
+  evil1.jpg[0][1x150+133+0]
+2011-07-21T12:18:06-04:00 0:00.060 0.220u 6.7.1 Cache convert[12934]: cache.c/ReadPixelCachePixels/4822/Cache
+  evil1.jpg[0][19x150+421+0]
+2011-07-21T12:18:06-04:00 0:00.060 0.220u 6.7.1 Cache convert[12934]: cache.c/WritePixelCachePixels/5558/Cache
+  evil1.jpg[0][1x150+134+0]
+2011-07-21T12:18:06-04:00 0:00.060 0.220u 6.7.1 Cache convert[12934]: cache.c/ReadPixelCachePixels/4822/Cache
+  evil1.jpg[0][19x150+424+0]
+2011-07-21T12:18:06-04:00 0:00.060 0.220u 6.7.1 Cache convert[12934]: cache.c/WritePixelCachePixels/5558/Cache
+  evil1.jpg[0][1x150+135+0]
+2011-07-21T12:18:06-04:00 0:00.060 0.220u 6.7.1 Cache convert[12934]: cache.c/ReadPixelCachePixels/4822/Cache
+  evil1.jpg[0][19x150+427+0]
+2011-07-21T12:18:06-04:00 0:00.060 0.220u 6.7.1 Cache convert[12934]: cache.c/WritePixelCachePixels/5558/Cache
+  evil1.jpg[0][1x150+136+0]
+2011-07-21T12:18:06-04:00 0:00.060 0.220u 6.7.1 Cache convert[12934]: cache.c/ReadPixelCachePixels/4822/Cache
+  evil1.jpg[0][20x150+430+0]
+2011-07-21T12:18:06-04:00 0:00.060 0.220u 6.7.1 Cache convert[12934]: cache.c/WritePixelCachePixels/5558/Cache
+  evil1.jpg[0][1x150+137+0]
+2011-07-21T12:18:06-04:00 0:00.060 0.220u 6.7.1 Cache convert[12934]: cache.c/ReadPixelCachePixels/4822/Cache
+  evil1.jpg[0][19x150+434+0]
+2011-07-21T12:18:06-04:00 0:00.060 0.220u 6.7.1 Cache convert[12934]: cache.c/WritePixelCachePixels/5558/Cache
+  evil1.jpg[0][1x150+138+0]
+2011-07-21T12:18:06-04:00 0:00.060 0.220u 6.7.1 Cache convert[12934]: cache.c/ReadPixelCachePixels/4822/Cache
+  evil1.jpg[0][19x150+437+0]
+2011-07-21T12:18:06-04:00 0:00.060 0.220u 6.7.1 Cache convert[12934]: cache.c/WritePixelCachePixels/5558/Cache
+  evil1.jpg[0][1x150+139+0]
+2011-07-21T12:18:06-04:00 0:00.060 0.220u 6.7.1 Cache convert[12934]: cache.c/ReadPixelCachePixels/4822/Cache
+  evil1.jpg[0][19x150+440+0]
+2011-07-21T12:18:06-04:00 0:00.060 0.220u 6.7.1 Cache convert[12934]: cache.c/WritePixelCachePixels/5558/Cache
+  evil1.jpg[0][1x150+140+0]
+2011-07-21T12:18:06-04:00 0:00.060 0.220u 6.7.1 Cache convert[12934]: cache.c/ReadPixelCachePixels/4822/Cache
+  evil1.jpg[0][19x150+443+0]
+2011-07-21T12:18:06-04:00 0:00.060 0.220u 6.7.1 Cache convert[12934]: cache.c/WritePixelCachePixels/5558/Cache
+  evil1.jpg[0][1x150+141+0]
+2011-07-21T12:18:06-04:00 0:00.060 0.220u 6.7.1 Cache convert[12934]: cache.c/ReadPixelCachePixels/4822/Cache
+  evil1.jpg[0][20x150+446+0]
+2011-07-21T12:18:06-04:00 0:00.060 0.220u 6.7.1 Cache convert[12934]: cache.c/WritePixelCachePixels/5558/Cache
+  evil1.jpg[0][1x150+142+0]
+2011-07-21T12:18:06-04:00 0:00.060 0.220u 6.7.1 Cache convert[12934]: cache.c/ReadPixelCachePixels/4822/Cache
+  evil1.jpg[0][19x150+450+0]
+2011-07-21T12:18:06-04:00 0:00.060 0.220u 6.7.1 Cache convert[12934]: cache.c/WritePixelCachePixels/5558/Cache
+  evil1.jpg[0][1x150+143+0]
+2011-07-21T12:18:06-04:00 0:00.060 0.220u 6.7.1 Cache convert[12934]: cache.c/ReadPixelCachePixels/4822/Cache
+  evil1.jpg[0][19x150+453+0]
+2011-07-21T12:18:06-04:00 0:00.060 0.220u 6.7.1 Cache convert[12934]: cache.c/WritePixelCachePixels/5558/Cache
+  evil1.jpg[0][1x150+144+0]
+2011-07-21T12:18:06-04:00 0:00.060 0.220u 6.7.1 Cache convert[12934]: cache.c/ReadPixelCachePixels/4822/Cache
+  evil1.jpg[0][19x150+456+0]
+2011-07-21T12:18:06-04:00 0:00.060 0.230u 6.7.1 Cache convert[12934]: cache.c/WritePixelCachePixels/5558/Cache
+  evil1.jpg[0][1x150+199+0]
+2011-07-21T12:18:06-04:00 0:00.060 0.230u 6.7.1 Cache convert[12934]: cache.c/WritePixelCachePixels/5558/Cache
+  evil1.jpg[0][1x150+145+0]
+2011-07-21T12:18:06-04:00 0:00.060 0.230u 6.7.1 Cache convert[12934]: cache.c/ReadPixelCachePixels/4822/Cache
+  evil1.jpg[0][19x150+459+0]
+2011-07-21T12:18:06-04:00 0:00.060 0.230u 6.7.1 Cache convert[12934]: cache.c/WritePixelCachePixels/5558/Cache
+  evil1.jpg[0][1x150+146+0]
+2011-07-21T12:18:06-04:00 0:00.060 0.230u 6.7.1 Cache convert[12934]: cache.c/ReadPixelCachePixels/4822/Cache
+  evil1.jpg[0][20x150+462+0]
+2011-07-21T12:18:06-04:00 0:00.060 0.230u 6.7.1 Cache convert[12934]: cache.c/WritePixelCachePixels/5558/Cache
+  evil1.jpg[0][1x150+147+0]
+2011-07-21T12:18:06-04:00 0:00.060 0.230u 6.7.1 Cache convert[12934]: cache.c/ReadPixelCachePixels/4822/Cache
+  evil1.jpg[0][19x150+466+0]
+2011-07-21T12:18:06-04:00 0:00.060 0.230u 6.7.1 Cache convert[12934]: cache.c/WritePixelCachePixels/5558/Cache
+  evil1.jpg[0][1x150+148+0]
+2011-07-21T12:18:06-04:00 0:00.060 0.230u 6.7.1 Cache convert[12934]: cache.c/ReadPixelCachePixels/4822/Cache
+  evil1.jpg[0][19x150+469+0]
+2011-07-21T12:18:06-04:00 0:00.060 0.230u 6.7.1 Cache convert[12934]: cache.c/WritePixelCachePixels/5558/Cache
+  evil1.jpg[0][1x150+149+0]
+2011-07-21T12:18:06-04:00 0:00.060 0.240u 6.7.1 Cache convert[12934]: cache.c/ReadPixelCachePixels/4822/Cache
+  evil1.jpg[0][19x150+66+0]
+2011-07-21T12:18:06-04:00 0:00.060 0.240u 6.7.1 Cache convert[12934]: cache.c/WritePixelCachePixels/5558/Cache
+  evil1.jpg[0][1x150+23+0]
+2011-07-21T12:18:06-04:00 0:00.060 0.240u 6.7.1 Cache convert[12934]: cache.c/ReadPixelCachePixels/4822/Cache
+  evil1.jpg[0][19x150+69+0]
+2011-07-21T12:18:06-04:00 0:00.060 0.240u 6.7.1 Cache convert[12934]: cache.c/WritePixelCachePixels/5558/Cache
+  evil1.jpg[0][1x150+24+0]
+2011-07-21T12:18:06-04:00 0:00.070 0.240u 6.7.1 Cache convert[12934]: cache.c/DestroyPixelCache/1504/Cache
+  destroy evil1.jpg[0]
+2011-07-21T12:18:06-04:00 0:00.070 0.240u 6.7.1 Resource convert[12934]: resource.c/RelinquishMagickResource/812/Resource
+  Memory: 768KB/2.573MiB/15.671GiB
+2011-07-21T12:18:06-04:00 0:00.070 0.240u 6.7.1 Cache convert[12934]: cache.c/DestroyPixelCache/1504/Cache
+  destroy evil1.jpg[0]
+2011-07-21T12:18:06-04:00 0:00.070 0.240u 6.7.1 Resource convert[12934]: resource.c/RelinquishMagickResource/812/Resource
+  Memory: 2.458MB/234KiB/15.671GiB
+2011-07-21T12:18:06-04:00 0:00.070 0.260u 6.7.1 Policy convert[12934]: policy.c/IsRightsAuthorized/485/Policy
+  Domain: Coder; rights=Write; pattern="JPG" ...
+2011-07-21T12:18:06-04:00 0:00.070 0.260u 6.7.1 Policy convert[12934]: policy.c/IsRightsAuthorized/485/Policy
+  Domain: Path; rights=Write; pattern="evil2.jpg" ...
+2011-07-21T12:18:06-04:00 0:00.070 0.260u 6.7.1 Coder convert[12934]: jpeg.c/WriteJPEGImage/1831/Coder
+  Image resolution: 180,180
+2011-07-21T12:18:06-04:00 0:00.070 0.260u 6.7.1 Resource convert[12934]: resource.c/AcquireMagickResource/262/Resource
+  Memory: 90KB/322KiB/15.671GiB
+2011-07-21T12:18:06-04:00 0:00.070 0.260u 6.7.1 Resource convert[12934]: resource.c/RelinquishMagickResource/812/Resource
+  Memory: 90KB/234KiB/15.671GiB
+2011-07-21T12:18:06-04:00 0:00.070 0.260u 6.7.1 Coder convert[12934]: jpeg.c/WriteJPEGImage/1913/Coder
+  Interlace: non-progressive
+2011-07-21T12:18:06-04:00 0:00.070 0.260u 6.7.1 Coder convert[12934]: jpeg.c/WriteJPEGImage/1971/Coder
+  Quality: 85
+2011-07-21T12:18:06-04:00 0:00.070 0.260u 6.7.1 Coder convert[12934]: jpeg.c/WriteJPEGImage/2011/Coder
+    Input sampling-factors=2x2,1x1,1x1
+2011-07-21T12:18:06-04:00 0:00.070 0.260u 6.7.1 Coder convert[12934]: jpeg.c/WriteJPEGImage/2075/Coder
+  Storage class: DirectClass
+2011-07-21T12:18:06-04:00 0:00.070 0.260u 6.7.1 Coder convert[12934]: jpeg.c/WriteJPEGImage/2077/Coder
+  Depth: 8
+2011-07-21T12:18:06-04:00 0:00.070 0.260u 6.7.1 Coder convert[12934]: jpeg.c/WriteJPEGImage/2083/Coder
+  Number of colors: unspecified
+2011-07-21T12:18:06-04:00 0:00.070 0.260u 6.7.1 Coder convert[12934]: jpeg.c/WriteJPEGImage/2085/Coder
+  JPEG data precision: 8
+2011-07-21T12:18:06-04:00 0:00.070 0.260u 6.7.1 Coder convert[12934]: jpeg.c/WriteJPEGImage/2139/Coder
+  Image colorspace is RGB
+2011-07-21T12:18:06-04:00 0:00.070 0.260u 6.7.1 Coder convert[12934]: jpeg.c/WriteJPEGImage/2141/Coder
+  Sampling factors: 2x2,1x1,1x1
+2011-07-21T12:18:06-04:00 0:00.070 0.260u 6.7.1 Coder convert[12934]: jpeg.c/WriteProfile/1641/Coder
+  exif profile: 7361 bytes
+2011-07-21T12:18:06-04:00 0:00.080 0.310u 6.7.1 Cache convert[12934]: cache.c/DestroyPixelCache/1504/Cache
+  destroy evil1.jpg[0]
+2011-07-21T12:18:06-04:00 0:00.080 0.310u 6.7.1 Resource convert[12934]: resource.c/RelinquishMagickResource/812/Resource
+  Memory: 240KB/0B/15.671GiB

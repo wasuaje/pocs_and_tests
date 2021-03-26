@@ -1,0 +1,2271 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!-- Consume Server: sfs-consume-7 -->
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    
+    
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    
+    
+    <meta name="description" content="Get MySQL for Python at SourceForge.net. Fast, secure and free downloads from the largest Open Source applications and software directory" />
+    
+    
+    <meta name="keywords" content="Database,  Open Source, Open Source Software, Development, Community, Source Code, Secure,  Downloads, Free Software" />
+    
+    
+    <title>Browse MySQL for Python Files on SourceForge.net</title>
+    <link rel="shortcut icon" href="http://a.fsdn.com/con/img/favicon.ico" />
+    
+    
+    <link rel="stylesheet" href="http://a.fsdn.com/con/css/sf.min.css?1276109227" type="text/css" />
+    
+    
+
+    
+
+    
+    
+
+    
+    <script src="http://a.fsdn.com/con/js/build/sf.min.js?1276109227" type="text/javascript"></script>
+    
+    <script src="http://a.fsdn.com/con/js/project.js?1276109227" type="text/javascript"></script>
+<script src="http://a.fsdn.com/con/js/showfiles.js?1276109227" type="text/javascript"></script>
+    
+    
+    
+    
+    
+        
+<!-- DoubleClick Random Number -->
+<script type="text/javascript">
+    var dfp_ord = Math.random() * 10000000000000000;
+    var dfp_tile = 1;
+    var dfp_ptile = 1;
+    var adspot = '';
+
+    
+    var ad_page = '/project/showfiles.php';
+    
+
+    var adid = '';
+    var sponsored = '';
+    var ad_topics = '';
+
+    
+        var page_id = '';
+    
+    
+        var ad_zone = net.sf.ab_test || 'enterprise';
+        if (page_id) {
+            ad_prefix = 'cons_' + page_id + '_' + ad_zone + '_';
+        } else {
+            ad_prefix = 'cons_' + ad_zone + '_';
+        }
+    
+
+    var ad_logged_in = 0;
+    var ad_search = 0;
+    var immersion_adcode = "";
+</script>
+<!-- End DoubleClick Random Number -->
+
+<script type="text/javascript">
+    var google_page_url = 'http://sourceforge.net/projects/mysql-python';
+    var sourceforge_project_name = 'MySQL for Python';
+    var sourceforge_project_description = 'MySQL support for Python MySQL versions 3 23 5 1 and Python versions 2 3 2 6 are supported MySQLdb is the Python DB API 2 0 interface _mysql is a low level API similiar to the MySQL C API ZMySQLDA is a Database Adapter for Zope2 ';
+    ad_topics = 'tpc=mysql-python;';
+    
+    var google_hints = 'python,zope,c,database';
+    ad_topics += 'tpc=python;tpc=zope;tpc=c;tpc=database;aud=developers;';
+    
+</script>
+
+    
+    
+        
+            
+<script type="text/javascript">
+    ad_wrapper = '';
+    adspot = ad_prefix + 'p97_wrapper';
+    wrappercode = '';
+
+    
+    if ($.cookie('ad_wrapper')) {
+      ad_wrapper = $.cookie('ad_wrapper');
+      
+      wrappercode = ";wrapper=" + ad_wrapper;
+    }
+    
+    
+    document.write(unescape('%3Cscript src="http://ad.doubleclick.net/adj/ostg.sourceforge/'+adspot+';pg='+ad_page+';psrch=' + ad_search + wrappercode + ';logged_in=0;ptile='+dfp_ptile+';'+ad_topics + 'ord='+dfp_ord+'?" type="text/javascript"%3E%3C/script%3E'));
+    
+    dfp_ptile = dfp_ptile + 1;
+
+    
+    jQuery(function($) {
+        if (ad_wrapper != "") {
+            // an easy way to zero out a date's timestamp (i.e., midnight)
+            Date.prototype.zeroTimestamp = function() {
+                this.setHours(0);
+                this.setMinutes(0);
+                this.setSeconds(0);
+                this.setMilliseconds(0);
+                return this;
+            };
+
+           var d = new Date();
+
+           // get the current date in EST
+           var localTime = d.getTime();
+           var localOffset = d.getTimezoneOffset() * 60000;
+           var utc = localTime + localOffset;
+           var est = utc - (3600000 * 5);
+           var nd = new Date(est);
+
+           // setup the cookie to expire tomorrow at midnight
+           nd.zeroTimestamp();
+           nd = new Date(nd.getTime() + 86400000);
+
+           $.cookie('ad_wrapper', ad_wrapper, { path: '/', expires: nd });
+        }
+    });
+</script>
+        
+    
+    
+    
+    <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-32013-6'], ['_trackPageview']);
+
+    (function() {
+        var ga = document.createElement('script');
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        ga.setAttribute('async', 'true');
+        document.documentElement.firstChild.appendChild(ga);
+    })();
+    </script>
+  </head>
+
+  <body id="files"  class="short-head" >
+    <!--[if IE 7]><div id="ie7only"><![endif]-->
+    <!--[if IE 6]><div id="ie6only"><![endif]-->
+    <!--[if IE]><div id="ieonly"><![endif]-->
+
+    <div id="messages">
+        
+        
+        <div class="message error">
+            <a class="closer icon-sm close" title="Clear this message" href="#close">[X]</a>
+            The &#34;MySQL-python-1.1.10.tar.gz&#34; file could not be found or is not available.  Please select another file.
+        </div>
+        
+        
+
+        
+    </div>
+
+    <div id="doc3">
+      <div id="hd">
+    <div class="yui-b">
+          
+          
+<p id="metaNav">
+    
+    <strong>Welcome, Guest!</strong>
+    <a href="https://sourceforge.net/account/login.php">Log In</a> | <a href="/account/registration/">Create Account</a>
+    
+</p>
+      <a href="/" class="logo">Find and develop open source software</a>
+      <div class="yui-gc">
+            <div class="yui-u first">
+              <ul id="nav">
+        <li class="first"><a href="/softwaremap/" title="Find free open source software">Find Software</a></li>
+        <li><a href="/develop/" title="Learn more about the actively developed projects on SourceForge">Develop</a></li>
+        <li><a href="/register/" title="Start your very own project!">Create Project</a></li>
+                <li><a href="/blog/">Blog</a></li>
+                <li><a href="http://p.sf.net/sourceforge/getsupport">Site Support</a></li>
+                
+                <li class="last"><a href="/about">About</a></li>
+              </ul>
+            </div>
+            <div class="yui-u">
+          <div class="search">
+        <form action="/search/" method="get" name="searchform" id="searchform">
+          <input type="hidden" name="type_of_search" value="soft" />
+          <input type="text" class="text clear hint" name="words" id="words" value="enter keyword" />
+          <span class="yui-button yui-push-button default">
+            <span class="first-child">
+              <button type="submit" value="Search">Search</button>
+            </span>
+          </span>
+        </form>
+          </div>
+        </div>
+      </div>
+          
+    </div>
+      </div>
+
+
+    <div id="bd" class="inner-bd">
+        <div id="doc4" class="yui-t6">
+            <div id="breadcrumbs">
+        <a href="/">SourceForge.net</a>
+        &gt; <a href="/softwaremap/">Find Software</a>
+        &gt; <a href="/projects/mysql-python/">MySQL for Python</a>
+        &gt; <strong>Browse Files</strong>
+    </div>
+    <div id="project_nav_container">
+    
+<div id="project-header">
+    <div id="project-actions">
+        
+        <!-- AddThis Button BEGIN -->
+        
+        
+        
+        <div id="addthis">
+            <div class="addthis_toolbox addthis_default_style">
+                <h4>Share</h4>
+                <a class="addthis_button_facebook"></a>
+                <a class="addthis_button_twitter"></a>
+                <a class="addthis_button_google"></a>
+                <a class="addthis_button_expanded">More</a>
+            </div>
+            <script type="text/javascript" src="http://s7.addthis.com/js/250/addthis_widget.js?pub=sfnet"></script>
+        </div>
+        <!-- AddThis Button END -->
+
+        
+        
+        <a href="/project/project_donations.php?group_id=22307" class="donate icon"><span>Donate</span></a>
+        
+    </div><!-- #project-actions -->
+
+    
+    <div id="pd-icon" class="editable">
+        <img alt="MySQL for Python Icon" src="http://a.fsdn.com/con/img/project_default.png" height="48" width="48"/>
+    </div>
+
+    
+    <div id="project-header-inner" class="editable">
+        <h2 class="ph-title">MySQL for Python</h2>
+
+        
+        
+        
+        
+        
+        
+        
+
+        
+        
+        <p id="maintainers" class="ph-developer">
+        by
+        
+        <a href="/users/adustman">adustman</a>
+        
+        </p>
+        
+    </div><!-- #project-header-inner -->
+</div><!-- #project-header -->
+
+
+
+
+
+
+
+
+
+<div id="nav-project">
+    <ul class="b-hornav">
+        
+        <li >
+            <a href="/projects/mysql-python/">
+                Summary
+            </a>
+        </li>
+        
+        <li class=" selected">
+            <a href="/projects/mysql-python/files/">
+                <span><span>Files</span></span>
+            </a>
+        </li>
+        
+        <li >
+            <a href="/projects/mysql-python/support">
+                Support
+            </a>
+        </li>
+        
+        <li class="last ">
+            <a href="/projects/mysql-python/develop">
+                Develop
+            </a>
+        </li>
+        
+    </ul>
+</div>
+
+
+    </div>
+    <hr class="clear"/>
+    <div id="yui-main">
+        <div class="yui-b">
+            <div class="sfBox b-proj clearfix b-hot">
+                
+
+
+<div id="project-description">
+    
+    <p id="pd-txt" class="editable">
+        MySQL support for Python. MySQL versions 3.23-5.1; and Python versions 2.3-2.6 are supported. MySQLdb is the Python DB API-2.0 interface. _mysql is a low-level API similiar to the MySQL C API. ZMySQLDA is a Database Adapter for Zope2.
+    </p>
+    <div class="pd-dload editable">
+        
+            <a class="button button-dload dload { url: &#39;http://downloads.sourceforge.net/project/mysql-python/mysql-python-test/1.2.3c1/MySQL-python-1.2.3c1.tar.gz&#39; }" href="/projects/mysql-python/files/mysql-python-test/1.2.3c1/MySQL-python-1.2.3c1.tar.gz/download" title="/mysql-python-test/1.2.3c1/MySQL-python-1.2.3c1.tar.gz:  released on 2009-03-30 23:29:12 GMT">
+    <span><strong>Download Now!</strong> MySQL-python-1.2.3c1.tar.... (89.8 KB)</span>
+</a>
+            <small>OR</small>
+        
+        <a href="/projects/mysql-python/files/" class="button"><span>View all files</span></a>
+    </div><!--pd-dload-->
+
+    
+</div><!--b-proj__descr-->
+
+
+            </div>
+
+            <div class="sfBox rBox">
+                <div class="header">
+                    <h2>Browse Files for MySQL for Python</h2>
+                </div>
+                <table class="filesTable treeTable" summary="Files that MySQL for Python has released">
+                    <thead>
+                        <tr>
+                            <th><a href="?sort=filename&amp;sortdir=asc">File/Folder Name&nbsp;</a></th>
+                            <th>Platform</th>
+                            <th>Size</th>
+                            <th><a href="?sort=date&amp;sortdir=asc">Date&nbsp;&darr;</a></th>
+                            <th>Downloads</th>
+                            <th>Notes/Subscribe</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        
+
+                        
+                        <tr class="header">
+                            <td colspan="6">Newest Files</td>
+                        </tr>
+                        
+                        <tr class="latest">
+                            <td class="tree">
+                              <a class="
+
+
+    
+    
+        filelink
+    
+ dload filename { url: 'http://downloads.sourceforge.net/project/mysql-python/mysql-python-test/1.2.3c1/MySQL_python-1.2.3c1-py2.6-linux-i686.egg' }"
+                                href="/projects/mysql-python/files/mysql-python-test/1.2.3c1/MySQL_python-1.2.3c1-py2.6-linux-i686.egg/download"
+                                title="/mysql-python-test/1.2.3c1/MySQL_python-1.2.3c1-py2.6-linux-i686.egg:  released on 2009-03-30"
+                                >MySQL_python-1.2.3c1-py2.6-linux-i686.egg</a>
+                              
+                            </td>
+                            <td class="platform">
+                                    
+                                
+                            </td>
+                            <td>102.5 KB</td>
+                            <td>2009-03-30</td>
+                            <td>8,970</td>
+                            <td>
+                                
+                                    <a href="http://sourceforge.net/project/shownotes.php?release_id=672239" class="icon-sm notes-sm" title="Release Notes">Release Notes</a>
+                                
+                            </td>
+                        </tr>
+                        
+                        <tr class="latest">
+                            <td class="tree">
+                              <a class="
+
+
+    
+    
+        filelink
+    
+ dload filename { url: 'http://downloads.sourceforge.net/project/mysql-python/mysql-python-test/1.2.3c1/MySQL_python-1.2.3c1-py2.5-linux-i686.egg' }"
+                                href="/projects/mysql-python/files/mysql-python-test/1.2.3c1/MySQL_python-1.2.3c1-py2.5-linux-i686.egg/download"
+                                title="/mysql-python-test/1.2.3c1/MySQL_python-1.2.3c1-py2.5-linux-i686.egg:  released on 2009-03-30"
+                                >MySQL_python-1.2.3c1-py2.5-linux-i686.egg</a>
+                              
+                            </td>
+                            <td class="platform">
+                                    
+                                
+                            </td>
+                            <td>101.8 KB</td>
+                            <td>2009-03-30</td>
+                            <td>3,794</td>
+                            <td>
+                                
+                                    <a href="http://sourceforge.net/project/shownotes.php?release_id=672239" class="icon-sm notes-sm" title="Release Notes">Release Notes</a>
+                                
+                            </td>
+                        </tr>
+                        
+                        <tr class="latest">
+                            <td class="tree">
+                              <a class="
+
+
+    
+    
+        ext_gz
+    
+ dload filename { url: 'http://downloads.sourceforge.net/project/mysql-python/mysql-python-test/1.2.3c1/MySQL-python-1.2.3c1.tar.gz' }"
+                                href="/projects/mysql-python/files/mysql-python-test/1.2.3c1/MySQL-python-1.2.3c1.tar.gz/download"
+                                title="/mysql-python-test/1.2.3c1/MySQL-python-1.2.3c1.tar.gz:  released on 2009-03-30"
+                                >MySQL-python-1.2.3c1.tar.gz</a>
+                              
+                            </td>
+                            <td class="platform">
+                                    
+                                        
+                                                <img src="http://a.fsdn.com/con/img/icons/linux.png" alt="linux" title="linux" height="15" width="15" vspace=0 />
+                                        
+                                    
+                                        
+                                                <img src="http://a.fsdn.com/con/img/icons/mac.png" alt="mac" title="mac" height="15" width="15" vspace=0 />
+                                        
+                                    
+                                        
+                                                <img src="http://a.fsdn.com/con/img/icons/windows.png" alt="windows" title="windows" height="15" width="15" vspace=0 />
+                                        
+                                    
+                                        
+                                                <img src="http://a.fsdn.com/con/img/icons/bsd.png" alt="bsd" title="bsd" height="15" width="15" vspace=0 />
+                                        
+                                    
+                                        
+                                                <img src="http://a.fsdn.com/con/img/icons/solaris.png" alt="solaris" title="solaris" height="15" width="15" vspace=0 />
+                                        
+                                    
+                                        
+                                            others
+                                        
+                                    
+                                
+                            </td>
+                            <td>89.8 KB</td>
+                            <td>2009-03-30</td>
+                            <td>154,756</td>
+                            <td>
+                                
+                                    <a href="http://sourceforge.net/project/shownotes.php?release_id=672239" class="icon-sm notes-sm" title="Release Notes">Release Notes</a>
+                                
+                            </td>
+                        </tr>
+                        
+                        
+
+                        <tr class="header">
+                            <td colspan="5">
+                                
+                                    All Files
+                                
+                            </td>
+                            <td>
+                                
+                                <a href="/api/file/index/project-id/22307/mtime/desc/rss" class="icon-sm rss" title="Subscribe to all file releases">Subscribe</a>
+                                
+                            </td>
+                        </tr>
+                        
+                        
+                        
+                        <tr id="node-36-0" class="">
+                                    
+                                        <td>
+                                            <a class="folder dynamic" href="/projects/mysql-python/files/mysql-python-test/">mysql-python-test</a>
+                                            
+                                        </td>
+                                        <td></td>
+                                        <td>879.3 KB</td>
+                                        <td>2009-03-30</td>
+                                        <td>172,975</td>
+                                        <td>
+                                            <a href="/api/file/index/project-id/22307/mtime/desc/rss?path=%2Fmysql-python-test" class="icon-sm rss" title="Subscribe to file releases within this folder">Subscribe</a>
+                                            <a href="/projects/mysql-python/files/mysql-python-test/" class="icon-sm folder-link" title="View only this folder">Folder view</a>
+                                            
+                                        </td>
+                                    
+                                </tr><tr id="node-36-1" class="child-of-node-36-0">
+                                    
+                                        <td>
+                                            <a class="folder dynamic" href="/projects/mysql-python/files/mysql-python-test/1.2.3c1/">1.2.3c1</a>
+                                            
+                                        </td>
+                                        <td></td>
+                                        <td>294.1 KB</td>
+                                        <td>2009-03-30</td>
+                                        <td>167,520</td>
+                                        <td>
+                                            <a href="/api/file/index/project-id/22307/mtime/desc/rss?path=%2Fmysql-python-test%2F1.2.3c1" class="icon-sm rss" title="Subscribe to file releases within this folder">Subscribe</a>
+                                            <a href="/projects/mysql-python/files/mysql-python-test/1.2.3c1/" class="icon-sm folder-link" title="View only this folder">Folder view</a>
+                                            
+                                        </td>
+                                    
+                                </tr><tr id="node-36-2" class="child-of-node-36-1">
+                                    
+                                        <td class="tree">
+                              <a class="
+
+
+    
+    
+        filelink
+    
+ dload filename { url: 'http://downloads.sourceforge.net/project/mysql-python/mysql-python-test/1.2.3c1/MySQL_python-1.2.3c1-py2.6-linux-i686.egg' }"
+                                href="/projects/mysql-python/files/mysql-python-test/1.2.3c1/MySQL_python-1.2.3c1-py2.6-linux-i686.egg/download"
+                                title="/mysql-python-test/1.2.3c1/MySQL_python-1.2.3c1-py2.6-linux-i686.egg:  released on 2009-03-30"
+                                >MySQL_python-1.2.3c1-py2.6-linux-i686.egg</a>
+                              
+                            </td>
+                            <td class="platform">
+                                    
+                                
+                            </td>
+                            <td>102.5 KB</td>
+                            <td>2009-03-30</td>
+                            <td>8,970</td>
+                            <td>
+                                
+                                    <a href="http://sourceforge.net/project/shownotes.php?release_id=672239" class="icon-sm notes-sm" title="Release Notes">Release Notes</a>
+                                
+                            </td>
+                                    
+                                </tr><tr id="node-37-2" class="child-of-node-36-1">
+                                    
+                                        <td class="tree">
+                              <a class="
+
+
+    
+    
+        filelink
+    
+ dload filename { url: 'http://downloads.sourceforge.net/project/mysql-python/mysql-python-test/1.2.3c1/MySQL_python-1.2.3c1-py2.5-linux-i686.egg' }"
+                                href="/projects/mysql-python/files/mysql-python-test/1.2.3c1/MySQL_python-1.2.3c1-py2.5-linux-i686.egg/download"
+                                title="/mysql-python-test/1.2.3c1/MySQL_python-1.2.3c1-py2.5-linux-i686.egg:  released on 2009-03-30"
+                                >MySQL_python-1.2.3c1-py2.5-linux-i686.egg</a>
+                              
+                            </td>
+                            <td class="platform">
+                                    
+                                
+                            </td>
+                            <td>101.8 KB</td>
+                            <td>2009-03-30</td>
+                            <td>3,794</td>
+                            <td>
+                                
+                                    <a href="http://sourceforge.net/project/shownotes.php?release_id=672239" class="icon-sm notes-sm" title="Release Notes">Release Notes</a>
+                                
+                            </td>
+                                    
+                                </tr><tr id="node-38-2" class="child-of-node-36-1">
+                                    
+                                        <td class="tree">
+                              <a class="
+
+
+    
+    
+        ext_gz
+    
+ dload filename { url: 'http://downloads.sourceforge.net/project/mysql-python/mysql-python-test/1.2.3c1/MySQL-python-1.2.3c1.tar.gz' }"
+                                href="/projects/mysql-python/files/mysql-python-test/1.2.3c1/MySQL-python-1.2.3c1.tar.gz/download"
+                                title="/mysql-python-test/1.2.3c1/MySQL-python-1.2.3c1.tar.gz:  released on 2009-03-30"
+                                >MySQL-python-1.2.3c1.tar.gz</a>
+                              
+                            </td>
+                            <td class="platform">
+                                    
+                                        
+                                                <img src="http://a.fsdn.com/con/img/icons/linux.png" alt="linux" title="linux" height="15" width="15" vspace=0 />
+                                        
+                                    
+                                        
+                                                <img src="http://a.fsdn.com/con/img/icons/mac.png" alt="mac" title="mac" height="15" width="15" vspace=0 />
+                                        
+                                    
+                                        
+                                                <img src="http://a.fsdn.com/con/img/icons/windows.png" alt="windows" title="windows" height="15" width="15" vspace=0 />
+                                        
+                                    
+                                        
+                                                <img src="http://a.fsdn.com/con/img/icons/bsd.png" alt="bsd" title="bsd" height="15" width="15" vspace=0 />
+                                        
+                                    
+                                        
+                                                <img src="http://a.fsdn.com/con/img/icons/solaris.png" alt="solaris" title="solaris" height="15" width="15" vspace=0 />
+                                        
+                                    
+                                        
+                                            others
+                                        
+                                    
+                                
+                            </td>
+                            <td>89.8 KB</td>
+                            <td>2009-03-30</td>
+                            <td>154,756</td>
+                            <td>
+                                
+                                    <a href="http://sourceforge.net/project/shownotes.php?release_id=672239" class="icon-sm notes-sm" title="Release Notes">Release Notes</a>
+                                
+                            </td>
+                                    
+                                </tr><tr id="node-39-1" class="child-of-node-36-0">
+                                    
+                                        <td>
+                                            <a class="folder dynamic" href="/projects/mysql-python/files/mysql-python-test/1.2.3b2/">1.2.3b2</a>
+                                            
+                                        </td>
+                                        <td></td>
+                                        <td>293.9 KB</td>
+                                        <td>2009-03-14</td>
+                                        <td>2,607</td>
+                                        <td>
+                                            <a href="/api/file/index/project-id/22307/mtime/desc/rss?path=%2Fmysql-python-test%2F1.2.3b2" class="icon-sm rss" title="Subscribe to file releases within this folder">Subscribe</a>
+                                            <a href="/projects/mysql-python/files/mysql-python-test/1.2.3b2/" class="icon-sm folder-link" title="View only this folder">Folder view</a>
+                                            
+                                        </td>
+                                    
+                                </tr><tr id="node-39-2" class="child-of-node-39-1">
+                                    
+                                        <td class="tree">
+                              <a class="
+
+
+    
+    
+        filelink
+    
+ dload filename { url: 'http://downloads.sourceforge.net/project/mysql-python/mysql-python-test/1.2.3b2/MySQL_python-1.2.3b2-py2.6-linux-i686.egg' }"
+                                href="/projects/mysql-python/files/mysql-python-test/1.2.3b2/MySQL_python-1.2.3b2-py2.6-linux-i686.egg/download"
+                                title="/mysql-python-test/1.2.3b2/MySQL_python-1.2.3b2-py2.6-linux-i686.egg:  released on 2009-03-14"
+                                >MySQL_python-1.2.3b2-py2.6-linux-i686.egg</a>
+                              
+                            </td>
+                            <td class="platform">
+                                    
+                                
+                            </td>
+                            <td>102.5 KB</td>
+                            <td>2009-03-14</td>
+                            <td>447</td>
+                            <td>
+                                
+                                    <a href="http://sourceforge.net/project/shownotes.php?release_id=668047" class="icon-sm notes-sm" title="Release Notes">Release Notes</a>
+                                
+                            </td>
+                                    
+                                </tr><tr id="node-40-2" class="child-of-node-39-1">
+                                    
+                                        <td class="tree">
+                              <a class="
+
+
+    
+    
+        filelink
+    
+ dload filename { url: 'http://downloads.sourceforge.net/project/mysql-python/mysql-python-test/1.2.3b2/MySQL_python-1.2.3b2-py2.5-linux-i686.egg' }"
+                                href="/projects/mysql-python/files/mysql-python-test/1.2.3b2/MySQL_python-1.2.3b2-py2.5-linux-i686.egg/download"
+                                title="/mysql-python-test/1.2.3b2/MySQL_python-1.2.3b2-py2.5-linux-i686.egg:  released on 2009-03-14"
+                                >MySQL_python-1.2.3b2-py2.5-linux-i686.egg</a>
+                              
+                            </td>
+                            <td class="platform">
+                                    
+                                
+                            </td>
+                            <td>101.8 KB</td>
+                            <td>2009-03-14</td>
+                            <td>219</td>
+                            <td>
+                                
+                                    <a href="http://sourceforge.net/project/shownotes.php?release_id=668047" class="icon-sm notes-sm" title="Release Notes">Release Notes</a>
+                                
+                            </td>
+                                    
+                                </tr><tr id="node-41-2" class="child-of-node-39-1">
+                                    
+                                        <td class="tree">
+                              <a class="
+
+
+    
+    
+        ext_gz
+    
+ dload filename { url: 'http://downloads.sourceforge.net/project/mysql-python/mysql-python-test/1.2.3b2/MySQL-python-1.2.3b2.tar.gz' }"
+                                href="/projects/mysql-python/files/mysql-python-test/1.2.3b2/MySQL-python-1.2.3b2.tar.gz/download"
+                                title="/mysql-python-test/1.2.3b2/MySQL-python-1.2.3b2.tar.gz:  released on 2009-03-14"
+                                >MySQL-python-1.2.3b2.tar.gz</a>
+                              
+                            </td>
+                            <td class="platform">
+                                    
+                                
+                            </td>
+                            <td>89.6 KB</td>
+                            <td>2009-03-14</td>
+                            <td>1,941</td>
+                            <td>
+                                
+                                    <a href="http://sourceforge.net/project/shownotes.php?release_id=668047" class="icon-sm notes-sm" title="Release Notes">Release Notes</a>
+                                
+                            </td>
+                                    
+                                </tr><tr id="node-42-1" class="child-of-node-36-0">
+                                    
+                                        <td>
+                                            <a class="folder dynamic" href="/projects/mysql-python/files/mysql-python-test/1.2.3b1/">1.2.3b1</a>
+                                            
+                                        </td>
+                                        <td></td>
+                                        <td>291.2 KB</td>
+                                        <td>2009-02-06</td>
+                                        <td>2,848</td>
+                                        <td>
+                                            <a href="/api/file/index/project-id/22307/mtime/desc/rss?path=%2Fmysql-python-test%2F1.2.3b1" class="icon-sm rss" title="Subscribe to file releases within this folder">Subscribe</a>
+                                            <a href="/projects/mysql-python/files/mysql-python-test/1.2.3b1/" class="icon-sm folder-link" title="View only this folder">Folder view</a>
+                                            
+                                        </td>
+                                    
+                                </tr><tr id="node-42-2" class="child-of-node-42-1">
+                                    
+                                        <td class="tree">
+                              <a class="
+
+
+    
+    
+        filelink
+    
+ dload filename { url: 'http://downloads.sourceforge.net/project/mysql-python/mysql-python-test/1.2.3b1/MySQL_python-1.2.3b1-py2.6-linux-i686.egg' }"
+                                href="/projects/mysql-python/files/mysql-python-test/1.2.3b1/MySQL_python-1.2.3b1-py2.6-linux-i686.egg/download"
+                                title="/mysql-python-test/1.2.3b1/MySQL_python-1.2.3b1-py2.6-linux-i686.egg:  released on 2009-02-06"
+                                >MySQL_python-1.2.3b1-py2.6-linux-i686.egg</a>
+                              
+                            </td>
+                            <td class="platform">
+                                    
+                                
+                            </td>
+                            <td>102.1 KB</td>
+                            <td>2009-02-06</td>
+                            <td>400</td>
+                            <td>
+                                
+                            </td>
+                                    
+                                </tr><tr id="node-43-2" class="child-of-node-42-1">
+                                    
+                                        <td class="tree">
+                              <a class="
+
+
+    
+    
+        filelink
+    
+ dload filename { url: 'http://downloads.sourceforge.net/project/mysql-python/mysql-python-test/1.2.3b1/MySQL_python-1.2.3b1-py2.5-linux-i686.egg' }"
+                                href="/projects/mysql-python/files/mysql-python-test/1.2.3b1/MySQL_python-1.2.3b1-py2.5-linux-i686.egg/download"
+                                title="/mysql-python-test/1.2.3b1/MySQL_python-1.2.3b1-py2.5-linux-i686.egg:  released on 2009-02-06"
+                                >MySQL_python-1.2.3b1-py2.5-linux-i686.egg</a>
+                              
+                            </td>
+                            <td class="platform">
+                                    
+                                
+                            </td>
+                            <td>101.3 KB</td>
+                            <td>2009-02-06</td>
+                            <td>444</td>
+                            <td>
+                                
+                            </td>
+                                    
+                                </tr><tr id="node-44-2" class="child-of-node-42-1">
+                                    
+                                        <td class="tree">
+                              <a class="
+
+
+    
+    
+        ext_gz
+    
+ dload filename { url: 'http://downloads.sourceforge.net/project/mysql-python/mysql-python-test/1.2.3b1/MySQL-python-1.2.3b1.tar.gz' }"
+                                href="/projects/mysql-python/files/mysql-python-test/1.2.3b1/MySQL-python-1.2.3b1.tar.gz/download"
+                                title="/mysql-python-test/1.2.3b1/MySQL-python-1.2.3b1.tar.gz:  released on 2009-02-06"
+                                >MySQL-python-1.2.3b1.tar.gz</a>
+                              
+                            </td>
+                            <td class="platform">
+                                    
+                                
+                            </td>
+                            <td>87.9 KB</td>
+                            <td>2009-02-06</td>
+                            <td>2,004</td>
+                            <td>
+                                
+                            </td>
+                                    
+                                </tr><tr id="node-0-0" class="">
+                                    
+                                        <td>
+                                            <a class="folder dynamic" href="/projects/mysql-python/files/zmysqlda/">zmysqlda</a>
+                                            
+                                        </td>
+                                        <td></td>
+                                        <td>73.4 KB</td>
+                                        <td>2009-01-06</td>
+                                        <td>57,225</td>
+                                        <td>
+                                            <a href="/api/file/index/project-id/22307/mtime/desc/rss?path=%2Fzmysqlda" class="icon-sm rss" title="Subscribe to file releases within this folder">Subscribe</a>
+                                            <a href="/projects/mysql-python/files/zmysqlda/" class="icon-sm folder-link" title="View only this folder">Folder view</a>
+                                            
+                                        </td>
+                                    
+                                </tr><tr id="node-0-1" class="child-of-node-0-0">
+                                    
+                                        <td>
+                                            <a class="folder dynamic" href="/projects/mysql-python/files/zmysqlda/3.1/">3.1</a>
+                                            
+                                        </td>
+                                        <td></td>
+                                        <td>41.7 KB</td>
+                                        <td>2009-01-06</td>
+                                        <td>15,662</td>
+                                        <td>
+                                            <a href="/api/file/index/project-id/22307/mtime/desc/rss?path=%2Fzmysqlda%2F3.1" class="icon-sm rss" title="Subscribe to file releases within this folder">Subscribe</a>
+                                            <a href="/projects/mysql-python/files/zmysqlda/3.1/" class="icon-sm folder-link" title="View only this folder">Folder view</a>
+                                            
+                                        </td>
+                                    
+                                </tr><tr id="node-0-2" class="child-of-node-0-1">
+                                    
+                                        <td class="tree">
+                              <a class="
+
+
+    
+    
+        ext_gz
+    
+ dload filename { url: 'http://downloads.sourceforge.net/project/mysql-python/zmysqlda/3.1/ZMySQLDA-3.1.tar.gz' }"
+                                href="/projects/mysql-python/files/zmysqlda/3.1/ZMySQLDA-3.1.tar.gz/download"
+                                title="/zmysqlda/3.1/ZMySQLDA-3.1.tar.gz:  released on 2009-01-06"
+                                >ZMySQLDA-3.1.tar.gz</a>
+                              
+                            </td>
+                            <td class="platform">
+                                    
+                                
+                            </td>
+                            <td>41.7 KB</td>
+                            <td>2009-01-06</td>
+                            <td>15,662</td>
+                            <td>
+                                
+                                    <a href="http://sourceforge.net/project/shownotes.php?release_id=651692" class="icon-sm notes-sm" title="Release Notes">Release Notes</a>
+                                
+                            </td>
+                                    
+                                </tr><tr id="node-1-1" class="child-of-node-0-0">
+                                    
+                                        <td>
+                                            <a class="folder dynamic" href="/projects/mysql-python/files/zmysqlda/3.0/">3.0</a>
+                                            
+                                        </td>
+                                        <td></td>
+                                        <td>19.2 KB</td>
+                                        <td>2008-09-11</td>
+                                        <td>5,743</td>
+                                        <td>
+                                            <a href="/api/file/index/project-id/22307/mtime/desc/rss?path=%2Fzmysqlda%2F3.0" class="icon-sm rss" title="Subscribe to file releases within this folder">Subscribe</a>
+                                            <a href="/projects/mysql-python/files/zmysqlda/3.0/" class="icon-sm folder-link" title="View only this folder">Folder view</a>
+                                            
+                                        </td>
+                                    
+                                </tr><tr id="node-1-2" class="child-of-node-1-1">
+                                    
+                                        <td class="tree">
+                              <a class="
+
+
+    
+    
+        ext_gz
+    
+ dload filename { url: 'http://downloads.sourceforge.net/project/mysql-python/zmysqlda/3.0/ZMySQLDA-3.0.tar.gz' }"
+                                href="/projects/mysql-python/files/zmysqlda/3.0/ZMySQLDA-3.0.tar.gz/download"
+                                title="/zmysqlda/3.0/ZMySQLDA-3.0.tar.gz:  released on 2008-09-11"
+                                >ZMySQLDA-3.0.tar.gz</a>
+                              
+                            </td>
+                            <td class="platform">
+                                    
+                                
+                            </td>
+                            <td>19.2 KB</td>
+                            <td>2008-09-11</td>
+                            <td>5,743</td>
+                            <td>
+                                
+                                    <a href="http://sourceforge.net/project/shownotes.php?release_id=625704" class="icon-sm notes-sm" title="Release Notes">Release Notes</a>
+                                
+                            </td>
+                                    
+                                </tr><tr id="node-2-1" class="child-of-node-0-0">
+                                    
+                                        <td>
+                                            <a class="folder dynamic" href="/projects/mysql-python/files/zmysqlda/2.0.8/">2.0.8</a>
+                                            
+                                        </td>
+                                        <td></td>
+                                        <td>12.4 KB</td>
+                                        <td>2001-09-07</td>
+                                        <td>35,820</td>
+                                        <td>
+                                            <a href="/api/file/index/project-id/22307/mtime/desc/rss?path=%2Fzmysqlda%2F2.0.8" class="icon-sm rss" title="Subscribe to file releases within this folder">Subscribe</a>
+                                            <a href="/projects/mysql-python/files/zmysqlda/2.0.8/" class="icon-sm folder-link" title="View only this folder">Folder view</a>
+                                            
+                                        </td>
+                                    
+                                </tr><tr id="node-2-2" class="child-of-node-2-1">
+                                    
+                                        <td class="tree">
+                              <a class="
+
+
+    
+    
+        ext_gz
+    
+ dload filename { url: 'http://downloads.sourceforge.net/project/mysql-python/zmysqlda/2.0.8/ZMySQLDA-2.0.8.tar.gz' }"
+                                href="/projects/mysql-python/files/zmysqlda/2.0.8/ZMySQLDA-2.0.8.tar.gz/download"
+                                title="/zmysqlda/2.0.8/ZMySQLDA-2.0.8.tar.gz:  released on 2001-09-07"
+                                >ZMySQLDA-2.0.8.tar.gz</a>
+                              
+                            </td>
+                            <td class="platform">
+                                    
+                                
+                            </td>
+                            <td>12.4 KB</td>
+                            <td>2001-09-07</td>
+                            <td>35,820</td>
+                            <td>
+                                
+                                    <a href="http://sourceforge.net/project/shownotes.php?release_id=51783" class="icon-sm notes-sm" title="Release Notes">Release Notes</a>
+                                
+                            </td>
+                                    
+                                </tr><tr id="node-3-0" class="">
+                                    
+                                        <td>
+                                            <a class="folder dynamic" href="/projects/mysql-python/files/mysql-python/">mysql-python</a>
+                                            
+                                        </td>
+                                        <td></td>
+                                        <td>8.5 MB</td>
+                                        <td>2007-03-14</td>
+                                        <td>829,476</td>
+                                        <td>
+                                            <a href="/api/file/index/project-id/22307/mtime/desc/rss?path=%2Fmysql-python" class="icon-sm rss" title="Subscribe to file releases within this folder">Subscribe</a>
+                                            <a href="/projects/mysql-python/files/mysql-python/" class="icon-sm folder-link" title="View only this folder">Folder view</a>
+                                            
+                                        </td>
+                                    
+                                </tr><tr id="node-3-1" class="child-of-node-3-0">
+                                    
+                                        <td>
+                                            <a class="folder dynamic" href="/projects/mysql-python/files/mysql-python/1.2.2/">1.2.2</a>
+                                            
+                                        </td>
+                                        <td></td>
+                                        <td>3.5 MB</td>
+                                        <td>2007-03-14</td>
+                                        <td>397,845</td>
+                                        <td>
+                                            <a href="/api/file/index/project-id/22307/mtime/desc/rss?path=%2Fmysql-python%2F1.2.2" class="icon-sm rss" title="Subscribe to file releases within this folder">Subscribe</a>
+                                            <a href="/projects/mysql-python/files/mysql-python/1.2.2/" class="icon-sm folder-link" title="View only this folder">Folder view</a>
+                                            
+                                        </td>
+                                    
+                                </tr><tr id="node-5-2" class="child-of-node-3-1">
+                                    
+                                        <td class="tree">
+                              <a class="
+
+
+    
+    
+        ext_exe
+    
+ dload filename { url: 'http://downloads.sourceforge.net/project/mysql-python/mysql-python/1.2.2/MySQL-python-1.2.2.win32-py2.5.exe' }"
+                                href="/projects/mysql-python/files/mysql-python/1.2.2/MySQL-python-1.2.2.win32-py2.5.exe/download"
+                                title="/mysql-python/1.2.2/MySQL-python-1.2.2.win32-py2.5.exe:  released on 2007-03-14"
+                                >MySQL-python-1.2.2.win32-py2.5.exe</a>
+                              
+                            </td>
+                            <td class="platform">
+                                    
+                                
+                            </td>
+                            <td>863.4 KB</td>
+                            <td>2007-03-14</td>
+                            <td>157,633</td>
+                            <td>
+                                
+                                    <a href="http://sourceforge.net/project/shownotes.php?release_id=491012" class="icon-sm notes-sm" title="Release Notes">Release Notes</a>
+                                
+                            </td>
+                                    
+                                </tr><tr id="node-6-2" class="child-of-node-3-1">
+                                    
+                                        <td class="tree">
+                              <a class="
+
+
+    
+    
+        ext_exe
+    
+ dload filename { url: 'http://downloads.sourceforge.net/project/mysql-python/mysql-python/1.2.2/MySQL-python-1.2.2.win32-py2.4.exe' }"
+                                href="/projects/mysql-python/files/mysql-python/1.2.2/MySQL-python-1.2.2.win32-py2.4.exe/download"
+                                title="/mysql-python/1.2.2/MySQL-python-1.2.2.win32-py2.4.exe:  released on 2007-03-14"
+                                >MySQL-python-1.2.2.win32-py2.4.exe</a>
+                              
+                            </td>
+                            <td class="platform">
+                                    
+                                
+                            </td>
+                            <td>863.4 KB</td>
+                            <td>2007-03-14</td>
+                            <td>31,240</td>
+                            <td>
+                                
+                                    <a href="http://sourceforge.net/project/shownotes.php?release_id=491012" class="icon-sm notes-sm" title="Release Notes">Release Notes</a>
+                                
+                            </td>
+                                    
+                                </tr><tr id="node-4-2" class="child-of-node-3-1">
+                                    
+                                        <td class="tree">
+                              <a class="
+
+
+    
+    
+        filelink
+    
+ dload filename { url: 'http://downloads.sourceforge.net/project/mysql-python/mysql-python/1.2.2/MySQL_python-1.2.2-py2.4-win32.egg' }"
+                                href="/projects/mysql-python/files/mysql-python/1.2.2/MySQL_python-1.2.2-py2.4-win32.egg/download"
+                                title="/mysql-python/1.2.2/MySQL_python-1.2.2-py2.4-win32.egg:  released on 2007-03-14"
+                                >MySQL_python-1.2.2-py2.4-win32.egg</a>
+                              
+                            </td>
+                            <td class="platform">
+                                    
+                                
+                            </td>
+                            <td>833.7 KB</td>
+                            <td>2007-03-14</td>
+                            <td>13,771</td>
+                            <td>
+                                
+                                    <a href="http://sourceforge.net/project/shownotes.php?release_id=491012" class="icon-sm notes-sm" title="Release Notes">Release Notes</a>
+                                
+                            </td>
+                                    
+                                </tr><tr id="node-3-2" class="child-of-node-3-1">
+                                    
+                                        <td class="tree">
+                              <a class="
+
+
+    
+    
+        filelink
+    
+ dload filename { url: 'http://downloads.sourceforge.net/project/mysql-python/mysql-python/1.2.2/MySQL_python-1.2.2-py2.5-win32.egg' }"
+                                href="/projects/mysql-python/files/mysql-python/1.2.2/MySQL_python-1.2.2-py2.5-win32.egg/download"
+                                title="/mysql-python/1.2.2/MySQL_python-1.2.2-py2.5-win32.egg:  released on 2007-03-05"
+                                >MySQL_python-1.2.2-py2.5-win32.egg</a>
+                              
+                            </td>
+                            <td class="platform">
+                                    
+                                
+                            </td>
+                            <td>832.1 KB</td>
+                            <td>2007-03-05</td>
+                            <td>25,832</td>
+                            <td>
+                                
+                                    <a href="http://sourceforge.net/project/shownotes.php?release_id=491012" class="icon-sm notes-sm" title="Release Notes">Release Notes</a>
+                                
+                            </td>
+                                    
+                                </tr><tr id="node-7-2" class="child-of-node-3-1">
+                                    
+                                        <td class="tree">
+                              <a class="
+
+
+    
+    
+        ext_gz
+    
+ dload filename { url: 'http://downloads.sourceforge.net/project/mysql-python/mysql-python/1.2.2/MySQL-python-1.2.2.tar.gz' }"
+                                href="/projects/mysql-python/files/mysql-python/1.2.2/MySQL-python-1.2.2.tar.gz/download"
+                                title="/mysql-python/1.2.2/MySQL-python-1.2.2.tar.gz:  released on 2007-03-04"
+                                >MySQL-python-1.2.2.tar.gz</a>
+                              
+                            </td>
+                            <td class="platform">
+                                    
+                                
+                            </td>
+                            <td>87.1 KB</td>
+                            <td>2007-03-04</td>
+                            <td>169,369</td>
+                            <td>
+                                
+                                    <a href="http://sourceforge.net/project/shownotes.php?release_id=491012" class="icon-sm notes-sm" title="Release Notes">Release Notes</a>
+                                
+                            </td>
+                                    
+                                </tr><tr id="node-8-1" class="child-of-node-3-0">
+                                    
+                                        <td>
+                                            <a class="folder dynamic" href="/projects/mysql-python/files/mysql-python/1.2.1_p2/">1.2.1_p2</a>
+                                            
+                                        </td>
+                                        <td></td>
+                                        <td>714.0 KB</td>
+                                        <td>2006-06-01</td>
+                                        <td>123,830</td>
+                                        <td>
+                                            <a href="/api/file/index/project-id/22307/mtime/desc/rss?path=%2Fmysql-python%2F1.2.1_p2" class="icon-sm rss" title="Subscribe to file releases within this folder">Subscribe</a>
+                                            <a href="/projects/mysql-python/files/mysql-python/1.2.1_p2/" class="icon-sm folder-link" title="View only this folder">Folder view</a>
+                                            
+                                        </td>
+                                    
+                                </tr><tr id="node-8-2" class="child-of-node-8-1">
+                                    
+                                        <td class="tree">
+                              <a class="
+
+
+    
+    
+        ext_exe
+    
+ dload filename { url: 'http://downloads.sourceforge.net/project/mysql-python/mysql-python/1.2.1_p2/MySQL-python.exe-1.2.1_p2.win32-py2.4.exe' }"
+                                href="/projects/mysql-python/files/mysql-python/1.2.1_p2/MySQL-python.exe-1.2.1_p2.win32-py2.4.exe/download"
+                                title="/mysql-python/1.2.1_p2/MySQL-python.exe-1.2.1_p2.win32-py2.4.exe:  released on 2006-06-01"
+                                >MySQL-python.exe-1.2.1_p2.win32-py2.4.exe</a>
+                              
+                            </td>
+                            <td class="platform">
+                                    
+                                
+                            </td>
+                            <td>648.7 KB</td>
+                            <td>2006-06-01</td>
+                            <td>48,667</td>
+                            <td>
+                                
+                                    <a href="http://sourceforge.net/project/shownotes.php?release_id=408321" class="icon-sm notes-sm" title="Release Notes">Release Notes</a>
+                                
+                            </td>
+                                    
+                                </tr><tr id="node-9-2" class="child-of-node-8-1">
+                                    
+                                        <td class="tree">
+                              <a class="
+
+
+    
+    
+        ext_gz
+    
+ dload filename { url: 'http://downloads.sourceforge.net/project/mysql-python/mysql-python/1.2.1_p2/MySQL-python-1.2.1_p2.tar.gz' }"
+                                href="/projects/mysql-python/files/mysql-python/1.2.1_p2/MySQL-python-1.2.1_p2.tar.gz/download"
+                                title="/mysql-python/1.2.1_p2/MySQL-python-1.2.1_p2.tar.gz:  released on 2006-04-09"
+                                >MySQL-python-1.2.1_p2.tar.gz</a>
+                              
+                            </td>
+                            <td class="platform">
+                                    
+                                
+                            </td>
+                            <td>65.2 KB</td>
+                            <td>2006-04-09</td>
+                            <td>75,163</td>
+                            <td>
+                                
+                                    <a href="http://sourceforge.net/project/shownotes.php?release_id=408321" class="icon-sm notes-sm" title="Release Notes">Release Notes</a>
+                                
+                            </td>
+                                    
+                                </tr><tr id="node-10-1" class="child-of-node-3-0">
+                                    
+                                        <td>
+                                            <a class="folder dynamic" href="/projects/mysql-python/files/mysql-python/1.2.1/">1.2.1</a>
+                                            
+                                        </td>
+                                        <td></td>
+                                        <td>64.6 KB</td>
+                                        <td>2006-04-02</td>
+                                        <td>29,245</td>
+                                        <td>
+                                            <a href="/api/file/index/project-id/22307/mtime/desc/rss?path=%2Fmysql-python%2F1.2.1" class="icon-sm rss" title="Subscribe to file releases within this folder">Subscribe</a>
+                                            <a href="/projects/mysql-python/files/mysql-python/1.2.1/" class="icon-sm folder-link" title="View only this folder">Folder view</a>
+                                            
+                                        </td>
+                                    
+                                </tr><tr id="node-10-2" class="child-of-node-10-1">
+                                    
+                                        <td class="tree">
+                              <a class="
+
+
+    
+    
+        ext_gz
+    
+ dload filename { url: 'http://downloads.sourceforge.net/project/mysql-python/mysql-python/1.2.1/MySQL-python-1.2.1.tar.gz' }"
+                                href="/projects/mysql-python/files/mysql-python/1.2.1/MySQL-python-1.2.1.tar.gz/download"
+                                title="/mysql-python/1.2.1/MySQL-python-1.2.1.tar.gz:  released on 2006-04-02"
+                                >MySQL-python-1.2.1.tar.gz</a>
+                              
+                            </td>
+                            <td class="platform">
+                                    
+                                
+                            </td>
+                            <td>64.6 KB</td>
+                            <td>2006-04-02</td>
+                            <td>29,245</td>
+                            <td>
+                                
+                                    <a href="http://sourceforge.net/project/shownotes.php?release_id=406609" class="icon-sm notes-sm" title="Release Notes">Release Notes</a>
+                                
+                            </td>
+                                    
+                                </tr><tr id="node-11-1" class="child-of-node-3-0">
+                                    
+                                        <td>
+                                            <a class="folder dynamic" href="/projects/mysql-python/files/mysql-python/1.2.0/">1.2.0</a>
+                                            
+                                        </td>
+                                        <td></td>
+                                        <td>953.4 KB</td>
+                                        <td>2005-06-10</td>
+                                        <td>118,808</td>
+                                        <td>
+                                            <a href="/api/file/index/project-id/22307/mtime/desc/rss?path=%2Fmysql-python%2F1.2.0" class="icon-sm rss" title="Subscribe to file releases within this folder">Subscribe</a>
+                                            <a href="/projects/mysql-python/files/mysql-python/1.2.0/" class="icon-sm folder-link" title="View only this folder">Folder view</a>
+                                            
+                                        </td>
+                                    
+                                </tr><tr id="node-12-2" class="child-of-node-11-1">
+                                    
+                                        <td class="tree">
+                              <a class="
+
+
+    
+    
+        ext_exe
+    
+ dload filename { url: 'http://downloads.sourceforge.net/project/mysql-python/mysql-python/1.2.0/MySQL-python.exe-1.2.0.win32-my4.0-py2.3.exe' }"
+                                href="/projects/mysql-python/files/mysql-python/1.2.0/MySQL-python.exe-1.2.0.win32-my4.0-py2.3.exe/download"
+                                title="/mysql-python/1.2.0/MySQL-python.exe-1.2.0.win32-my4.0-py2.3.exe:  released on 2005-06-10"
+                                >MySQL-python.exe-1.2.0.win32-my4.0-py2.3.exe</a>
+                              
+                            </td>
+                            <td class="platform">
+                                    
+                                
+                            </td>
+                            <td>146.1 KB</td>
+                            <td>2005-06-10</td>
+                            <td>18,250</td>
+                            <td>
+                                
+                                    <a href="http://sourceforge.net/project/shownotes.php?release_id=303257" class="icon-sm notes-sm" title="Release Notes">Release Notes</a>
+                                
+                            </td>
+                                    
+                                </tr><tr id="node-11-2" class="child-of-node-11-1">
+                                    
+                                        <td class="tree">
+                              <a class="
+
+
+    
+    
+        ext_zip
+    
+ dload filename { url: 'http://downloads.sourceforge.net/project/mysql-python/mysql-python/1.2.0/MySQL-python.exe-1.2.0.win32-py2.4.zip' }"
+                                href="/projects/mysql-python/files/mysql-python/1.2.0/MySQL-python.exe-1.2.0.win32-py2.4.zip/download"
+                                title="/mysql-python/1.2.0/MySQL-python.exe-1.2.0.win32-py2.4.zip:  released on 2005-02-18"
+                                >MySQL-python.exe-1.2.0.win32-py2.4.zip</a>
+                              
+                            </td>
+                            <td class="platform">
+                                    
+                                
+                            </td>
+                            <td>555.0 KB</td>
+                            <td>2005-02-18</td>
+                            <td>35,254</td>
+                            <td>
+                                
+                                    <a href="http://sourceforge.net/project/shownotes.php?release_id=303257" class="icon-sm notes-sm" title="Release Notes">Release Notes</a>
+                                
+                            </td>
+                                    
+                                </tr><tr id="node-13-2" class="child-of-node-11-1">
+                                    
+                                        <td class="tree">
+                              <a class="
+
+
+    
+    
+        ext_gz
+    
+ dload filename { url: 'http://downloads.sourceforge.net/project/mysql-python/mysql-python/1.2.0/MySQL-python-1.2.0.tar.gz' }"
+                                href="/projects/mysql-python/files/mysql-python/1.2.0/MySQL-python-1.2.0.tar.gz/download"
+                                title="/mysql-python/1.2.0/MySQL-python-1.2.0.tar.gz:  released on 2005-02-08"
+                                >MySQL-python-1.2.0.tar.gz</a>
+                              
+                            </td>
+                            <td class="platform">
+                                    
+                                
+                            </td>
+                            <td>252.3 KB</td>
+                            <td>2005-02-08</td>
+                            <td>65,304</td>
+                            <td>
+                                
+                                    <a href="http://sourceforge.net/project/shownotes.php?release_id=303257" class="icon-sm notes-sm" title="Release Notes">Release Notes</a>
+                                
+                            </td>
+                                    
+                                </tr><tr id="node-14-1" class="child-of-node-3-0">
+                                    
+                                        <td>
+                                            <a class="folder dynamic" href="/projects/mysql-python/files/mysql-python/1.0.1/">1.0.1</a>
+                                            
+                                        </td>
+                                        <td></td>
+                                        <td>170.5 KB</td>
+                                        <td>2005-01-19</td>
+                                        <td>6,710</td>
+                                        <td>
+                                            <a href="/api/file/index/project-id/22307/mtime/desc/rss?path=%2Fmysql-python%2F1.0.1" class="icon-sm rss" title="Subscribe to file releases within this folder">Subscribe</a>
+                                            <a href="/projects/mysql-python/files/mysql-python/1.0.1/" class="icon-sm folder-link" title="View only this folder">Folder view</a>
+                                            
+                                        </td>
+                                    
+                                </tr><tr id="node-15-2" class="child-of-node-14-1">
+                                    
+                                        <td class="tree">
+                              <a class="
+
+
+    
+    
+        ext_rpm
+    
+ dload filename { url: 'http://downloads.sourceforge.net/project/mysql-python/mysql-python/1.0.1/mysql-python-1.0.1-1_SuSE9.i586.rpm' }"
+                                href="/projects/mysql-python/files/mysql-python/1.0.1/mysql-python-1.0.1-1_SuSE9.i586.rpm/download"
+                                title="/mysql-python/1.0.1/mysql-python-1.0.1-1_SuSE9.i586.rpm:  released on 2005-01-19"
+                                >mysql-python-1.0.1-1_SuSE9.i586.rpm</a>
+                              
+                            </td>
+                            <td class="platform">
+                                    
+                                
+                            </td>
+                            <td>101.9 KB</td>
+                            <td>2005-01-19</td>
+                            <td>1,351</td>
+                            <td>
+                                
+                                    <a href="http://sourceforge.net/project/shownotes.php?release_id=293707" class="icon-sm notes-sm" title="Release Notes">Release Notes</a>
+                                
+                            </td>
+                                    
+                                </tr><tr id="node-14-2" class="child-of-node-14-1">
+                                    
+                                        <td class="tree">
+                              <a class="
+
+
+    
+    
+        ext_gz
+    
+ dload filename { url: 'http://downloads.sourceforge.net/project/mysql-python/mysql-python/1.0.1/MySQL-python-1.0.1.tar.gz' }"
+                                href="/projects/mysql-python/files/mysql-python/1.0.1/MySQL-python-1.0.1.tar.gz/download"
+                                title="/mysql-python/1.0.1/MySQL-python-1.0.1.tar.gz:  released on 2005-01-01"
+                                >MySQL-python-1.0.1.tar.gz</a>
+                              
+                            </td>
+                            <td class="platform">
+                                    
+                                
+                            </td>
+                            <td>68.6 KB</td>
+                            <td>2005-01-01</td>
+                            <td>5,359</td>
+                            <td>
+                                
+                                    <a href="http://sourceforge.net/project/shownotes.php?release_id=293707" class="icon-sm notes-sm" title="Release Notes">Release Notes</a>
+                                
+                            </td>
+                                    
+                                </tr><tr id="node-16-1" class="child-of-node-3-0">
+                                    
+                                        <td>
+                                            <a class="folder dynamic" href="/projects/mysql-python/files/mysql-python/1.0.0/">1.0.0</a>
+                                            
+                                        </td>
+                                        <td></td>
+                                        <td>1.1 MB</td>
+                                        <td>2004-12-30</td>
+                                        <td>38,213</td>
+                                        <td>
+                                            <a href="/api/file/index/project-id/22307/mtime/desc/rss?path=%2Fmysql-python%2F1.0.0" class="icon-sm rss" title="Subscribe to file releases within this folder">Subscribe</a>
+                                            <a href="/projects/mysql-python/files/mysql-python/1.0.0/" class="icon-sm folder-link" title="View only this folder">Folder view</a>
+                                            
+                                        </td>
+                                    
+                                </tr><tr id="node-16-2" class="child-of-node-16-1">
+                                    
+                                        <td class="tree">
+                              <a class="
+
+
+    
+    
+        ext_exe
+    
+ dload filename { url: 'http://downloads.sourceforge.net/project/mysql-python/mysql-python/1.0.0/MySQL-python.exe-1.0.0.win32-my4.1-py2.3.exe' }"
+                                href="/projects/mysql-python/files/mysql-python/1.0.0/MySQL-python.exe-1.0.0.win32-my4.1-py2.3.exe/download"
+                                title="/mysql-python/1.0.0/MySQL-python.exe-1.0.0.win32-my4.1-py2.3.exe:  released on 2004-12-30"
+                                >MySQL-python.exe-1.0.0.win32-my4.1-py2.3.exe</a>
+                              
+                            </td>
+                            <td class="platform">
+                                    
+                                
+                            </td>
+                            <td>591.5 KB</td>
+                            <td>2004-12-30</td>
+                            <td>5,543</td>
+                            <td>
+                                
+                                    <a href="http://sourceforge.net/project/shownotes.php?release_id=243731" class="icon-sm notes-sm" title="Release Notes">Release Notes</a>
+                                
+                            </td>
+                                    
+                                </tr><tr id="node-17-2" class="child-of-node-16-1">
+                                    
+                                        <td class="tree">
+                              <a class="
+
+
+    
+    
+        ext_zip
+    
+ dload filename { url: 'http://downloads.sourceforge.net/project/mysql-python/mysql-python/1.0.0/MySQL-python.exe-1.0.0.win32-my4.0-py2.4.zip' }"
+                                href="/projects/mysql-python/files/mysql-python/1.0.0/MySQL-python.exe-1.0.0.win32-my4.0-py2.4.zip/download"
+                                title="/mysql-python/1.0.0/MySQL-python.exe-1.0.0.win32-my4.0-py2.4.zip:  released on 2004-12-30"
+                                >MySQL-python.exe-1.0.0.win32-my4.0-py2.4.zip</a>
+                              
+                            </td>
+                            <td class="platform">
+                                    
+                                
+                            </td>
+                            <td>308.7 KB</td>
+                            <td>2004-12-30</td>
+                            <td>1,739</td>
+                            <td>
+                                
+                                    <a href="http://sourceforge.net/project/shownotes.php?release_id=243731" class="icon-sm notes-sm" title="Release Notes">Release Notes</a>
+                                
+                            </td>
+                                    
+                                </tr><tr id="node-18-2" class="child-of-node-16-1">
+                                    
+                                        <td class="tree">
+                              <a class="
+
+
+    
+    
+        ext_zip
+    
+ dload filename { url: 'http://downloads.sourceforge.net/project/mysql-python/mysql-python/1.0.0/MySQL-python-1.0.0.win32-py2.3.zip' }"
+                                href="/projects/mysql-python/files/mysql-python/1.0.0/MySQL-python-1.0.0.win32-py2.3.zip/download"
+                                title="/mysql-python/1.0.0/MySQL-python-1.0.0.win32-py2.3.zip:  released on 2004-06-29"
+                                >MySQL-python-1.0.0.win32-py2.3.zip</a>
+                              
+                            </td>
+                            <td class="platform">
+                                    
+                                
+                            </td>
+                            <td>130.4 KB</td>
+                            <td>2004-06-29</td>
+                            <td>14,365</td>
+                            <td>
+                                
+                                    <a href="http://sourceforge.net/project/shownotes.php?release_id=243731" class="icon-sm notes-sm" title="Release Notes">Release Notes</a>
+                                
+                            </td>
+                                    
+                                </tr><tr id="node-19-2" class="child-of-node-16-1">
+                                    
+                                        <td class="tree">
+                              <a class="
+
+
+    
+    
+        ext_gz
+    
+ dload filename { url: 'http://downloads.sourceforge.net/project/mysql-python/mysql-python/1.0.0/MySQL-python-1.0.0.tar.gz' }"
+                                href="/projects/mysql-python/files/mysql-python/1.0.0/MySQL-python-1.0.0.tar.gz/download"
+                                title="/mysql-python/1.0.0/MySQL-python-1.0.0.tar.gz:  released on 2004-06-06"
+                                >MySQL-python-1.0.0.tar.gz</a>
+                              
+                            </td>
+                            <td class="platform">
+                                    
+                                
+                            </td>
+                            <td>53.7 KB</td>
+                            <td>2004-06-06</td>
+                            <td>16,566</td>
+                            <td>
+                                
+                                    <a href="http://sourceforge.net/project/shownotes.php?release_id=243731" class="icon-sm notes-sm" title="Release Notes">Release Notes</a>
+                                
+                            </td>
+                                    
+                                </tr><tr id="node-20-1" class="child-of-node-3-0">
+                                    
+                                        <td>
+                                            <a class="folder dynamic" href="/projects/mysql-python/files/mysql-python/0.9.2/">0.9.2</a>
+                                            
+                                        </td>
+                                        <td></td>
+                                        <td>802.6 KB</td>
+                                        <td>2003-08-24</td>
+                                        <td>81,427</td>
+                                        <td>
+                                            <a href="/api/file/index/project-id/22307/mtime/desc/rss?path=%2Fmysql-python%2F0.9.2" class="icon-sm rss" title="Subscribe to file releases within this folder">Subscribe</a>
+                                            <a href="/projects/mysql-python/files/mysql-python/0.9.2/" class="icon-sm folder-link" title="View only this folder">Folder view</a>
+                                            
+                                        </td>
+                                    
+                                </tr><tr id="node-22-2" class="child-of-node-20-1">
+                                    
+                                        <td class="tree">
+                              <a class="
+
+
+    
+    
+        ext_exe
+    
+ dload filename { url: 'http://downloads.sourceforge.net/project/mysql-python/mysql-python/0.9.2/MySQL-python.exe-0.9.2.win32-py2.3.exe' }"
+                                href="/projects/mysql-python/files/mysql-python/0.9.2/MySQL-python.exe-0.9.2.win32-py2.3.exe/download"
+                                title="/mysql-python/0.9.2/MySQL-python.exe-0.9.2.win32-py2.3.exe:  released on 2003-08-24"
+                                >MySQL-python.exe-0.9.2.win32-py2.3.exe</a>
+                              
+                            </td>
+                            <td class="platform">
+                                    
+                                
+                            </td>
+                            <td>146.0 KB</td>
+                            <td>2003-08-24</td>
+                            <td>16,193</td>
+                            <td>
+                                
+                                    <a href="http://sourceforge.net/project/shownotes.php?release_id=102893" class="icon-sm notes-sm" title="Release Notes">Release Notes</a>
+                                
+                            </td>
+                                    
+                                </tr><tr id="node-23-2" class="child-of-node-20-1">
+                                    
+                                        <td class="tree">
+                              <a class="
+
+
+    
+    
+        ext_exe
+    
+ dload filename { url: 'http://downloads.sourceforge.net/project/mysql-python/mysql-python/0.9.2/MySQL-python-0.9.2.win32-py2.2.exe' }"
+                                href="/projects/mysql-python/files/mysql-python/0.9.2/MySQL-python-0.9.2.win32-py2.2.exe/download"
+                                title="/mysql-python/0.9.2/MySQL-python-0.9.2.win32-py2.2.exe:  released on 2002-09-23"
+                                >MySQL-python-0.9.2.win32-py2.2.exe</a>
+                              
+                            </td>
+                            <td class="platform">
+                                    
+                                
+                            </td>
+                            <td>140.4 KB</td>
+                            <td>2002-09-23</td>
+                            <td>13,552</td>
+                            <td>
+                                
+                                    <a href="http://sourceforge.net/project/shownotes.php?release_id=102893" class="icon-sm notes-sm" title="Release Notes">Release Notes</a>
+                                
+                            </td>
+                                    
+                                </tr><tr id="node-24-2" class="child-of-node-20-1">
+                                    
+                                        <td class="tree">
+                              <a class="
+
+
+    
+    
+        ext_exe
+    
+ dload filename { url: 'http://downloads.sourceforge.net/project/mysql-python/mysql-python/0.9.2/MySQL-python-0.9.2.win32-py2.1.exe' }"
+                                href="/projects/mysql-python/files/mysql-python/0.9.2/MySQL-python-0.9.2.win32-py2.1.exe/download"
+                                title="/mysql-python/0.9.2/MySQL-python-0.9.2.win32-py2.1.exe:  released on 2002-09-23"
+                                >MySQL-python-0.9.2.win32-py2.1.exe</a>
+                              
+                            </td>
+                            <td class="platform">
+                                    
+                                
+                            </td>
+                            <td>139.5 KB</td>
+                            <td>2002-09-23</td>
+                            <td>6,789</td>
+                            <td>
+                                
+                                    <a href="http://sourceforge.net/project/shownotes.php?release_id=102893" class="icon-sm notes-sm" title="Release Notes">Release Notes</a>
+                                
+                            </td>
+                                    
+                                </tr><tr id="node-20-2" class="child-of-node-20-1">
+                                    
+                                        <td class="tree">
+                              <a class="
+
+
+    
+    
+        ext_rpm
+    
+ dload filename { url: 'http://downloads.sourceforge.net/project/mysql-python/mysql-python/0.9.2/MySQL-python2.1-0.9.2-1.i386.rpm' }"
+                                href="/projects/mysql-python/files/mysql-python/0.9.2/MySQL-python2.1-0.9.2-1.i386.rpm/download"
+                                title="/mysql-python/0.9.2/MySQL-python2.1-0.9.2-1.i386.rpm:  released on 2002-08-01"
+                                >MySQL-python2.1-0.9.2-1.i386.rpm</a>
+                              
+                            </td>
+                            <td class="platform">
+                                    
+                                
+                            </td>
+                            <td>104.1 KB</td>
+                            <td>2002-08-01</td>
+                            <td>4,045</td>
+                            <td>
+                                
+                                    <a href="http://sourceforge.net/project/shownotes.php?release_id=102893" class="icon-sm notes-sm" title="Release Notes">Release Notes</a>
+                                
+                            </td>
+                                    
+                                </tr><tr id="node-21-2" class="child-of-node-20-1">
+                                    
+                                        <td class="tree">
+                              <a class="
+
+
+    
+    
+        ext_rpm
+    
+ dload filename { url: 'http://downloads.sourceforge.net/project/mysql-python/mysql-python/0.9.2/MySQL-python2-0.9.2-1.i386.rpm' }"
+                                href="/projects/mysql-python/files/mysql-python/0.9.2/MySQL-python2-0.9.2-1.i386.rpm/download"
+                                title="/mysql-python/0.9.2/MySQL-python2-0.9.2-1.i386.rpm:  released on 2002-08-01"
+                                >MySQL-python2-0.9.2-1.i386.rpm</a>
+                              
+                            </td>
+                            <td class="platform">
+                                    
+                                
+                            </td>
+                            <td>108.2 KB</td>
+                            <td>2002-08-01</td>
+                            <td>2,422</td>
+                            <td>
+                                
+                                    <a href="http://sourceforge.net/project/shownotes.php?release_id=102893" class="icon-sm notes-sm" title="Release Notes">Release Notes</a>
+                                
+                            </td>
+                                    
+                                </tr><tr id="node-26-2" class="child-of-node-20-1">
+                                    
+                                        <td class="tree">
+                              <a class="
+
+
+    
+    
+        ext_rpm
+    
+ dload filename { url: 'http://downloads.sourceforge.net/project/mysql-python/mysql-python/0.9.2/MySQL-python-0.9.2-1.i386.rpm' }"
+                                href="/projects/mysql-python/files/mysql-python/0.9.2/MySQL-python-0.9.2-1.i386.rpm/download"
+                                title="/mysql-python/0.9.2/MySQL-python-0.9.2-1.i386.rpm:  released on 2002-08-01"
+                                >MySQL-python-0.9.2-1.i386.rpm</a>
+                              
+                            </td>
+                            <td class="platform">
+                                    
+                                
+                            </td>
+                            <td>100.1 KB</td>
+                            <td>2002-08-01</td>
+                            <td>11,462</td>
+                            <td>
+                                
+                                    <a href="http://sourceforge.net/project/shownotes.php?release_id=102893" class="icon-sm notes-sm" title="Release Notes">Release Notes</a>
+                                
+                            </td>
+                                    
+                                </tr><tr id="node-25-2" class="child-of-node-20-1">
+                                    
+                                        <td class="tree">
+                              <a class="
+
+
+    
+    
+        ext_gz
+    
+ dload filename { url: 'http://downloads.sourceforge.net/project/mysql-python/mysql-python/0.9.2/MySQL-python-0.9.2.tar.gz' }"
+                                href="/projects/mysql-python/files/mysql-python/0.9.2/MySQL-python-0.9.2.tar.gz/download"
+                                title="/mysql-python/0.9.2/MySQL-python-0.9.2.tar.gz:  released on 2002-08-01"
+                                >MySQL-python-0.9.2.tar.gz</a>
+                              
+                            </td>
+                            <td class="platform">
+                                    
+                                
+                            </td>
+                            <td>64.3 KB</td>
+                            <td>2002-08-01</td>
+                            <td>26,964</td>
+                            <td>
+                                
+                                    <a href="http://sourceforge.net/project/shownotes.php?release_id=102893" class="icon-sm notes-sm" title="Release Notes">Release Notes</a>
+                                
+                            </td>
+                                    
+                                </tr><tr id="node-27-1" class="child-of-node-3-0">
+                                    
+                                        <td>
+                                            <a class="folder dynamic" href="/projects/mysql-python/files/mysql-python/0.9.1/">0.9.1</a>
+                                            
+                                        </td>
+                                        <td></td>
+                                        <td>1.2 MB</td>
+                                        <td>2002-07-09</td>
+                                        <td>33,398</td>
+                                        <td>
+                                            <a href="/api/file/index/project-id/22307/mtime/desc/rss?path=%2Fmysql-python%2F0.9.1" class="icon-sm rss" title="Subscribe to file releases within this folder">Subscribe</a>
+                                            <a href="/projects/mysql-python/files/mysql-python/0.9.1/" class="icon-sm folder-link" title="View only this folder">Folder view</a>
+                                            
+                                        </td>
+                                    
+                                </tr><tr id="node-35-2" class="child-of-node-27-1">
+                                    
+                                        <td class="tree">
+                              <a class="
+
+
+    
+    
+        ext_rpm
+    
+ dload filename { url: 'http://downloads.sourceforge.net/project/mysql-python/mysql-python/0.9.1/MySQL-python-0.9.1-1.aix4.3.ppc.rpm' }"
+                                href="/projects/mysql-python/files/mysql-python/0.9.1/MySQL-python-0.9.1-1.aix4.3.ppc.rpm/download"
+                                title="/mysql-python/0.9.1/MySQL-python-0.9.1-1.aix4.3.ppc.rpm:  released on 2002-07-09"
+                                >MySQL-python-0.9.1-1.aix4.3.ppc.rpm</a>
+                              
+                            </td>
+                            <td class="platform">
+                                    
+                                
+                            </td>
+                            <td>144.2 KB</td>
+                            <td>2002-07-09</td>
+                            <td>312</td>
+                            <td>
+                                
+                                    <a href="http://sourceforge.net/project/shownotes.php?release_id=51760" class="icon-sm notes-sm" title="Release Notes">Release Notes</a>
+                                
+                            </td>
+                                    
+                                </tr><tr id="node-27-2" class="child-of-node-27-1">
+                                    
+                                        <td class="tree">
+                              <a class="
+
+
+    
+    
+        ext_exe
+    
+ dload filename { url: 'http://downloads.sourceforge.net/project/mysql-python/mysql-python/0.9.1/MySQL-python-0.9.1.win32-py2.2.exe' }"
+                                href="/projects/mysql-python/files/mysql-python/0.9.1/MySQL-python-0.9.1.win32-py2.2.exe/download"
+                                title="/mysql-python/0.9.1/MySQL-python-0.9.1.win32-py2.2.exe:  released on 2001-12-23"
+                                >MySQL-python-0.9.1.win32-py2.2.exe</a>
+                              
+                            </td>
+                            <td class="platform">
+                                    
+                                
+                            </td>
+                            <td>136.5 KB</td>
+                            <td>2001-12-23</td>
+                            <td>7,015</td>
+                            <td>
+                                
+                                    <a href="http://sourceforge.net/project/shownotes.php?release_id=51760" class="icon-sm notes-sm" title="Release Notes">Release Notes</a>
+                                
+                            </td>
+                                    
+                                </tr><tr id="node-32-2" class="child-of-node-27-1">
+                                    
+                                        <td class="tree">
+                              <a class="
+
+
+    
+    
+        ext_rpm
+    
+ dload filename { url: 'http://downloads.sourceforge.net/project/mysql-python/mysql-python/0.9.1/MySQL-python-0.9.1-1_SuSE72.i386.rpm' }"
+                                href="/projects/mysql-python/files/mysql-python/0.9.1/MySQL-python-0.9.1-1_SuSE72.i386.rpm/download"
+                                title="/mysql-python/0.9.1/MySQL-python-0.9.1-1_SuSE72.i386.rpm:  released on 2001-11-21"
+                                >MySQL-python-0.9.1-1_SuSE72.i386.rpm</a>
+                              
+                            </td>
+                            <td class="platform">
+                                    
+                                
+                            </td>
+                            <td>71.9 KB</td>
+                            <td>2001-11-21</td>
+                            <td>999</td>
+                            <td>
+                                
+                                    <a href="http://sourceforge.net/project/shownotes.php?release_id=51760" class="icon-sm notes-sm" title="Release Notes">Release Notes</a>
+                                
+                            </td>
+                                    
+                                </tr><tr id="node-28-2" class="child-of-node-27-1">
+                                    
+                                        <td class="tree">
+                              <a class="
+
+
+    
+    
+        ext_exe
+    
+ dload filename { url: 'http://downloads.sourceforge.net/project/mysql-python/mysql-python/0.9.1/MySQL-python-0.9.1.win32-py2.1.exe' }"
+                                href="/projects/mysql-python/files/mysql-python/0.9.1/MySQL-python-0.9.1.win32-py2.1.exe/download"
+                                title="/mysql-python/0.9.1/MySQL-python-0.9.1.win32-py2.1.exe:  released on 2001-11-11"
+                                >MySQL-python-0.9.1.win32-py2.1.exe</a>
+                              
+                            </td>
+                            <td class="platform">
+                                    
+                                
+                            </td>
+                            <td>137.3 KB</td>
+                            <td>2001-11-11</td>
+                            <td>4,348</td>
+                            <td>
+                                
+                                    <a href="http://sourceforge.net/project/shownotes.php?release_id=51760" class="icon-sm notes-sm" title="Release Notes">Release Notes</a>
+                                
+                            </td>
+                                    
+                                </tr><tr id="node-29-2" class="child-of-node-27-1">
+                                    
+                                        <td class="tree">
+                              <a class="
+
+
+    
+    
+        ext_exe
+    
+ dload filename { url: 'http://downloads.sourceforge.net/project/mysql-python/mysql-python/0.9.1/MySQL-python-0.9.1.win32-py2.0.exe' }"
+                                href="/projects/mysql-python/files/mysql-python/0.9.1/MySQL-python-0.9.1.win32-py2.0.exe/download"
+                                title="/mysql-python/0.9.1/MySQL-python-0.9.1.win32-py2.0.exe:  released on 2001-11-11"
+                                >MySQL-python-0.9.1.win32-py2.0.exe</a>
+                              
+                            </td>
+                            <td class="platform">
+                                    
+                                
+                            </td>
+                            <td>135.2 KB</td>
+                            <td>2001-11-11</td>
+                            <td>1,065</td>
+                            <td>
+                                
+                                    <a href="http://sourceforge.net/project/shownotes.php?release_id=51760" class="icon-sm notes-sm" title="Release Notes">Release Notes</a>
+                                
+                            </td>
+                                    
+                                </tr><tr id="node-30-2" class="child-of-node-27-1">
+                                    
+                                        <td class="tree">
+                              <a class="
+
+
+    
+    
+        ext_exe
+    
+ dload filename { url: 'http://downloads.sourceforge.net/project/mysql-python/mysql-python/0.9.1/MySQL-python-0.9.1.win32-py1.5.exe' }"
+                                href="/projects/mysql-python/files/mysql-python/0.9.1/MySQL-python-0.9.1.win32-py1.5.exe/download"
+                                title="/mysql-python/0.9.1/MySQL-python-0.9.1.win32-py1.5.exe:  released on 2001-11-11"
+                                >MySQL-python-0.9.1.win32-py1.5.exe</a>
+                              
+                            </td>
+                            <td class="platform">
+                                    
+                                
+                            </td>
+                            <td>137.3 KB</td>
+                            <td>2001-11-11</td>
+                            <td>1,164</td>
+                            <td>
+                                
+                                    <a href="http://sourceforge.net/project/shownotes.php?release_id=51760" class="icon-sm notes-sm" title="Release Notes">Release Notes</a>
+                                
+                            </td>
+                                    
+                                </tr><tr id="node-33-2" class="child-of-node-27-1">
+                                    
+                                        <td class="tree">
+                              <a class="
+
+
+    
+    
+        ext_rpm
+    
+ dload filename { url: 'http://downloads.sourceforge.net/project/mysql-python/mysql-python/0.9.1/MySQL-python-0.9.1-1py2.i386.rpm' }"
+                                href="/projects/mysql-python/files/mysql-python/0.9.1/MySQL-python-0.9.1-1py2.i386.rpm/download"
+                                title="/mysql-python/0.9.1/MySQL-python-0.9.1-1py2.i386.rpm:  released on 2001-11-06"
+                                >MySQL-python-0.9.1-1py2.i386.rpm</a>
+                              
+                            </td>
+                            <td class="platform">
+                                    
+                                
+                            </td>
+                            <td>189.9 KB</td>
+                            <td>2001-11-06</td>
+                            <td>3,406</td>
+                            <td>
+                                
+                                    <a href="http://sourceforge.net/project/shownotes.php?release_id=51760" class="icon-sm notes-sm" title="Release Notes">Release Notes</a>
+                                
+                            </td>
+                                    
+                                </tr><tr id="node-34-2" class="child-of-node-27-1">
+                                    
+                                        <td class="tree">
+                              <a class="
+
+
+    
+    
+        ext_rpm
+    
+ dload filename { url: 'http://downloads.sourceforge.net/project/mysql-python/mysql-python/0.9.1/MySQL-python-0.9.1-1py1.i386.rpm' }"
+                                href="/projects/mysql-python/files/mysql-python/0.9.1/MySQL-python-0.9.1-1py1.i386.rpm/download"
+                                title="/mysql-python/0.9.1/MySQL-python-0.9.1-1py1.i386.rpm:  released on 2001-11-06"
+                                >MySQL-python-0.9.1-1py1.i386.rpm</a>
+                              
+                            </td>
+                            <td class="platform">
+                                    
+                                
+                            </td>
+                            <td>186.1 KB</td>
+                            <td>2001-11-06</td>
+                            <td>1,962</td>
+                            <td>
+                                
+                                    <a href="http://sourceforge.net/project/shownotes.php?release_id=51760" class="icon-sm notes-sm" title="Release Notes">Release Notes</a>
+                                
+                            </td>
+                                    
+                                </tr><tr id="node-31-2" class="child-of-node-27-1">
+                                    
+                                        <td class="tree">
+                              <a class="
+
+
+    
+    
+        ext_gz
+    
+ dload filename { url: 'http://downloads.sourceforge.net/project/mysql-python/mysql-python/0.9.1/MySQL-python-0.9.1.tar.gz' }"
+                                href="/projects/mysql-python/files/mysql-python/0.9.1/MySQL-python-0.9.1.tar.gz/download"
+                                title="/mysql-python/0.9.1/MySQL-python-0.9.1.tar.gz:  released on 2001-10-17"
+                                >MySQL-python-0.9.1.tar.gz</a>
+                              
+                            </td>
+                            <td class="platform">
+                                    
+                                
+                            </td>
+                            <td>64.1 KB</td>
+                            <td>2001-10-17</td>
+                            <td>13,127</td>
+                            <td>
+                                
+                                    <a href="http://sourceforge.net/project/shownotes.php?release_id=51760" class="icon-sm notes-sm" title="Release Notes">Release Notes</a>
+                                
+                            </td>
+                                    
+                                </tr></tbody>
+                    </table>
+            </div>
+        </div><!-- .yui-b -->
+    </div><!-- .yui-main -->
+    <div class="yui-b">
+         <div class="ads">
+             <div id="fad84" class="ad">
+                 
+<script type="text/javascript">
+    adspot = ad_prefix + 'p84_medrec';
+    if (adid !== "") {
+        adspot += ";comp=" + adid;
+    }
+    if (immersion_adcode === "") {
+        
+        
+        document.write(unescape('%3Cscript src="http://ad.doubleclick.net/adj/ostg.sourceforge/'+adspot+';pg='+ad_page+';psrch=' + ad_search + wrappercode +';logged_in=0;ptile='+dfp_ptile+';'+ad_topics + 'ord='+dfp_ord+'?" type="text/javascript"%3E%3C/script%3E'));
+        
+        dfp_ptile = dfp_ptile + 1;
+    }
+</script>
+             </div>
+             <div id="fad85" class="ad">
+                 
+<script type="text/javascript">
+    adspot = ad_prefix + 'p85_medrec';
+    if (adid !== "") {
+        adspot += ";comp=" + adid;
+    }
+    if (immersion_adcode === "") {
+        
+        
+        document.write(unescape('%3Cscript src="http://ad.doubleclick.net/adj/ostg.sourceforge/'+adspot+';pg='+ad_page+';psrch=' + ad_search + wrappercode +';logged_in=0;ptile='+dfp_ptile+';'+ad_topics + 'ord='+dfp_ord+'?" type="text/javascript"%3E%3C/script%3E'));
+        
+        dfp_ptile = dfp_ptile + 1;
+    }
+</script>
+             </div>
+             <div id="fadbtf" class="ad">
+                 
+<script type="text/javascript">
+    adspot = ad_prefix + 'showfile_btf_medrec';
+    if (adid !== "") {
+        adspot += ";comp=" + adid;
+    }
+    if (immersion_adcode === "") {
+        
+        
+        document.write(unescape('%3Cscript src="http://ad.doubleclick.net/adj/ostg.sourceforge/'+adspot+';pg='+ad_page+';psrch=' + ad_search + wrappercode +';logged_in=0;ptile='+dfp_ptile+';'+ad_topics + 'ord='+dfp_ord+'?" type="text/javascript"%3E%3C/script%3E'));
+        
+        dfp_ptile = dfp_ptile + 1;
+    }
+</script>
+             </div>
+         </div>
+    </div><!-- .yui-b -->
+        </div>
+         
+    </div>
+
+    <div class="sinfo">
+        
+    </div>
+      <div id="ft" class="clearfix">
+        <div class="yui-b">
+          <div class="cols clearfix">
+            <div class="col first">
+          <h4>About SourceForge</h4>
+              <ul>
+                <li><a href="/about">About SourceForge</a></li>
+                <li><a href="/support">Contact Us</a></li>
+                <li><a href="http://geek.net/careers/">Jobs @ Geeknet</a></li>
+                <li><a href="http://geek.net/advertising/">Advertising</a></li>
+              </ul>
+            </div>
+            <div class="col">
+          <h4>Find Software</h4>
+              <ul>
+        <li><a href="/search/">Search Software</a></li>
+                <li><a href="/softwaremap/">Browse by Category</a></li>
+                <li><a href="/top/topalltime.php?type=downloads">Most Popular Overall</a></li>
+                <li><a href="/top/mostactive.php">Most Active Overall</a></li>
+              </ul>
+            </div>
+            <div class="col">
+          <h4>Develop Software</h4>
+              <ul>
+                <li><a href="/register/">Create Project</a></li>
+                <li><a href="/people/">Project Help Wanted</a></li>
+                <li><a href="/new/new_projects.php">New Projects</a></li>
+              </ul>
+            </div>
+            <div class="col">
+          <h4>Community</h4>
+              <ul>
+                <li><a href="/blog/">The Blog</a></li>
+                <li><a href="http://twitter.com/sourceforge" rel="nofollow">@sourceforge on Twitter</a></li>
+              </ul>
+
+            </div>
+            <div class="col">
+          <h4>Help</h4>
+              <ul>
+                <li><a href="/apps/trac/sourceforge/wiki/WikiStart">Site Documentation</a></li>
+                <li><a href="/apps/trac/sourceforge/wiki/Support">Submit Support Requests</a></li>
+                <li><a href="/apps/wordpress/sourceforge/">Site Outages</a></li>
+              </ul>
+            </div>
+          </div>
+          <p class="copyright">&copy; 2010 <a title="Network which provides and promotes Open Source software downloads, development, discussion and news." href="http://geek.net">Geeknet, Inc.</a> <a href="http://p.sf.net/sourceforge/terms">Terms of Use</a> <a href="http://p.sf.net/sourceforge/privacy">Privacy Policy</a></p>
+        </div>
+      </div>
+    </div>
+
+    <!--[if IE]></div><![endif]-->
+    <!--[if IE 6]></div><![endif]-->
+    <!--[if IE 7]></div><![endif]-->
+
+    <script type="text/javascript">
+    jQuery(function($){
+        var $tree = $(".treeTable");
+        $tree.treeTable({ clickableNodeNames: true, indent: 27 });// open first folder
+        $('tbody tr:not(".header"):not(".latest"):first', $tree).toggleBranch();
+        });
+</script>
+
+
+
+    <!-- expose some data for use in JS -->
+    <script type="text/javascript">
+        net.sf.antixsrf = unescape('%3Cinput type="hidden" name="_visit_cookie" value="4bbf90badab0ca388c000e1d"/%3E');
+        net.sf.cdn_url = 'http://a.fsdn.com/con';
+        net.sf.is_admin = false;
+    </script>
+
+    <!-- Collective tag -->
+    <img src="//b.collective-media.net/seg/cm/cm_aa_gn1" width="1" height="1" alt=""/>
+    <!-- End Collective tag -->
+
+    <!-- Quantcast -->
+    <script type="text/javascript">
+        _qoptions={
+    
+            qacct:"p-93nPV3-Eb4x22"
+    
+        };
+    </script>
+    <script type="text/javascript" src="//secure.quantserve.com/quant.js"></script>
+    <noscript><img src="//secure.quantserve.com/pixel/p-93nPV3-Eb4x22.gif" style="display: none;" border="0" height="1" width="1" alt="Quantcast"/></noscript>
+    <!-- End Quantcast tag -->
+
+    
+
+    
+    
+
+    <!-- Begin comScore Tag -->
+    <script type="text/javascript">
+        document.write(unescape("%3Cscript src='" + (document.location.protocol == "https:" ? "https://sb" : "http://b") + ".scorecardresearch.com/beacon.js' %3E%3C/script%3E"));
+    </script>
+    <script type="text/javascript">
+        COMSCORE.beacon({
+            c1:2,
+            c2:6035546,
+            c3:"",
+            c4:"",
+            c5:"",
+            c6:"",
+            c15:""
+        });
+    </script>
+    <noscript>
+        <img src="http://b.scorecardresearch.com/p?c1=2&amp;c2=6035546&amp;c3=&amp;c4=&amp;c5=&amp;c6=&amp;c15=&amp;cj=1" alt="comScore2" />
+    </noscript>
+    <!-- End comScore Tag -->
+    
+  </body>
+</html>

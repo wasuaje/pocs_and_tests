@@ -1,0 +1,268 @@
+Servidor: B-prodlocal- Comando: secure  - Linea: ssh root@10.3.0.130 tail -300  /var/log/secure | grep failure | wc -l
+0
+Servidor: B-prodlocal- Comando: warn  - Linea: ssh root@10.3.0.130 cat /var/log/messages | grep warning | tail | wc -l
+0
+Servidor: B-prodlocal- Comando: bigcrons  - Linea: ssh root@10.3.0.130 find /home/crons -type f  -size +50M | wc -l
+1
+Servidor: B-prodlocal- Comando: raiz  - Linea: ssh root@10.3.0.130 df -ah | egrep \/$ | awk '{print $(NF-1)}' | sed 's/%//g' | head -1
+64
+Servidor: B-prodlocal- Comando: oldroot  - Linea: ssh root@10.3.0.130 find /root -type f -mtime +360 | grep -v '/\.' |wc -l
+24
+Servidor: B-prodlocal- Comando: panic  - Linea: ssh root@10.3.0.130 cat /var/log/messages | grep panic | tail | wc -l
+0
+Servidor: B-prodlocal- Comando: bigmand  - Linea: ssh root@10.3.0.130 find /home/manduca -type f  -size +50M | wc -l
+12
+Servidor: B-prodlocal- Comando: error  - Linea: ssh root@10.3.0.130 cat /var/log/messages | grep error | tail | wc -l
+0
+Servidor: B-prodlocal- Comando: bigroot  - Linea: ssh root@10.3.0.130 find /root -type f  -size +50M | wc -l
+6
+Servidor: B-prodlocal- Comando: olcrons  - Linea: ssh root@10.3.0.130 find /home/crons -type f -mtime +360 | grep -v '/\.' |wc -l
+47
+Servidor: B-prodlocal- Comando: oldmand  - Linea: ssh root@10.3.0.130 find /home/manduca -type f -mtime +360 | grep -v '/\.' |wc -l
+308740
+Servidor: A-Web03- Comando: secure  - Linea: ssh root@204.228.236.17 tail -300  /var/log/secure | grep failure | wc -l
+0
+Servidor: A-Web03- Comando: warn  - Linea: ssh root@204.228.236.17 cat /var/log/messages | grep warning | tail | wc -l
+0
+Servidor: A-Web03- Comando: bigcrons  - Linea: ssh root@204.228.236.17 find /home/crons -type f  -size +50M | wc -l
+Unexpected error: <type 'exceptions.ValueError'>
+0
+Servidor: A-Web03- Comando: raiz  - Linea: ssh root@204.228.236.17 df -ah | egrep \/$ | awk '{print $(NF-1)}' | sed 's/%//g' | head -1
+51
+Servidor: A-Web03- Comando: oldroot  - Linea: ssh root@204.228.236.17 find /root -type f -mtime +360 | grep -v '/\.' |wc -l
+10946
+Servidor: A-Web03- Comando: panic  - Linea: ssh root@204.228.236.17 cat /var/log/messages | grep panic | tail | wc -l
+0
+Servidor: A-Web03- Comando: bigmand  - Linea: ssh root@204.228.236.17 find /home/manduca -type f  -size +50M | wc -l
+1
+Servidor: A-Web03- Comando: error  - Linea: ssh root@204.228.236.17 cat /var/log/messages | grep error | tail | wc -l
+0
+Servidor: A-Web03- Comando: bigroot  - Linea: ssh root@204.228.236.17 find /root -type f  -size +50M | wc -l
+2
+Servidor: A-Web03- Comando: olcrons  - Linea: ssh root@204.228.236.17 find /home/crons -type f -mtime +360 | grep -v '/\.' |wc -l
+Unexpected error: <type 'exceptions.ValueError'>
+2
+Servidor: A-Web03- Comando: oldmand  - Linea: ssh root@204.228.236.17 find /home/manduca -type f -mtime +360 | grep -v '/\.' |wc -l
+17360
+Servidor: A-Web02- Comando: secure  - Linea: ssh root@204.228.236.13 tail -300  /var/log/secure | grep failure | wc -l
+0
+Servidor: A-Web02- Comando: warn  - Linea: ssh root@204.228.236.13 cat /var/log/messages | grep warning | tail | wc -l
+0
+Servidor: A-Web02- Comando: bigcrons  - Linea: ssh root@204.228.236.13 find /home/crons -type f  -size +50M | wc -l
+Unexpected error: <type 'exceptions.ValueError'>
+0
+Servidor: A-Web02- Comando: raiz  - Linea: ssh root@204.228.236.13 df -ah | egrep \/$ | awk '{print $(NF-1)}' | sed 's/%//g' | head -1
+20
+Servidor: A-Web02- Comando: oldroot  - Linea: ssh root@204.228.236.13 find /root -type f -mtime +360 | grep -v '/\.' |wc -l
+123
+Servidor: A-Web02- Comando: panic  - Linea: ssh root@204.228.236.13 cat /var/log/messages | grep panic | tail | wc -l
+0
+Servidor: A-Web02- Comando: bigmand  - Linea: ssh root@204.228.236.13 find /home/manduca -type f  -size +50M | wc -l
+0
+Servidor: A-Web02- Comando: error  - Linea: ssh root@204.228.236.13 cat /var/log/messages | grep error | tail | wc -l
+10
+Servidor: A-Web02- Comando: bigroot  - Linea: ssh root@204.228.236.13 find /root -type f  -size +50M | wc -l
+4
+Servidor: A-Web02- Comando: olcrons  - Linea: ssh root@204.228.236.13 find /home/crons -type f -mtime +360 | grep -v '/\.' |wc -l
+Unexpected error: <type 'exceptions.ValueError'>
+4
+Servidor: A-Web02- Comando: oldmand  - Linea: ssh root@204.228.236.13 find /home/manduca -type f -mtime +360 | grep -v '/\.' |wc -l
+13
+Servidor: A-Web01- Comando: secure  - Linea: ssh root@204.228.236.6 tail -300  /var/log/secure | grep failure | wc -l
+0
+Servidor: A-Web01- Comando: warn  - Linea: ssh root@204.228.236.6 cat /var/log/messages | grep warning | tail | wc -l
+0
+Servidor: A-Web01- Comando: bigcrons  - Linea: ssh root@204.228.236.6 find /home/crons -type f  -size +50M | wc -l
+Unexpected error: <type 'exceptions.ValueError'>
+0
+Servidor: A-Web01- Comando: raiz  - Linea: ssh root@204.228.236.6 df -ah | egrep \/$ | awk '{print $(NF-1)}' | sed 's/%//g' | head -1
+59
+Servidor: A-Web01- Comando: oldroot  - Linea: ssh root@204.228.236.6 find /root -type f -mtime +360 | grep -v '/\.' |wc -l
+36
+Servidor: A-Web01- Comando: panic  - Linea: ssh root@204.228.236.6 cat /var/log/messages | grep panic | tail | wc -l
+0
+Servidor: A-Web01- Comando: bigmand  - Linea: ssh root@204.228.236.6 find /home/manduca -type f  -size +50M | wc -l
+4
+Servidor: A-Web01- Comando: error  - Linea: ssh root@204.228.236.6 cat /var/log/messages | grep error | tail | wc -l
+0
+Servidor: A-Web01- Comando: bigroot  - Linea: ssh root@204.228.236.6 find /root -type f  -size +50M | wc -l
+8
+Servidor: A-Web01- Comando: olcrons  - Linea: ssh root@204.228.236.6 find /home/crons -type f -mtime +360 | grep -v '/\.' |wc -l
+Unexpected error: <type 'exceptions.ValueError'>
+8
+Servidor: A-Web01- Comando: oldmand  - Linea: ssh root@204.228.236.6 find /home/manduca -type f -mtime +360 | grep -v '/\.' |wc -l
+6
+Servidor: B-webtest02- Comando: secure  - Linea: ssh root@10.3.1.2 tail -300  /var/log/secure | grep failure | wc -l
+0
+Servidor: B-webtest02- Comando: warn  - Linea: ssh root@10.3.1.2 cat /var/log/messages | grep warning | tail | wc -l
+0
+Servidor: B-webtest02- Comando: bigcrons  - Linea: ssh root@10.3.1.2 find /home/crons -type f  -size +50M | wc -l
+Unexpected error: <type 'exceptions.ValueError'>
+0
+Servidor: B-webtest02- Comando: raiz  - Linea: ssh root@10.3.1.2 df -ah | egrep \/$ | awk '{print $(NF-1)}' | sed 's/%//g' | head -1
+44
+Servidor: B-webtest02- Comando: oldroot  - Linea: ssh root@10.3.1.2 find /root -type f -mtime +360 | grep -v '/\.' |wc -l
+373
+Servidor: B-webtest02- Comando: panic  - Linea: ssh root@10.3.1.2 cat /var/log/messages | grep panic | tail | wc -l
+0
+Servidor: B-webtest02- Comando: bigmand  - Linea: ssh root@10.3.1.2 find /home/manduca -type f  -size +50M | wc -l
+0
+Servidor: B-webtest02- Comando: error  - Linea: ssh root@10.3.1.2 cat /var/log/messages | grep error | tail | wc -l
+0
+Servidor: B-webtest02- Comando: bigroot  - Linea: ssh root@10.3.1.2 find /root -type f  -size +50M | wc -l
+9
+Servidor: B-webtest02- Comando: olcrons  - Linea: ssh root@10.3.1.2 find /home/crons -type f -mtime +360 | grep -v '/\.' |wc -l
+Unexpected error: <type 'exceptions.ValueError'>
+9
+Servidor: B-webtest02- Comando: oldmand  - Linea: ssh root@10.3.1.2 find /home/manduca -type f -mtime +360 | grep -v '/\.' |wc -l
+0
+Servidor: B-universal3- Comando: secure  - Linea: ssh root@10.6.0.43 tail -300  /var/log/secure | grep failure | wc -l
+0
+Servidor: B-universal3- Comando: warn  - Linea: ssh root@10.6.0.43 cat /var/log/messages | grep warning | tail | wc -l
+0
+Servidor: B-universal3- Comando: bigcrons  - Linea: ssh root@10.6.0.43 find /home/crons -type f  -size +50M | wc -l
+Unexpected error: <type 'exceptions.ValueError'>
+0
+Servidor: B-universal3- Comando: raiz  - Linea: ssh root@10.6.0.43 df -ah | egrep \/$ | awk '{print $(NF-1)}' | sed 's/%//g' | head -1
+77
+Servidor: B-universal3- Comando: oldroot  - Linea: ssh root@10.6.0.43 find /root -type f -mtime +360 | grep -v '/\.' |wc -l
+1
+Servidor: B-universal3- Comando: panic  - Linea: ssh root@10.6.0.43 cat /var/log/messages | grep panic | tail | wc -l
+0
+Servidor: B-universal3- Comando: bigmand  - Linea: ssh root@10.6.0.43 find /home/manduca -type f  -size +50M | wc -l
+Unexpected error: <type 'exceptions.ValueError'>
+0
+Servidor: B-universal3- Comando: error  - Linea: ssh root@10.6.0.43 cat /var/log/messages | grep error | tail | wc -l
+0
+Servidor: B-universal3- Comando: bigroot  - Linea: ssh root@10.6.0.43 find /root -type f  -size +50M | wc -l
+0
+Servidor: B-universal3- Comando: olcrons  - Linea: ssh root@10.6.0.43 find /home/crons -type f -mtime +360 | grep -v '/\.' |wc -l
+Unexpected error: <type 'exceptions.ValueError'>
+0
+Servidor: B-universal3- Comando: oldmand  - Linea: ssh root@10.6.0.43 find /home/manduca -type f -mtime +360 | grep -v '/\.' |wc -l
+Unexpected error: <type 'exceptions.ValueError'>
+0
+Servidor: B-desa01- Comando: secure  - Linea: ssh root@10.3.1.3 tail -300  /var/log/secure | grep failure | wc -l
+0
+Servidor: B-desa01- Comando: warn  - Linea: ssh root@10.3.1.3 cat /var/log/messages | grep warning | tail | wc -l
+0
+Servidor: B-desa01- Comando: bigcrons  - Linea: ssh root@10.3.1.3 find /home/crons -type f  -size +50M | wc -l
+Unexpected error: <type 'exceptions.ValueError'>
+0
+Servidor: B-desa01- Comando: raiz  - Linea: ssh root@10.3.1.3 df -ah | egrep \/$ | awk '{print $(NF-1)}' | sed 's/%//g' | head -1
+87
+Servidor: B-desa01- Comando: oldroot  - Linea: ssh root@10.3.1.3 find /root -type f -mtime +360 | grep -v '/\.' |wc -l
+1
+Servidor: B-desa01- Comando: panic  - Linea: ssh root@10.3.1.3 cat /var/log/messages | grep panic | tail | wc -l
+0
+Servidor: B-desa01- Comando: bigmand  - Linea: ssh root@10.3.1.3 find /home/manduca -type f  -size +50M | wc -l
+Unexpected error: <type 'exceptions.ValueError'>
+0
+Servidor: B-desa01- Comando: error  - Linea: ssh root@10.3.1.3 cat /var/log/messages | grep error | tail | wc -l
+0
+Servidor: B-desa01- Comando: bigroot  - Linea: ssh root@10.3.1.3 find /root -type f  -size +50M | wc -l
+1
+Servidor: B-desa01- Comando: olcrons  - Linea: ssh root@10.3.1.3 find /home/crons -type f -mtime +360 | grep -v '/\.' |wc -l
+Unexpected error: <type 'exceptions.ValueError'>
+1
+Servidor: B-desa01- Comando: oldmand  - Linea: ssh root@10.3.1.3 find /home/manduca -type f -mtime +360 | grep -v '/\.' |wc -l
+Unexpected error: <type 'exceptions.ValueError'>
+1
+Servidor: B-desa02- Comando: secure  - Linea: ssh root@10.2.60.60 tail -300  /var/log/secure | grep failure | wc -l
+0
+Servidor: B-desa02- Comando: warn  - Linea: ssh root@10.2.60.60 cat /var/log/messages | grep warning | tail | wc -l
+0
+Servidor: B-desa02- Comando: bigcrons  - Linea: ssh root@10.2.60.60 find /home/crons -type f  -size +50M | wc -l
+Unexpected error: <type 'exceptions.ValueError'>
+0
+Servidor: B-desa02- Comando: raiz  - Linea: ssh root@10.2.60.60 df -ah | egrep \/$ | awk '{print $(NF-1)}' | sed 's/%//g' | head -1
+5
+Servidor: B-desa02- Comando: oldroot  - Linea: ssh root@10.2.60.60 find /root -type f -mtime +360 | grep -v '/\.' |wc -l
+1
+Servidor: B-desa02- Comando: panic  - Linea: ssh root@10.2.60.60 cat /var/log/messages | grep panic | tail | wc -l
+0
+Servidor: B-desa02- Comando: bigmand  - Linea: ssh root@10.2.60.60 find /home/manduca -type f  -size +50M | wc -l
+Unexpected error: <type 'exceptions.ValueError'>
+0
+Servidor: B-desa02- Comando: error  - Linea: ssh root@10.2.60.60 cat /var/log/messages | grep error | tail | wc -l
+0
+Servidor: B-desa02- Comando: bigroot  - Linea: ssh root@10.2.60.60 find /root -type f  -size +50M | wc -l
+0
+Servidor: B-desa02- Comando: olcrons  - Linea: ssh root@10.2.60.60 find /home/crons -type f -mtime +360 | grep -v '/\.' |wc -l
+Unexpected error: <type 'exceptions.ValueError'>
+0
+Servidor: B-desa02- Comando: oldmand  - Linea: ssh root@10.2.60.60 find /home/manduca -type f -mtime +360 | grep -v '/\.' |wc -l
+Unexpected error: <type 'exceptions.ValueError'>
+0
+Servidor: A-App01- Comando: secure  - Linea: ssh root@204.228.236.2 tail -300  /var/log/secure | grep failure | wc -l
+0
+Servidor: A-App01- Comando: warn  - Linea: ssh root@204.228.236.2 cat /var/log/messages | grep warning | tail | wc -l
+1
+Servidor: A-App01- Comando: bigcrons  - Linea: ssh root@204.228.236.2 find /home/crons -type f  -size +50M | wc -l
+Unexpected error: <type 'exceptions.ValueError'>
+1
+Servidor: A-App01- Comando: raiz  - Linea: ssh root@204.228.236.2 df -ah | egrep \/$ | awk '{print $(NF-1)}' | sed 's/%//g' | head -1
+58
+Servidor: A-App01- Comando: oldroot  - Linea: ssh root@204.228.236.2 find /root -type f -mtime +360 | grep -v '/\.' |wc -l
+381
+Servidor: A-App01- Comando: panic  - Linea: ssh root@204.228.236.2 cat /var/log/messages | grep panic | tail | wc -l
+0
+Servidor: A-App01- Comando: bigmand  - Linea: ssh root@204.228.236.2 find /home/manduca -type f  -size +50M | wc -l
+0
+Servidor: A-App01- Comando: error  - Linea: ssh root@204.228.236.2 cat /var/log/messages | grep error | tail | wc -l
+0
+Servidor: A-App01- Comando: bigroot  - Linea: ssh root@204.228.236.2 find /root -type f  -size +50M | wc -l
+5
+Servidor: A-App01- Comando: olcrons  - Linea: ssh root@204.228.236.2 find /home/crons -type f -mtime +360 | grep -v '/\.' |wc -l
+Unexpected error: <type 'exceptions.ValueError'>
+5
+Servidor: A-App01- Comando: oldmand  - Linea: ssh root@204.228.236.2 find /home/manduca -type f -mtime +360 | grep -v '/\.' |wc -l
+867
+Servidor: A-App02- Comando: secure  - Linea: ssh root@204.228.236.7 tail -300  /var/log/secure | grep failure | wc -l
+0
+Servidor: A-App02- Comando: warn  - Linea: ssh root@204.228.236.7 cat /var/log/messages | grep warning | tail | wc -l
+0
+Servidor: A-App02- Comando: bigcrons  - Linea: ssh root@204.228.236.7 find /home/crons -type f  -size +50M | wc -l
+1
+Servidor: A-App02- Comando: raiz  - Linea: ssh root@204.228.236.7 df -ah | egrep \/$ | awk '{print $(NF-1)}' | sed 's/%//g' | head -1
+29
+Servidor: A-App02- Comando: oldroot  - Linea: ssh root@204.228.236.7 find /root -type f -mtime +360 | grep -v '/\.' |wc -l
+15830
+Servidor: A-App02- Comando: panic  - Linea: ssh root@204.228.236.7 cat /var/log/messages | grep panic | tail | wc -l
+0
+Servidor: A-App02- Comando: bigmand  - Linea: ssh root@204.228.236.7 find /home/manduca -type f  -size +50M | wc -l
+1
+Servidor: A-App02- Comando: error  - Linea: ssh root@204.228.236.7 cat /var/log/messages | grep error | tail | wc -l
+0
+Servidor: A-App02- Comando: bigroot  - Linea: ssh root@204.228.236.7 find /root -type f  -size +50M | wc -l
+9
+Servidor: A-App02- Comando: olcrons  - Linea: ssh root@204.228.236.7 find /home/crons -type f -mtime +360 | grep -v '/\.' |wc -l
+7
+Servidor: A-App02- Comando: oldmand  - Linea: ssh root@204.228.236.7 find /home/manduca -type f -mtime +360 | grep -v '/\.' |wc -l
+1401
+Servidor: A-manduca10- Comando: secure  - Linea: ssh root@204.228.236.10 tail -300  /var/log/secure | grep failure | wc -l
+0
+Servidor: A-manduca10- Comando: warn  - Linea: ssh root@204.228.236.10 cat /var/log/messages | grep warning | tail | wc -l
+0
+Servidor: A-manduca10- Comando: bigcrons  - Linea: ssh root@204.228.236.10 find /home/crons -type f  -size +50M | wc -l
+Unexpected error: <type 'exceptions.ValueError'>
+0
+Servidor: A-manduca10- Comando: raiz  - Linea: ssh root@204.228.236.10 df -ah | egrep \/$ | awk '{print $(NF-1)}' | sed 's/%//g' | head -1
+38
+Servidor: A-manduca10- Comando: oldroot  - Linea: ssh root@204.228.236.10 find /root -type f -mtime +360 | grep -v '/\.' |wc -l
+24
+Servidor: A-manduca10- Comando: panic  - Linea: ssh root@204.228.236.10 cat /var/log/messages | grep panic | tail | wc -l
+0
+Servidor: A-manduca10- Comando: bigmand  - Linea: ssh root@204.228.236.10 find /home/manduca -type f  -size +50M | wc -l
+Unexpected error: <type 'exceptions.ValueError'>
+0
+Servidor: A-manduca10- Comando: error  - Linea: ssh root@204.228.236.10 cat /var/log/messages | grep error | tail | wc -l
+0
+Servidor: A-manduca10- Comando: bigroot  - Linea: ssh root@204.228.236.10 find /root -type f  -size +50M | wc -l
+Unexpected error: <type 'exceptions.ValueError'>
+0
+Servidor: A-manduca10- Comando: olcrons  - Linea: ssh root@204.228.236.10 find /home/crons -type f -mtime +360 | grep -v '/\.' |wc -l
+Unexpected error: <type 'exceptions.ValueError'>
+0
+Servidor: A-manduca10- Comando: oldmand  - Linea: ssh root@204.228.236.10 find /home/manduca -type f -mtime +360 | grep -v '/\.' |wc -l
+294951

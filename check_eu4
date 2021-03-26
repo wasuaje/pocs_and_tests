@@ -1,0 +1,121 @@
+#!/bin/bash
+#Script tipo daemon para mantener vigilado una lista de directorio que 
+#se lean desde un archivo de configuracion y se ejecutan las acciones especificadas
+#Creado por Wuelfhis Asuaje a solicitud de ElUniversal
+
+#archivo con la lista de directorios y acciones
+CONFFILE=/etc/check_eu4.conf
+#copia del anterior pero con la fecha y hora agregada para comparar
+TEMPFILE=/tmp/check_eu4.tmp
+
+#prueba mostrando el contenido del array
+#h=0
+#while [ "$h" -lt "$A" ]
+#do
+#let "h++"
+#echo "file: ${DIR[$h]} directory: ${ACT[$h]}"
+#done
+
+
+#lleno dos array una con los directorios otro con la acciones a tomar
+function configread {
+	A=0
+	for i in `cat $CONFFILE` ; 
+		do
+		let "A++"
+		DIR[$A]=`echo $i | cut -d';' -f1`
+		ACT[$A]=`echo $i | cut -d';' -f2`
+	done
+}
+
+function first_datetime {     	#creo archivo temporal con datos de hora y fecha de los archivo a vigilar
+	h=0
+	if [ -f $TEMPFILE ]; then 	#lo elimino antes de existir
+		 rm -f $TEMPFILE
+	fi	
+	touch $TEMPFILE			#lo creo vacio
+
+	while [ "$h" -lt "$A" ]
+		do
+		let "h++"
+		D=`stat -c '%y' ${DIR[$h]}`
+		C="${DIR[$h]}"\;"${ACT[$h]}"\;`echo "$D" | sed 's/ //g'`
+		#echo $C
+		echo $C >> $TEMPFILE	#lo lleno con directorio;accion;fechahora
+	done
+}
+
+#funcion de ejecucion cuando hay cambios en fecha hora
+function justcheck {
+   echo "$2" "Ha cambiado el archivo se ejecuta:  $3" >> debug2.txt
+   #Z="/bin/sh $3 > /dev/null 2>&1"
+   ./$3  > /dev/null 2>&1
+}
+
+
+#para revisar la hora y fecha y si ha cambiado salvar la primera hora y fecha de cada archivo si cambia tambien se cambia aqui
+function timecheck {
+B=0
+E=0
+for j in `cat $TEMPFILE` ; 
+ do
+  #echo $j
+  let "B++"
+  TIME[$B]=`echo $j  | cut -d';' -f3`
+  NEWTIME=`stat -c '%y' ${DIR[$B]} | sed 's/ //g'`
+  #$NEWTIME ${ACT[$B]}
+   if [ "${TIME[$B]}" != "$NEWTIME" ] ; then  		#si hay cambios en la fecha
+    justcheck ${TIME[$B]} $NEWTIME ${ACT[$B]}
+    let "E++"						#incremento un contador de cambios
+   fi
+ done
+
+if [ "$E" -gt "0" ] ; then  	#si se aumenta este contador es que hubo cambios hay que rehacer el temporal
+   configread			#tambien leo de nuevo el archivo principal de configuracion para cambios en caliente  
+   first_datetime		
+fi
+}
+
+# para verificar solo una isntancia arriba del script
+function sanityCheck {
+    q=`ps -ef |grep $0 |grep -v "grep"|grep -v $$| wc -l`
+    if [ $q != "0" ]; then
+        echo "Ya hay una instancia de $0 en ejecucion"
+        exit 1
+    fi
+}
+
+function main {
+    {
+     	while [ 1 ]; do
+	    timecheck
+            sleep 1
+        done
+    } &
+   }
+
+function stop {
+    echo "Matando el proceso..."
+    kill `ps -ef |grep $0|grep -v $$ |grep -v "grep"|awk '{print($2)}'`
+}
+
+case $1 in
+    "start")
+	sanityCheck
+	configread
+	first_datetime
+	main
+    ;;
+    "stop")
+        stop
+    ;;
+     *)
+	sanityCheck
+	configread
+	first_datetime
+	main
+     ;;
+esac
+
+
+

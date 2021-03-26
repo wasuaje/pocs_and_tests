@@ -1,0 +1,13 @@
+ifstream fin ("ifstream fin ("file.txt");
+string     myStr;
+
+while(getline(fin, myStr))   // Always put the read in the while condition.
+{                            // Then you only enter the loop if there is data to
+    //use myStr data         // processes. Otherwise you need to read and then
+}       ");
+string     myStr;
+
+while(getline(fin, myStr))   // Always put the read in the while condition.
+{                            // Then you only enter the loop if there is data to
+    //use myStr data         // processes. Otherwise you need to read and then
+}       

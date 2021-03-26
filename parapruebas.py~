@@ -1,0 +1,9 @@
+import time
+y = 1
+for x in range(100):
+	print y
+	y = y + 1
+	if y > 5:
+		y = 1
+		time.sleep(2)
+

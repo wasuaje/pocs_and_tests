@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>HTML5, CSS3 and JavaScript demo</title>
+</head>
+<body>
+<!-- Start your code here -->
+<video autoplay></video>
+<img src="">
+<canvas style="display:none;"></canvas>
+
+<!-- End your code here -->
+</body>
+</html>
+
+
+
+<script>
+var video = document.querySelector('video');
+  var canvas = document.querySelector('canvas');
+  var ctx = canvas.getContext('2d');
+  var localMediaStream = null;
+var errorCallback = function(e) {
+    console.log('Reeeejected!', e);
+  };
+
+  // Not showing ven
+  function snapshot() {
+    if (localMediaStream) {
+      ctx.drawImage(video, 0, 0);
+      // "image/webp" works in Chrome.
+      // Other browsers will fall back to image/png.
+      document.querySelector('img').src = canvas.toDataURL('image/webp');
+    }
+  }
+
+  video.addEventListener('click', snapshot, false);
+
+  // Not showing vendor prefixes or code that works cross-browser.
+  navigator.mozGetUserMedia({video: true}, function(stream) {
+    video.src = window.URL.createObjectURL(stream);
+    localMediaStream = stream;
+  }, errorCallback);
+  </script>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Module>
+  <ModulePrefs title="Futbol en Europa - ELPais -" height="450" scaling="false" />
+  <Content type="html">
+  <![CDATA[ 
+    <div style="text-align:center">
+	<script language="Javascript" type="text/javascript" src="http://widgets.elpais.com/liga/wlaunch.html?c=naranja&w=350"></script> 
+	<a href="http://fusion.google.com/add?source=atgs&moduleurl="><img src="http://gmodules.com/ig/images/plus_google.gif" border="0" alt="Add to Google"></a>
+    </div>
+  ]]> 
+  </Content>
+</Module>

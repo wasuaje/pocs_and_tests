@@ -1,0 +1,12 @@
+#!/usr/bin/python
+# -*- coding: utf-8 -*-
+
+
+import os
+import subprocess
+
+import urllib
+import urllib2
+
+url = 'http://orsai.bitacoras.com/wp-comments-post.php'
+submitVars={}
